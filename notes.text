@@ -1,0 +1,23 @@
+
+/* font- outfit
+
+bg-gradient-to-br from-mainred to-red-300 */
+
+/* blur radius
+0px 30px 80px -31px rgba(0,0,0,0.65); */
+
+/* transition
+transition duration-200 ease-out hover:ease-in */
+
+/* for practice */
+ /* mainred: "#ff002e",
+        secondaryRed: "#ff4242", */
+
+    /* px-24 for lg and greater
+
+    px-12 for below lg */
+    /* px-8 sm:px-12 lg:px-24 */
+
+    main-blue:
+#0E4464
+text-color:#170F49

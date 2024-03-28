@@ -1,33 +1,18 @@
 import React from 'react'
+import CenterHeader from './CenterHeader';
 
 const Header = () => {
   return (
-    <div  className='header flex sm:px-24 justify-between items-center py-6' py->
-     <div className='left'>
-      <div className='logo-image w-[214px]'>
-        <img src='/Header Logo.png' alt='header-logo'></img>
+    <div className="Header sticky w-full shadow-lg h-[100px] flex justify-between px-8 sm:px-12 lg:px-24 items-center">
+      <div className='logo'>
+        <img src="/Header Logo.png" alt="logo" className='w-36' />
       </div>
+      <CenterHeader/>
+      <div className='contact-us-button bg-mainBlue text-white p-2 px-4 rounded-full'>Contact Us</div>
     </div>
-    <div className='right flex gap-12'>
-      <p>Home</p>
-      <p>About</p>
-      <div>
-      <div className='title'><p>Services</p></div>
-      <div className='subheading-elements hidden'>
-      <p>Services</p>
-      <p>Services</p>
-      <p>Services</p>
-      <p>Services</p>
-      <p>Services</p>
-      </div>
-      </div>
-      <p>Our Parteners</p>
-      <p>Blog</p>
-      <p>Home</p>
-      <p>Media & Article</p>
-    </div>
-    </div>
-  )
+  );
 }
 
 export default Header
+
+

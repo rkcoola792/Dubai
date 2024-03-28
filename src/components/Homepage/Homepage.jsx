@@ -2,8 +2,14 @@ import React from 'react'
 
 const Homepage = () => {
   return (
-    <div>
-      Homepage
+    <div className='homepage'>
+      <div className='homepage-container'>
+        <div className='left w'>
+        
+
+        </div>
+        <div className='right'></div>
+      </div>
     </div>
   )
 }

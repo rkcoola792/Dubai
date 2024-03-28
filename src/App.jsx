@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage/Homepage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Test from "./components/Test";
+import Example from "./components/Header/Header";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     return (
       <>
       
-        <Header></Header>
+        {/* <Header></Header> */}
+        <Example></Example>
         <Outlet></Outlet>
         <Footer></Footer>
       </>
@@ -27,7 +29,7 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
-        { path:"/marketing", element:<Test></Test> },
+        // { path:"/marketing", element:<Test></Test> },
       ],
     },
   ]);

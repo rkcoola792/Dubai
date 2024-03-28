@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         // rajdhani: ['"Libre Baskerville"', ...defaultTheme.fontFamily.sans]
-      }
+      },
+      colors: {
+        mainBlue: "#0E4464",
+        textColor: "#170F49",
+      },
     },
   },
   plugins: [],
-}
+};
