@@ -9,6 +9,7 @@ export default {
       colors: {
         mainBlue: "#0E4464",
         textColor: "#170F49",
+        secondaryBlue: "#A5DBFF",
       },
     },
   },
