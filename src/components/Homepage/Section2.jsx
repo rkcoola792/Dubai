@@ -6,7 +6,10 @@ import Heading from '../Heading/Heading';
 const Section2 = () => {
   return (
     <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   relative">
-     <Heading heading="journal" subheading="featured in international "></Heading>
+      <Heading
+        heading="journal"
+        subheading="featured in international "
+      ></Heading>
       <div className="bottom-content my-12 flex flex-col bg-white shadow-lg p-6 rounded-lg">
         <div className="top-descriptions flex gap-8 ">
           <div className="left-headings w-[40%] flex flex-col gap-8 ">
@@ -64,9 +67,9 @@ const Section2 = () => {
           </div>
         </div>
       </div>
-     <div className="absolute top-6 right-32"> 
+      <div className="absolute top-4">
         <StarIcon></StarIcon>
-      </div> 
+      </div>
     </div>
   );
 }

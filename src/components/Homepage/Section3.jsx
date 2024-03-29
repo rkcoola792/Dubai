@@ -7,7 +7,7 @@ import Heading from '../Heading/Heading';
 const Section3 = () => {
   return (
     <div className="px-8 sm:px-12 lg:px-24 flex flex-col gap-12 relative">
-    <div className='absolute'>
+    <div className='absolute top-4 right-24'>
     <StarIcon></StarIcon>
     </div>
       <Heading
