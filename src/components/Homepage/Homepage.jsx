@@ -1,15 +1,10 @@
 import React from 'react'
+import Hero from '../Hero/Hero'
 
 const Homepage = () => {
   return (
     <div className='homepage'>
-      <div className='homepage-container'>
-        <div className='left w'>
-        
-
-        </div>
-        <div className='right'></div>
-      </div>
+      <Hero></Hero>
     </div>
   )
 }

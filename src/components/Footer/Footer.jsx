@@ -7,7 +7,7 @@ import FooterComponent from './FooterComponent';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="footer bg-mainBlue px-8 sm:px-12 lg:px-24 py-12 sticky bottom-0 flex flex-col gap-12">
+    <div className="footer bg-mainBlue px-8 sm:px-12 lg:px-24 py-6 flex flex-col gap-12">
       <div className="top flex justify-between items-center">
         <div className="left-logo ">
           <img src="/logo-white.png" alt="logo" className="w-36" />
@@ -40,7 +40,7 @@ const Footer = () => {
           {/* <div className="circle-to-top bg-secondaryBlue rounded-[50%] w-12 h-12 flex justify-center items-center cursor-pointer">
             <ArrowUpwardIcon className="scale-75"></ArrowUpwardIcon>
           </div> */}
-          <div className="contact-us-button bg-white text-mainBlue p-2 px-4 font-semibold rounded-full">
+          <div className="contact-us-button bg-white text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer">
             Contact Us
           </div>
         </div>
