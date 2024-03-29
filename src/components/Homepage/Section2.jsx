@@ -1,9 +1,10 @@
 import React from 'react'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { StarIcon } from '../StarIcon/StarIcon';
 
 const Section2 = () => {
   return (
-    <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   realtive">
+    <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   relative">
       <div className="top-heading flex flex-col gap-8 justify-center items-center text-center">
         <h1 className="text-mainBlue tracking-widest">JOURNALS</h1>
         <h1 className="text-4xl font-semibold">Featured In International </h1>
@@ -65,6 +66,9 @@ const Section2 = () => {
           </div>
         </div>
       </div>
+     <div className="absolute top-6 right-32"> 
+        <StarIcon></StarIcon>
+      </div> 
     </div>
   );
 }
