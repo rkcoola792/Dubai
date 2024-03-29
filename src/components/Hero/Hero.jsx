@@ -1,22 +1,48 @@
 import React from 'react'
 import PhoneIcon from "@mui/icons-material/Phone";
+import { motion } from 'framer-motion';
+
 const Hero = () => {
   return (
-    <div className="Hero mx-8 sm:mx-12 lg:mx-24 bg-mainBlue h-[500px] my-12 rounded-3xl overflow-hidden flex w-">
+    <motion.div
+      className="Hero mx-8 sm:mx-12 lg:mx-24 bg-mainBlue h-[500px] my-12 rounded-3xl overflow-hidden flex "
+      //   initial={{ opacity: 0 }}
+      //   whileInView={{ opacity: 1 }}
+      //   transition={{ duration: 2 }}
+    >
       <div className="left-container-content w-[50%] flex ">
         <div className="left-icons flex flex-col "></div>
-        <div className="right-content py-16 px-12 flex flex-col gap-6">
-          <h1 className="text-white text-[36px]">Hello I’m Subodh Bajpai !</h1>
-          <h1 className="text-white text-6xl font-semibold">
-            An
-            <span className="text-secondaryBlue"> Investor</span>
-          </h1>
-          <p className="text-white leading-7 opacity-70">
-            About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
-            Business Loans in Delhi NCR and Beyond. With years of experience
-            providing credit-line to businesses.
-          </p>
-          <div className="contact flex gap-6">
+        <div className="right-content py-16 px-12 flex flex-col gap-4">
+          <motion.h1
+            className="text-white text-[36px]"
+            initial={{ x: 30, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            Hello I’m Subodh Bajpai !
+          </motion.h1>
+          <motion.div
+            className="description flex flex-col gap-4 mb-4"
+            initial={{ x: 30, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
+            <h1 className="text-white text-6xl font-semibold">
+              An
+              <span className="text-secondaryBlue"> Investor</span>
+            </h1>
+            <p className="text-white leading-7 opacity-70">
+              About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
+              Business Loans in Delhi NCR and Beyond. With years of experience
+              providing credit-line to businesses.
+            </p>
+          </motion.div>
+          <motion.div
+            className="contact flex gap-6"
+            initial={{ x: 30, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
             <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center flex justify-center">
               Get started
             </div>
@@ -24,19 +50,24 @@ const Hero = () => {
               <PhoneIcon></PhoneIcon>
             </div>
             <div className="phone-number flex justify-center items-center">
-              <p className='text-white -ml-4'>0800555443</p>
+              <p className="text-white -ml-4">0800555443</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-      <div className="right-container-image w-[50%]">
+      <motion.div
+        className="right-container-image w-[50%]"
+        initial={{ y: 300, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.7, delay: 0.7 }}
+      >
         <img
           src="/hero-image.jpg"
           alt="hero-image"
           className="object-cover w-"
         />
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 
