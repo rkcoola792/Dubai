@@ -22,4 +22,6 @@ transition duration-200 ease-linear hover:ease-linear */
 #0E4464
 text-color:#170F49
 
+subtleBlue-#F8FCFF
+
 my-12 py-12 between each section
