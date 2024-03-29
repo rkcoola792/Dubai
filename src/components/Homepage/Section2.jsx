@@ -1,14 +1,12 @@
 import React from 'react'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { StarIcon } from '../StarIcon/StarIcon';
+import Heading from '../Heading/Heading';
 
 const Section2 = () => {
   return (
     <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   relative">
-      <div className="top-heading flex flex-col gap-8 justify-center items-center text-center">
-        <h1 className="text-mainBlue tracking-widest">JOURNALS</h1>
-        <h1 className="text-4xl font-semibold">Featured In International </h1>
-      </div>
+     <Heading heading="journal" subheading="featured in international "></Heading>
       <div className="bottom-content my-12 flex flex-col bg-white shadow-lg p-6 rounded-lg">
         <div className="top-descriptions flex gap-8 ">
           <div className="left-headings w-[40%] flex flex-col gap-8 ">
