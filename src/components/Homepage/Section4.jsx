@@ -69,6 +69,29 @@ const Section4 = () => {
           </div>
         </div>
       </div>
+      <div className="book-part flex justify-between items-start">
+        <div className="left flex flex-col text-left gap-6">
+          <div className='headings flex flex-col gap-2'>
+            <h1 className="text-mainBlue">RISE AND THRIVE</h1>
+            <h1 className='text-3xl  font-semibold'>Unleashing Entrepreneurial<br></br> Warrior </h1>
+          </div>
+          <div className='middle-headings flex gap-2'>
+            <SmallStar></SmallStar>
+            <h1>Available on </h1>
+          </div>
+          <div className='icons flex gap-6'>
+            <img className='w-8' src="/amazon.png" alt="" />
+            <img className='w-8' src="/flipkart.png" alt="" />
+            <img className='w-8' src="/amazon.png" alt="" />
+          </div>
+        </div>
+        <div className="right">
+        <div className='book-image w-[400px] -mt-12 -mr-16  '>
+
+            <img src="/book.png" alt="" className='object-cover ' />
+        </div>
+        </div>
+      </div>
     </div>
   );
 }
