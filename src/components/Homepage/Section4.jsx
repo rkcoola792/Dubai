@@ -18,9 +18,9 @@ const Section4 = () => {
         ></Heading>
       </div>
       <div className="bottom flex gap-12 my-12 bg-white rounded-lg p- shadow-lg p-8">
-        <div className="left w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg">
-          <h1 className="text-2xl font-semibold">Introduction</h1>
-          <p className="text-gray-600 leading-7">
+        <div className="left w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg relative">
+          <h1 className="text-2xl font-semibold z-10">Introduction</h1>
+          <p className="text-gray-600 leading-7 z-10">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
             and a diverse range of ventures to achieve their full potential.  He
@@ -28,7 +28,8 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[60%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
+          <img src='/abc.png' className='absolute z-0 bottom-0 right-1 opacity-50'></img>
+          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[60%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear z-10">
             {" "}
             Schedule a meet{" "}
             <span>

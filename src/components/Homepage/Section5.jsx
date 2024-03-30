@@ -5,7 +5,7 @@ import Section5Component from './Section5Component';
 
 const Section5 = () => {
   return (
-    <div className="services section5 relative flex flex-col gap-8">
+    <div className="services section5 relative flex flex-col gap-8 my-16">
       <div className="top-headings">
         <div className="absolute top-4 right-24">
           <StarIcon></StarIcon>

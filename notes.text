@@ -24,4 +24,7 @@ text-color:#170F49
 
 subtleBlue-#F8FCFF
 
+section : section6 blogs bg-subtleBlue py-12 my-12  px-8 sm:px-12 lg:px-24 
+
+
 my-12 py-12 between each section
