@@ -1,12 +1,22 @@
-import React from 'react'
-import Single from './Section3Components/Single'
-import { StarIcon } from '../StarIcon/StarIcon';
-import { SmallStar } from '../StarIcon/SmallStar';
-import Heading from '../Heading/Heading';
-
+import React, { useRef } from "react";
+import Single from "./Section3Components/Single";
+import { StarIcon } from "../StarIcon/StarIcon";
+import { SmallStar } from "../StarIcon/SmallStar";
+import Heading from "../Heading/Heading";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import "./progressBar.scss"
 const Section3 = () => {
+  const ref = useRef();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["1 1", "0 0"],
+  });
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: "100",
+    damping: "30",
+  });
   return (
-    <div className="px-8 sm:px-12 lg:px-24 flex flex-col gap-12 relative">
+    <div className="px-8 sm:px-12 lg:px-24 flex flex-col  relative">
       <div className="absolute top-4 right-24 ">
         <StarIcon></StarIcon>
       </div>
@@ -15,8 +25,12 @@ const Section3 = () => {
           heading="Loans"
           subheading="Specialties of Subodh Bajpai"
         ></Heading>
+        <motion.div
+          className="progressBar mt-8 bg-mainBlue h-2 rounded-md"
+          style={{ scaleX }}
+        ></motion.div>
       </div>
-      <div className=" flex flex-col gap-6 ">
+      <div className=" flex flex-col gap-6  " ref={ref}>
         <div className="group1 flex flex-col gap-8 sticky top-72 bg-white z-10 my-6 py-4">
           <div className="heading flex gap-2 items-center ">
             <div className="mt-1">
@@ -66,6 +80,6 @@ const Section3 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Section3
+export default Section3;
