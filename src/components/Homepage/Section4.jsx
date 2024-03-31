@@ -8,6 +8,7 @@ import GetInTouch from './GetInTouch';
 import ShimmerCard from './ShimmerCard';
 import { motion } from 'framer-motion';
 import VisionCard from './VisionCard';
+import RotatingDiv from './RotatingDiv';
 
 const Section4 = () => {
   return (
@@ -71,9 +72,18 @@ const Section4 = () => {
               Unleashing Entrepreneurial<br></br> Warrior{" "}
             </h1>
           </div>
-          <div className="middle-headings flex gap-2">
-            <SmallStar></SmallStar>
-            <h1>Available on </h1>
+          <div className="middle-headings flex justify-start items-center  ">
+            
+              <div>
+
+            <SmallStar/>
+              </div>
+            {/* <h1>Available on </h1> */}
+           
+            <div className='-ml-8'> 
+
+            <RotatingDiv/>
+            </div>
           </div>
           <div className="icons flex gap-6">
             <img className="w-8" src="/amazon.png" alt="" />

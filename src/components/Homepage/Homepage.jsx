@@ -12,6 +12,7 @@ import GetInTouch from './GetInTouch'
 import DoubleScroll from './DoubleScroll'
 import ShimmerCard from './ShimmerCard'
 import TestimonialGradient from './TestimonialGradient'
+import RotatingDiv from './RotatingDiv'
 
 const Homepage = () => {
   return (
@@ -25,7 +26,6 @@ const Homepage = () => {
       <Section7/>
       <Section8/> 
 
-      {/* <GetInTouch></GetInTouch> */}
     
     </div>
   )

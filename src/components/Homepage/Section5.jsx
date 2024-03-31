@@ -17,9 +17,14 @@ const Section5 = () => {
   return (
     <div className="services section5 relative flex flex-col gap-8 my-16">
       <div className="top-headings sticky top-24 bg-white p-8 z-40">
-        <div className="absolute top-4 right-24">
+        <motion.div
+          className="absolute top-4 right-24"
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+        >
           <StarIcon></StarIcon>
-        </div>
+        </motion.div>
         <div className="heading ">
           <Heading
             heading="financial"
