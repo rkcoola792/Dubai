@@ -6,6 +6,7 @@ import { SmallStar } from '../StarIcon/SmallStar';
 import Section4Component from './Section4Component';
 import GetInTouch from './GetInTouch';
 import ShimmerCard from './ShimmerCard';
+import { motion } from 'framer-motion';
 
 const Section4 = () => {
   return (

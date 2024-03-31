@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { FiCreditCard, FiMail, FiUser, FiUsers } from "react-icons/fi";
 
@@ -19,9 +20,11 @@ const GetInTouch = () => {
 
 const Card = ({ title, subtitle, Icon, href }) => {
   return (
-    <a
-      href={href}
-      className="w-full p-4 rounded border-[1px] border-slate-300 relative overflow-hidden group bg-white"
+    <motion.div
+      className="w-full p-4 rounded border-[1px] border-slate-300 relative overflow-hidden group bg-white cursor-pointer"
+      initial={{ y: 0 }}
+      whileHover={{ y: -15, boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)" }}
+      transition={{ duration: 0.6 }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-mainBlue to-secondaryBlue translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 
@@ -33,7 +36,7 @@ const Card = ({ title, subtitle, Icon, href }) => {
       <p className="text-slate-400 group-hover:text-violet-200 relative z-10 duration-300">
         {subtitle}
       </p>
-    </a>
+    </motion.div>
   );
 };
 

@@ -2,16 +2,30 @@ import React from 'react'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { StarIcon } from '../StarIcon/StarIcon';
 import Heading from '../Heading/Heading';
+import { motion } from 'framer-motion';
 
 const Section2 = () => {
   return (
     <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   relative">
-      <Heading
-        heading="journal"
-        subheading="featured in international "
-      ></Heading>
-      <div className="bottom-content my-12 flex flex-col bg-white shadow-lg p-6 rounded-lg">
-        <div className="top-descriptions flex gap-8 ">
+      <motion.div
+        className="heading"
+        
+      >
+        <Heading
+          heading="journal"
+          subheading="featured in international "
+        ></Heading>
+      </motion.div>
+      <motion.div
+        className="bottom-content my-12 flex flex-col bg-white shadow-lg p-12 rounded-lg"
+        initial={{ scale: 0.75, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.2 }}
+      >
+        <div
+          className="top-descriptions flex gap-8 "
+         
+        >
           <div className="left-headings w-[40%] flex flex-col gap-8 ">
             <h1 className="uppercase text-3xl font-medium opacity-90">
               the funding mogul empowering business needs
@@ -66,10 +80,15 @@ const Section2 = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="absolute top-4">
+      </motion.div>
+      <motion.div
+        className="absolute top-4  z-[45] "
+        initial={{x:-100 ,opacity:0}}
+        whileInView={{ x:0,opacity:1 }}
+        transition={{ duration: 0.7, delay: 0.1 }}
+      >
         <StarIcon></StarIcon>
-      </div>
+      </motion.div>
     </div>
   );
 }

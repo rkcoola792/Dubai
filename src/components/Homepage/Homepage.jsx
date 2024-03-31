@@ -24,8 +24,9 @@ const Homepage = () => {
       <Section6/>
       <Section7/>
       <Section8/> 
-       {/* <ShimmerCard/>
-      <TestimonialGradient/> */}
+
+      <GetInTouch></GetInTouch>
+    
     </div>
   )
 }
