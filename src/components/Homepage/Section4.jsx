@@ -4,6 +4,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import { SmallStar } from '../StarIcon/SmallStar';
 import Section4Component from './Section4Component';
+import GetInTouch from './GetInTouch';
 
 const Section4 = () => {
   return (
@@ -56,15 +57,16 @@ const Section4 = () => {
                 <SmallStar></SmallStar>
                 <h1 className="text-2xl">Get In Touch</h1>
               </div>
-              <div className="contacts flex justify gap-32">
-                <div className="phone flex flex-col">
+              <div className="contacts-icon w-full">
+                {/* <div className="phone flex flex-col">
                   <h1 className="text-mainBlue font-semibold"> Phone:</h1>
                   <p className="text-gray-600">+1 908-736-1801</p>
                 </div>
                 <div className="email flex flex-col">
                   <h1 className="text-mainBlue font-semibold"> Email:</h1>
                   <p className="text-gray-600">hello@example.com</p>
-                </div>
+                </div> */}
+                <GetInTouch/>
               </div>
             </div>
           </div>
