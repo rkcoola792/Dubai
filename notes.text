@@ -29,5 +29,6 @@ section : section6 blogs bg-subtleBlue py-12 my-12  px-8 sm:px-12 lg:px-24
 
 my-12 py-12 between each section
 
+hover gradient : hover:bg-gradient-to-r from-mainBlue to-secondaryBlue 
 
 other- oppostite scroll

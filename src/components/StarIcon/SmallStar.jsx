@@ -7,7 +7,7 @@ export function SmallStar() {
       alt=""
       animate={{ rotate: 360 }}
       transition={{ ease: "linear", duration: 30, repeat: Infinity }}
-      className="z-50"
+      className=""
     />
   );
 }
