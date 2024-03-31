@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const row1 = ["/DoubleLogos/axis.png", "/DoubleLogos/baroda.png","/DoubleLogos/boi.png","/DoubleLogos/canara.png","/DoubleLogos/corporate.png","/DoubleLogos/federal.png","/DoubleLogos/hdfc.png","/DoubleLogos/idbi.png","/DoubleLogos/kotak.png","/DoubleLogos/laksmi.png","/DoubleLogos/maharastra.png","/DoubleLogos/mufg.png",];
 
-const row2 = ["/DoubleLogos/yes.png", "/DoubleLogos/vijay.png","/DoubleLogos/south.png","/DoubleLogos/pnb.png","/DoubleLogos/oriental.png","/DoubleLogos/federal.png","/DoubleLogos/union.png","/DoubleLogos/induslnd.png","/DoubleLogos/syndicate.png","/DoubleLogos/karnataka.png",];
+const row2 = ["/DoubleLogos/yes.png", "/DoubleLogos/vijay.png","/DoubleLogos/south.png","/DoubleLogos/pnb.png","/DoubleLogos/oriental.png","/DoubleLogos/federal.png","/DoubleLogos/union.png","/DoubleLogos/induslnd.png","/DoubleLogos/axis.png","/DoubleLogos/karnataka.png",];
 
 
 

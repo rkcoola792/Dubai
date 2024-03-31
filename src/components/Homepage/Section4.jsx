@@ -37,7 +37,7 @@ const Section4 = () => {
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
             </div>
           </div>
-          <hr className="mt-8" />
+          {/* <hr className="mt-8" /> */}
           <div className="bottom">
             <div className="heading flex flex-col gap-6 my-8">
               <div className="flex gap-2">

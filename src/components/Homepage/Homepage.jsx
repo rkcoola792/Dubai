@@ -11,6 +11,7 @@ import Section8 from './Section8'
 import GetInTouch from './GetInTouch'
 import DoubleScroll from './DoubleScroll'
 import ShimmerCard from './ShimmerCard'
+import TestimonialGradient from './TestimonialGradient'
 
 const Homepage = () => {
   return (
@@ -22,8 +23,9 @@ const Homepage = () => {
       <Section5/>
       <Section6/>
       <Section7/>
-      <Section8/>
-      {/* <ShimmerCard/> */}
+      <Section8/> 
+       {/* <ShimmerCard/>
+      <TestimonialGradient/> */}
     </div>
   )
 }
