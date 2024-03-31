@@ -9,7 +9,6 @@ const Section2 = () => {
     <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-24 bg-[#F8FCFF]   relative">
       <motion.div
         className="heading"
-        
       >
         <Heading
           heading="journal"
@@ -24,7 +23,6 @@ const Section2 = () => {
       >
         <div
           className="top-descriptions flex gap-8 "
-         
         >
           <div className="left-headings w-[40%] flex flex-col gap-8 ">
             <h1 className="uppercase text-3xl font-medium opacity-90">

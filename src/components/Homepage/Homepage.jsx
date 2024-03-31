@@ -25,7 +25,7 @@ const Homepage = () => {
       <Section7/>
       <Section8/> 
 
-      <GetInTouch></GetInTouch>
+      {/* <GetInTouch></GetInTouch> */}
     
     </div>
   )
