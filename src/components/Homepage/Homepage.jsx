@@ -13,10 +13,13 @@ import DoubleScroll from './DoubleScroll'
 import ShimmerCard from './ShimmerCard'
 import TestimonialGradient from './TestimonialGradient'
 import RotatingDiv from './RotatingDiv'
+import Blogs from './BlogWithImage'
+import Blog from './Blog'
+import BlogWithImage from './BlogWithImage'
 
 const Homepage = () => {
   return (
-    <div className='homepage'>
+    <div className="homepage">
       <Hero/>
       <Section2/>
       <Section3/>
@@ -25,10 +28,9 @@ const Homepage = () => {
       <Section6/>
       <Section7/>
       <Section8/> 
-
-    
+      
     </div>
-  )
+  );
 }
 
 export default Homepage
