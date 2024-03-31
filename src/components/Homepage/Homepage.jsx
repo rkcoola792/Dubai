@@ -10,6 +10,7 @@ import Section7 from './Section7'
 import Section8 from './Section8'
 import GetInTouch from './GetInTouch'
 import DoubleScroll from './DoubleScroll'
+import ShimmerCard from './ShimmerCard'
 
 const Homepage = () => {
   return (
@@ -22,6 +23,7 @@ const Homepage = () => {
       <Section6/>
       <Section7/>
       <Section8/>
+      {/* <ShimmerCard/> */}
     </div>
   )
 }

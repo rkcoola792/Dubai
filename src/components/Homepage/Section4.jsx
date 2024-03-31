@@ -5,6 +5,7 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import { SmallStar } from '../StarIcon/SmallStar';
 import Section4Component from './Section4Component';
 import GetInTouch from './GetInTouch';
+import ShimmerCard from './ShimmerCard';
 
 const Section4 = () => {
   return (
@@ -18,27 +19,13 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom flex gap-12 my-12 bg-white rounded-lg p- shadow-lg p-8">
-        <div className="left w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg relative">
-          <h1 className="text-2xl font-semibold z-10">Introduction</h1>
-          <p className="text-gray-600 leading-7 z-10">
-            Mr. Bajpai is not just an investor, he's a visionary architect,
-            crafting funding solutions that empower individuals, corporations,
-            and a diverse range of ventures to achieve their full potential.  He
-            has expertise in a broad range of industries including Real Estate,
-            Renewable Energy, Business Setup, Stock Market, and the underlying
-            foundations of all big movers and shakers.  
-          </p>
-          <img src='/abc.png' className='absolute z-0 bottom-0 right-1 opacity-50'></img>
-          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[60%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear z-10">
-            {" "}
-            Schedule a meet{" "}
-            <span>
-              <ArrowOutwardIcon />
-            </span>
-          </h1>
+      <div className="bottom flex gap-12 my-12 py-12 bg-white rounded-lg  shadow-lg p-8">
+        <div className="left flex w-[50%] flex-col rounded-lg relative">
+        <ShimmerCard/>
+        {/* <img src='/abc.png' className='absolute z-10 bottom-1 right-12 opacity-50'></img> */}
+         
         </div>
-        <div className="right w-[55%] flex flex-col ">
+        <div className="right w-[50%] flex flex-col ">
           <div className="top flex  flex-col gap-4">
             <div className="heading flex gap-2">
               <SmallStar></SmallStar>
@@ -58,14 +45,7 @@ const Section4 = () => {
                 <h1 className="text-2xl">Get In Touch</h1>
               </div>
               <div className="contacts-icon w-full">
-                {/* <div className="phone flex flex-col">
-                  <h1 className="text-mainBlue font-semibold"> Phone:</h1>
-                  <p className="text-gray-600">+1 908-736-1801</p>
-                </div>
-                <div className="email flex flex-col">
-                  <h1 className="text-mainBlue font-semibold"> Email:</h1>
-                  <p className="text-gray-600">hello@example.com</p>
-                </div> */}
+                
                 <GetInTouch/>
               </div>
             </div>

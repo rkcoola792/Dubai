@@ -3,7 +3,7 @@ import { FiCreditCard, FiMail, FiUser, FiUsers } from "react-icons/fi";
 
 const GetInTouch = () => {
   return (
-    <div className="contact-us">
+    <div className="contact-us ">
       <div className="grid gap-4 grid-cols-2 lg:grid-cols-2">
         <Card title="Phone" subtitle="+1 908-736-1801" href="#" Icon={FiUser} />
         <Card
