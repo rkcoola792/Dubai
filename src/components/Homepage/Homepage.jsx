@@ -21,19 +21,16 @@ import { MobileMenu } from './MobileMenu'
 const Homepage = () => {
   return (
     <div className="homepage">
-      {/* <Hero/>
+      <Hero/>
       <Section2/>
       <Section3/>
       <Section4/>
       <Section5/>
       <Section6/>
       <Section7/>
-      <Section8/>  */}
+      <Section8/> 
 
-      {/* <div className='mobile mt-12'>
-
-      <MobileMenu/>
-      </div> */}
+      
       
     </div>
   );

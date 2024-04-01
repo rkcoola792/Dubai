@@ -18,11 +18,11 @@ function App() {
       <>
       
         {/* <Header></Header> */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block sticky top-0 z-[100]">
 
         <Example></Example>
         </div>
-        <div className="lg:hidden">
+        <div className="lg:hidden sticky top-0 z-[100] ">
         <MobileMenu/>
         </div>
         

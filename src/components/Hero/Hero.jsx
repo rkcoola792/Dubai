@@ -64,7 +64,7 @@ const Hero = () => {
         <img
           src="/hero-image.jpg"
           alt="hero-image"
-          className="object-cover w-"
+          className="object-cover rounded-lg"
         />
       </motion.div>
     </motion.div>

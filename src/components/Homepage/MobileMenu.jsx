@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const MobileMenu = () => {
   return (
-    <div className="mobile-nav flex bg-white h-32   items-center justify-between px-8 sm:px-12 lg:px-24 shadow-lg ">
+    <div className="mobile-nav flex bg-white h-24   items-center justify-between px-8 sm:px-12 lg:px-24 shadow-lg ">
       <Link to="">
         <div className="w-32 cursor-pointer ">
           <img src="/Header Logo.png" className=""></img>
@@ -83,7 +83,7 @@ const HamburgerButton = ({ active, setActive }) => {
         initial={false}
         animate={active ? "open" : "closed"}
         variants={UNDERLAY_VARIANTS}
-        style={{ top: 32, right: 36 }}
+        style={{ top: 16, right: 36 }}
         className="fixed z-10 rounded-xl bg-gradient-to-br from-mainBlue to-secondaryBlue shadow-lg shadow-mainBlue"
       />
 
@@ -91,7 +91,7 @@ const HamburgerButton = ({ active, setActive }) => {
         initial={false}
         animate={active ? "open" : "closed"}
         onClick={() => setActive((pv) => !pv)}
-        className={`group fixed right-7 top-6 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
+        className={`group fixed right-7 top-2 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
           active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"
         }`}
       >
