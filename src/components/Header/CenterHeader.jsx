@@ -6,13 +6,18 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 const CenterHeader = () => {
   return (
     <div className="flex justify-center px-3  gap-12">
+      <Link to="/blogs">
+
       <h1 className="cursor-pointer">Blog</h1>
-      <div className="services flex justify-center items-center text-textColor ">
-        <FlyoutLink href="#" FlyoutContent={PricingContent}>
-          Services
-          <KeyboardArrowDownIcon className="text-textColor " />
-        </FlyoutLink>
-      </div>
+      </Link>
+      <Link to="/service">
+        <div className="services flex justify-center items-center text-textColor ">
+          <FlyoutLink href="#" FlyoutContent={PricingContent}>
+            Services
+            <KeyboardArrowDownIcon className="text-textColor " />
+          </FlyoutLink>
+        </div>
+      </Link>
       <div className="business flex">
         <FlyoutLink href="#" FlyoutContent={PricingContent}>
           Business

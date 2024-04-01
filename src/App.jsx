@@ -7,6 +7,9 @@ import Test from "./components/Test";
 import Example from "./components/Header/Header";
 import { MobileMenu } from "./components/Homepage/MobileMenu";
 import Service from "./components/Service/Service";
+import Blog from "./components/Blogs/Blogs";
+import Blogs from "./components/Blogs/Blogs";
+
 
 
 function App() {
@@ -39,6 +42,7 @@ function App() {
       children: [
         { path: "/", element: <Homepage></Homepage> },
         { path: "/service", element: <Service></Service> },
+        { path: "/blogs", element: <Blogs></Blogs> },
         // { path:"/marketing", element:<Test></Test> },
       ],
     },
