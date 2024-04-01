@@ -11,6 +11,8 @@ import Blogs from "./components/Blogs/Blogs";
 import Business from "./components/Business/Business";
 import BlogPost from "./components/BlogPost.jsx/BlogPost";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Insights from "./components/Insights/Insights";
+
 
 
 
@@ -48,7 +50,7 @@ function App() {
         { path: "/business", element: <Business></Business> },
         { path: "/blog", element: <BlogPost></BlogPost> },
         { path: "/contact-us", element: <ContactUs></ContactUs> },
-        // { path:"/marketing", element:<Test></Test> },
+        { path: "/insights", element: <Insights></Insights> },
       ],
     },
   ]);

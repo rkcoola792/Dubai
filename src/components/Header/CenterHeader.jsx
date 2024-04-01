@@ -18,13 +18,18 @@ const CenterHeader = () => {
           </FlyoutLink>
         </div>
       </Link>
+      <Link to="/business">
       <div className="business flex">
         <FlyoutLink href="#" FlyoutContent={PricingContent}>
           Business
           <KeyboardArrowDownIcon />
         </FlyoutLink>
       </div>
+      </Link>
+      <Link to="/insights">
+
       <h1 className="cursor-pointer">Insights</h1>
+      </Link>
     </div>
   );
 };
@@ -40,7 +45,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit"
     >
-      <Link to="" className="relative text-black">
+      <div  className="relative text-black">
         {children}
         <span
           style={{
@@ -48,7 +53,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
           }}
           className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-mainBlue transition-transform duration-300 ease-out"
         />
-      </Link>
+      </div>
       <AnimatePresence>
         {showFlyout && (
           <motion.div
