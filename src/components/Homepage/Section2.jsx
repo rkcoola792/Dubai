@@ -21,7 +21,7 @@ const Section2 = () => {
       >
         <div className="top-descriptions sm:flex sm:flex-row gap-8 ">
           <div className="left-headings sm:w-[40%] flex flex-col gap-8 ">
-            <h1 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90">
+            <h1 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
               the funding mogul empowering business needs
             </h1>
             <p className="opacity-70 text-center sm:text-left mb-4">

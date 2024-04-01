@@ -24,7 +24,7 @@ const ShimmerBorderCard = () => {
           Renewable Energy, Business Setup, Stock Market, and the underlying
           foundations of all big movers and shakers
         </p>
-        <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[70%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue transition duration-200 ease-linear hover:ease-linear z-50 bg-subtleBlue mt-6 hover:text-white  ">
+        <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg sm:w-[70%] w-[90%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue transition duration-200 ease-linear hover:ease-linear z-50 bg-subtleBlue mt-6 hover:text-white  ">
           {" "}
           Schedule a meet{" "}
           <span>

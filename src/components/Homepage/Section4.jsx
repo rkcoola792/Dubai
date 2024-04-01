@@ -12,9 +12,9 @@ import RotatingDiv from './RotatingDiv';
 
 const Section4 = () => {
   return (
-    <div className="section-4 flex flex-col gap-12 my-16 relative px-8 sm:px-12 lg:px-12 bg-[#F8FCFF] py-6">
+    <div className="section-4 flex flex-col gap-12 sm:my-16 relative px-4 sm:px-12 lg:px-12 bg-[#F8FCFF] py-6 my-8">
       <motion.div
-        className="absolute "
+        className="absolute top-0 w-16"
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.1 }}
@@ -27,19 +27,21 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom flex gap-12 my-12 py-12 bg-white rounded-lg  shadow-lg p-8">
+      <div className="bottom sm:flex gap-12 sm:my-12 sm:py-12 sm:bg-white rounded-lg  sm:shadow-lg sm:p-8">
         <motion.div
-          className="left flex w-[50%] flex-col rounded-lg relative"
+          className="left flex sm:w-[50%] flex-col rounded-lg relative"
           initial={{ scale: 0.5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
           <ShimmerCard />
         </motion.div>
-        <div className="right w-[50%] flex flex-col ">
+        <div className="right sm:w-[50%] flex flex-col ">
           <div className="top flex  flex-col gap-4">
-            <div className="heading flex gap-4">
+            <div className="heading flex gap-4 mt-6 sm:mt-0 ">
+              <div>
               <SmallStar></SmallStar>
+              </div>
               <h1 className="text-2xl">Turning Visions into Venture Capital</h1>
             </div>
             <div className="components flex gap-4">
@@ -52,7 +54,7 @@ const Section4 = () => {
           </div>
           {/* <hr className="mt-8" /> */}
           <div className="bottom">
-            <div className="heading flex flex-col gap-6 my-8">
+            <div className="heading flex flex-col gap-6 my-8 ">
               <div className="flex gap-4">
                 <SmallStar></SmallStar>
                 <h1 className="text-2xl">Get In Touch</h1>
