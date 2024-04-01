@@ -6,31 +6,29 @@ import { motion } from 'framer-motion';
 
 const Section2 = () => {
   return (
-    <div className="section2 my-12 py-12 px-8 sm:px-12 lg:px-12 bg-[#F8FCFF]   relative">
-      <motion.div
-        className="heading"
-      >
+    <div className="section2 my-12 py-12 px-4 sm:px-12 lg:px-12 bg-[#F8FCFF]  relative">
+      <motion.div className="heading">
         <Heading
           heading="journal"
           subheading="featured in international "
         ></Heading>
       </motion.div>
       <motion.div
-        className="bottom-content my-12 flex flex-col bg-white shadow-lg p-12 rounded-lg"
+        className="bottom-content sm:my-12 flex flex-col bg-white shadow-lg sm:p-12 p-4 rounded-lg"
         initial={{ scale: 0.75, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <div
-          className="top-descriptions flex gap-8 "
-        >
-          <div className="left-headings w-[40%] flex flex-col gap-8 ">
-            <h1 className="uppercase text-3xl font-medium opacity-90">
+        <div className="top-descriptions sm:flex sm:flex-row gap-8 ">
+          <div className="left-headings sm:w-[40%] flex flex-col gap-8 ">
+            <h1 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90">
               the funding mogul empowering business needs
             </h1>
-            <p className="opacity-70">19 Jan,2021 05:13:03 PM IST</p>
+            <p className="opacity-70 text-center sm:text-left mb-4">
+              19 Jan,2021 05:13:03 PM IST
+            </p>
           </div>
-          <div className="right-descriptions w-[60%] flex flex-col">
+          <div className="right-descriptions sm:w-[60%] flex text-center sm:text-left flex-col">
             <div className="descriptions flex flex-col gap-6 leading-7 text-gray-700 text-sm">
               <h1>
                 In 2010, Bajpai decided to start his own investment firm with
@@ -81,8 +79,8 @@ const Section2 = () => {
       </motion.div>
       <motion.div
         className="absolute top-4  z-[45] "
-        initial={{x:-100 ,opacity:0}}
-        whileInView={{ x:0,opacity:1 }}
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.1 }}
       >
         <StarIcon></StarIcon>

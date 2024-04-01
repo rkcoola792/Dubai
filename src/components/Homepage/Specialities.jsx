@@ -6,7 +6,7 @@ const Specialities = ({subtitle1,subtitle2,subtitle3,icon1,icon2,icon3}) => {
   return (
     <div className="contact-us ">
       <motion.div
-        className="grid gap-12 grid-cols-2 lg:grid-cols-3"
+        className="grid sm:gap-12 sm:grid-cols-2 lg:grid-cols-3 gap-4"
         
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

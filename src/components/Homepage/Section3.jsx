@@ -16,14 +16,14 @@ const Section3 = () => {
     damping: "30",
   });
   return (
-    <div className="px-8 sm:px-12 lg:px-12 flex flex-col  relative">
-      <motion.div className="heading sticky top-24 bg-white p-8 z-40 ">
+    <div className="px-4 sm:px-12 lg:px-12 flex flex-col  relative">
+      <motion.div className="heading sm:sticky  sm:top-24 bg-white p-8 z-40 ">
         <Heading
           heading="Loans"
           subheading="Specialties of Subodh Bajpai"
         ></Heading>
         <motion.div
-          className="absolute top-4 right-0 z-[45]"
+          className="absolute sm:top-4 sm:right-0 top-0 right-0  z-[45]"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.1 }}
@@ -39,25 +39,7 @@ const Section3 = () => {
         ></motion.div>
       </motion.div>
       <div className=" flex flex-col gap-6  " ref={ref}>
-        <div className="group1 flex flex-col gap-8 sticky top-72 bg-white z-10 my-6 py-4">
-          <motion.div
-            className="heading flex gap-2 items-center "
-            initial={{ y: 75, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <div className="mt-1">
-              <SmallStar></SmallStar>
-            </div>
-            <h1 className="text-2xl font-semibold">Quick Loans</h1>
-          </motion.div>
-          <Specialities
-            subtitle1="Ability to raise funds through private funding on an urgent basis"
-            subtitle2="Assisting businesses in overcoming the impact of COVID-19 with much-needed finances"
-            subtitle3="Range of funding from Rs 5 lakhs to Rs 50 crores"
-          />
-        </div>
-        <div className="group2 flex flex-col gap-8  sticky top-72 bg-white z-20 my-6 py-4">
+        <div className="group1 flex flex-col sm:gap-8 sm:sticky  sm:top-72  z-10 sm:my-6 sm:py-4 bg-subtleBlue">
           <motion.div
             className="heading flex gap-2 items-center  "
             initial={{ y: 75, opacity: 0 }}
@@ -67,7 +49,25 @@ const Section3 = () => {
             <div className="mt-1">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="text-2xl font-semibold">
+            <h1 className="sm:text-2xl text-xl font-semibold">Quick Loans</h1>
+          </motion.div>
+          <Specialities
+            subtitle1="Ability to raise funds through private funding on an urgent basis"
+            subtitle2="Assisting businesses in overcoming the impact of COVID-19 with much-needed finances"
+            subtitle3="Range of funding from Rs 5 lakhs to Rs 50 crores"
+          />
+        </div>
+        <div className="group2 flex flex-col gap-8  sm:sticky top-72 bg-white z-20 my-6 py-4">
+          <motion.div
+            className="heading flex gap-2 items-center  "
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <div className="mt-1">
+              <SmallStar></SmallStar>
+            </div>
+            <h1 className="sm:text-2xl font-semibold text-xl">
               PR & Communication Specialist
             </h1>
           </motion.div>
@@ -88,7 +88,7 @@ const Section3 = () => {
             <div className="mt-1">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="text-2xl font-semibold">
+            <h1 className="sm:text-2xl font-semibold text-xl">
               Promoting Grassroot Entrepreneurship
             </h1>
           </motion.div>

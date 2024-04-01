@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-8 sm:mx-12 lg:mx-12 bg-mainBlue h-[500px] my-12 rounded-3xl overflow-hidden sm:flex "
+      className="Hero mx-4 sm:mx-12 lg:mx-12 bg-mainBlue sm:h-[500px] my-12 rounded-3xl overflow-hidden sm:flex-row flex flex-col h-[800px]"
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="left-container-content w-[50%] flex lg:my-8 ">
+      <div className="left-container-content sm:w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
-        <div className="right-content py-16 px-12 flex flex-col gap-4">
+        <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8">
           <motion.h1
-            className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px]"
+            className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
@@ -27,7 +27,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h1 className="text-white xl:text-6xl sm:text-3xl font-semibold">
+            <h1 className="text-white xl:text-6xl sm:text-3xl font-semibold text-4xl">
               An
               <span className="text-secondaryBlue"> Investor</span>
             </h1>
