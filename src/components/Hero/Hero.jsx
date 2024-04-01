@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-8 sm:mx-12 lg:mx-24 bg-mainBlue h-[500px] my-12 rounded-3xl overflow-hidden flex "
-        initial={{ y: 100,opacity:0 }}
-        whileInView={{ y:0,opacity: 1 }}
-        transition={{ duration: 1 }}
+      className="Hero mx-8 sm:mx-12 lg:mx-24 bg-mainBlue h-[500px] my-12 rounded-3xl overflow-hidden sm:flex "
+      initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1 }}
     >
-      <div className="left-container-content w-[50%] flex my-8 ">
+      <div className="left-container-content w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
         <div className="right-content py-16 px-12 flex flex-col gap-4">
           <motion.h1
-            className="text-white text-[36px]"
+            className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px]"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
@@ -27,11 +27,11 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h1 className="text-white text-6xl font-semibold">
+            <h1 className="text-white xl:text-6xl sm:text-3xl font-semibold">
               An
               <span className="text-secondaryBlue"> Investor</span>
             </h1>
-            <p className="text-white leading-7 opacity-70">
+            <p className="text-white leading-7 opacity-70 sm:text-sm sm:leading-7  md:">
               About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
               Business Loans in Delhi NCR and Beyond. With years of experience
               providing credit-line to businesses.
@@ -43,7 +43,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center flex justify-center">
+            <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col">
               Get started
             </div>
             <div className="phone flex justify-center items-center bg-secondaryBlue w-12 h-12 rounded-[50%]">
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
       </div>
       <motion.div
-        className="right-container-image w-[50%]"
+        className="right-container-image md:w-[50%] "
         initial={{ y: 300, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 1.2 }}

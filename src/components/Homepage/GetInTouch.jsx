@@ -23,7 +23,7 @@ const Card = ({ title, subtitle, Icon, href }) => {
     <motion.div
       className="w-full p-4 rounded border-[1px] border-slate-300 relative overflow-hidden group bg-white cursor-pointer"
       initial={{ y: 0 }}
-      whileHover={{ y: -15, boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)" }}
+      // whileHover={{ y: -15, boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)" }}
       transition={{ duration: 0.6 }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-mainBlue to-secondaryBlue translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />

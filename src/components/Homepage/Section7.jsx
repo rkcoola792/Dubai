@@ -20,10 +20,10 @@ const Section7 = () => {
       <motion.div
         className="contact-us-button px-6 text-center bg-mainBlue text-white p-2  rounded-full cursor-pointer hover:bg-gradient-to-r from-mainBlue to-secondaryBlue  "
         initial={{ y: 0 }}
-        whileHover={{
-          y: -5,
-          boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)",
-        }}
+        // whileHover={{
+        //   y: -5,
+        //   boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)",
+        // }}
         transition={{ duration: 0.6 }}
       >
         View More
