@@ -7,10 +7,10 @@ import Test from "./components/Test";
 import Example from "./components/Header/Header";
 import { MobileMenu } from "./components/Homepage/MobileMenu";
 import Service from "./components/Service/Service";
-import Blog from "./components/Blogs/Blogs";
 import Blogs from "./components/Blogs/Blogs";
 import Business from "./components/Business/Business";
 import BlogPost from "./components/BlogPost.jsx/BlogPost";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 
 
@@ -47,6 +47,7 @@ function App() {
         { path: "/blogs", element: <Blogs></Blogs> },
         { path: "/business", element: <Business></Business> },
         { path: "/blog", element: <BlogPost></BlogPost> },
+        { path: "/contact-us", element: <ContactUs></ContactUs> },
         // { path:"/marketing", element:<Test></Test> },
       ],
     },
