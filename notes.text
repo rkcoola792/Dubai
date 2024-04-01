@@ -13,10 +13,10 @@ transition duration-200 ease-linear hover:ease-linear */
  /* mainred: "#ff002e",
         secondaryRed: "#ff4242", */
 
-    /* px-24 for lg and greater
+    /* px-12 for lg and greater
 
     px-12 for below lg */
-    /* px-8 sm:px-12 lg:px-24 */
+    /* px-8 sm:px-12 lg:px-12 */
 
     main-blue:
 #0E4464
@@ -24,7 +24,7 @@ text-color:#170F49
 
 subtleBlue-#F8FCFF
 
-section : section6 blogs bg-subtleBlue py-12 my-12  px-8 sm:px-12 lg:px-24 
+section : section6 blogs bg-subtleBlue py-12 my-12  px-8 sm:px-12 lg:px-12 
 
 
 my-12 py-12 between each section

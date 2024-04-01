@@ -7,7 +7,7 @@ import FooterComponent from './FooterComponent';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="footer bg-mainBlue px-8 sm:px-12 lg:px-24 py-6 flex flex-col gap-12">
+    <div className="footer bg-mainBlue px-8 sm:px-12 lg:px-12 py-6 flex flex-col gap-12">
       <div className="top flex justify-between items-center">
         <div className="left-logo ">
           <img src="/logo-white.png" alt="logo" className="w-36" />

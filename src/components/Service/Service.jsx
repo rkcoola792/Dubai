@@ -4,7 +4,7 @@ import Section2 from './Section2';
 
 const Service = () => {
   return (
-    <div className="service  px-8 sm:px-12 lg:px-24">
+    <div className="service  px-8 sm:px-12 ">
       <Hero
         heading1="Home"
         heading2="Real Estate"

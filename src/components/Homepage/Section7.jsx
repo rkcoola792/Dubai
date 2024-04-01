@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Section7 = () => {
   return (
-    <div className="section7  py-12 my-12  px-8 sm:px-12 lg:px-24 flex flex-col justify-center items-center gap-6">
+    <div className="section7  py-12 my-12  px-8 sm:px-12 lg:px-12 flex flex-col justify-center items-center gap-6">
       <div className="top-heading">
         <Heading
           heading="testimonials"

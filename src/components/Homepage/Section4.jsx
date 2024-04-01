@@ -12,7 +12,7 @@ import RotatingDiv from './RotatingDiv';
 
 const Section4 = () => {
   return (
-    <div className="section-4 flex flex-col gap-12 my-16 relative px-8 sm:px-12 lg:px-24 bg-[#F8FCFF] py-6">
+    <div className="section-4 flex flex-col gap-12 my-16 relative px-8 sm:px-12 lg:px-12 bg-[#F8FCFF] py-6">
       <motion.div
         className="absolute "
         initial={{ x: -100, opacity: 0 }}

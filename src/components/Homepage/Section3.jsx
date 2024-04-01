@@ -16,7 +16,7 @@ const Section3 = () => {
     damping: "30",
   });
   return (
-    <div className="px-8 sm:px-12 lg:px-24 flex flex-col  relative">
+    <div className="px-8 sm:px-12 lg:px-12 flex flex-col  relative">
       <motion.div className="heading sticky top-24 bg-white p-8 z-40 ">
         <Heading
           heading="Loans"
