@@ -4,11 +4,11 @@ import { CalendarMonth,Person } from '@mui/icons-material';
 
 const BlogWithImage = ({ heading, subheading, description, date, author }) => {
   return (
-    <div className="blog-with-image flex gap-4 bg-white rounded-lg shadow-lg p-6   ">
+    <div className="blog-with-image sm:flex gap-4 bg-white rounded-lg shadow-lg p-6   ">
       <div className="image w-">
         <img src="/blog.png" alt="" className="w-[300px] h-[300px] object-cover rounded-lg" />
       </div>
-      <div className="w-[70%] flex flex-col gap-4">
+      <div className="sm:w-[70%] flex flex-col gap-4">
         <div className="heading font-bold text-mainBlue uppercase">
           {heading}
         </div>

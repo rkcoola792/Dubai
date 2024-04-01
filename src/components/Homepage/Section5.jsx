@@ -16,9 +16,9 @@ const Section5 = () => {
   });
   return (
     <div className="services section5 relative flex flex-col gap-8 my-16">
-      <div className="top-headings sticky top-24 bg-white p-8 z-40">
+      <div className="top-headings sticky sm:top-24 top-20 bg-white p-8 z-40">
         <motion.div
-          className="absolute top-4 right-24"
+          className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.1 }}
@@ -40,7 +40,7 @@ const Section5 = () => {
         </div>
       </div>
       <div className="multiple-services flex flex-col gap-6 " ref={ref}>
-        <div className="services px-8 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services px-4 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -56,6 +56,7 @@ const Section5 = () => {
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
+          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"

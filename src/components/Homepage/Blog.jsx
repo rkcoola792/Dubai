@@ -3,7 +3,7 @@ import React from 'react'
 
 const Blog = ({heading,subheading,description,date,author}) => {
   return (
-    <div className='flex flex-col gap-4  bg-white p-6 rounded-lg shadow-lg w-[70%]'>
+    <div className='flex flex-col gap-4  bg-white p-6 rounded-lg shadow-lg sm:w-[70%]'>
       <div className="heading font-bold text-mainBlue uppercase">{heading}</div>
       <div className="subheading text-2xl capitalize">{subheading}</div>
       <div className="description text-gray-600 leading-7">{description}</div>

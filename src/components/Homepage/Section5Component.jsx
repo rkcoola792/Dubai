@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section5Component = ({heading,subheading}) => {
   return (
-    <div className='service shadow-md flex gap-4 w-[550px] p-8 rounded-lg mb-8'>
+    <div className='service shadow-md flex gap-4 w-[550px] sm:p-8 p-4 rounded-lg mb-8'>
       <div className='left-icon bg-mainBlue w-12 h-12 rounded-[50%] flex justify-center items-center '>
         <img src="/Vector-white.png" alt="" className='w-6' />
       </div>

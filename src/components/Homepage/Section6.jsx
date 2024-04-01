@@ -7,16 +7,18 @@ import { motion } from 'framer-motion';
 
 const Section6 = () => {
   return (
-    <div className="section6 blogs bg-subtleBlue py-12 my-12  px-8 sm:px-12 lg:px-12 relative">
+    <div className="section6 blogs bg-subtleBlue sm:py-12 sm:my-12  px-4 sm:px-12 lg:px-12 relative">
       <div className="absolute ">
         <StarIcon></StarIcon>
       </div>
-      <div className="top sticky top-24 bg-subtleBlue p-8 z-40">
-        <Heading heading="blogs" subheading="latest post"></Heading>
+      <div className="top sticky sm:top-24 top-20 bg-subtleBlue p-8 z-40 ">
+        <div className="w-full">
+          <Heading heading="blogs" subheading="latest post"></Heading>
+        </div>
       </div>
       <div className="blogs my-12 flex flex-col gap-8 ">
         <motion.div
-          className="flex gap-6 sticky top-48 bg-subtleBlue z-10"
+          className="sm:flex-row flex flex-col gap-6 sm:sticky top-48 bg-subtleBlue z-10"
           initial={{ y: 75, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           // transition={{ duration: 0.5, delay: 0.1 }}
@@ -37,7 +39,7 @@ const Section6 = () => {
           ></Blog>
         </motion.div>
         <motion.div
-          className="flex gap-6 sticky top-48 bg-subtleBlue z-20"
+          className="sm:flex-row flex flex-col gap-6 sm:sticky top-48 bg-subtleBlue z-10"
           initial={{ y: 75, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           // transition={{ duration: 0.5, delay: 0.1 }}
