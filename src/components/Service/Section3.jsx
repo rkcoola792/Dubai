@@ -9,7 +9,7 @@ const Section3 = () => {
         "
           alt=""
         />
-        <div className="texts absolute flex top-12 left-32 ">
+        <div className="texts absolute flex top-8 left-32 ">
           <div className="left flex flex-col gap-8 w-[40%]">
             <div className="heading">
               <h1 className="text-white font-semibold text-[36px]">

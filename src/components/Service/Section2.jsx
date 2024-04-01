@@ -1,9 +1,14 @@
 import React from 'react'
 import Heading from '../Heading/Heading'
+import { StarIcon } from '../StarIcon/StarIcon';
 
 const Section2 = () => {
   return (
     <div className="section2  py-12 my-12   ">
+    <div className='right-12 absolute'>
+
+    <StarIcon></StarIcon>
+    </div>
       <div className="top-heading">
         <Heading
           heading="description"
