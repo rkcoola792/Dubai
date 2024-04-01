@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Test from "./components/Test";
 import Example from "./components/Header/Header";
 import { MobileMenu } from "./components/Homepage/MobileMenu";
+import Service from "./components/Service/Service";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
+        { path: "/service", element: <Service></Service> },
         // { path:"/marketing", element:<Test></Test> },
       ],
     },
