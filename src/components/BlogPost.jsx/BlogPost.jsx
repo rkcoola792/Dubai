@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from '../Service/Hero'
 import Section2 from './Section2'
+import Section3 from '../Service/Section3'
+import Section4 from '../Blogs/Section4'
 
 const BlogPost = () => {
   return (
@@ -12,7 +14,11 @@ const BlogPost = () => {
     <div className='px-2'>
 
     <Section2></Section2>
+    <div className='my-12'>
+    <Section3></Section3>
     </div>
+    </div>
+    <Section4></Section4>
     </div>
   )
 }
