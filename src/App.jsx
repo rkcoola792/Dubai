@@ -30,7 +30,7 @@ function App() {
 
         <Example></Example>
         </div>
-        <div className="lg:hidden sticky top-0 z-[100] ">
+        <div className="lg:hidden sticky -top-2 z-[100] ">
         <MobileMenu/>
         </div>
         
