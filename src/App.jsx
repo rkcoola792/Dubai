@@ -9,6 +9,7 @@ import { MobileMenu } from "./components/Homepage/MobileMenu";
 import Service from "./components/Service/Service";
 import Blog from "./components/Blogs/Blogs";
 import Blogs from "./components/Blogs/Blogs";
+import Business from "./components/Business/Business";
 
 
 
@@ -43,6 +44,7 @@ function App() {
         { path: "/", element: <Homepage></Homepage> },
         { path: "/service", element: <Service></Service> },
         { path: "/blogs", element: <Blogs></Blogs> },
+        { path: "/business", element: <Business></Business> },
         // { path:"/marketing", element:<Test></Test> },
       ],
     },
