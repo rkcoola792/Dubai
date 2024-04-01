@@ -10,6 +10,7 @@ import Service from "./components/Service/Service";
 import Blog from "./components/Blogs/Blogs";
 import Blogs from "./components/Blogs/Blogs";
 import Business from "./components/Business/Business";
+import BlogPost from "./components/BlogPost.jsx/BlogPost";
 
 
 
@@ -45,6 +46,7 @@ function App() {
         { path: "/service", element: <Service></Service> },
         { path: "/blogs", element: <Blogs></Blogs> },
         { path: "/business", element: <Business></Business> },
+        { path: "/blog", element: <BlogPost></BlogPost> },
         // { path:"/marketing", element:<Test></Test> },
       ],
     },
