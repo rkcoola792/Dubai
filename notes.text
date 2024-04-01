@@ -32,3 +32,5 @@ my-12 py-12 between each section
 hover gradient : hover:bg-gradient-to-r from-mainBlue to-secondaryBlue 
 
 other- oppostite scroll
+
+p color = #555555

@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Hero'
+import Section2 from './Section2';
 
 const Service = () => {
   return (
@@ -10,6 +11,7 @@ const Service = () => {
         subheading="Tourism & Hospitality"
         description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
       ></Hero>
+      <Section2></Section2>
     </div>
   );
 }
