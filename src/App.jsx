@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Test from "./components/Test";
 import Example from "./components/Header/Header";
+import { MobileMenu } from "./components/Homepage/MobileMenu";
 
 
 function App() {
@@ -17,7 +18,14 @@ function App() {
       <>
       
         {/* <Header></Header> */}
+        <div className="hidden lg:block">
+
         <Example></Example>
+        </div>
+        <div className="lg:hidden">
+        <MobileMenu/>
+        </div>
+        
         <Outlet></Outlet>
         <Footer></Footer>
       </>
