@@ -58,7 +58,7 @@ const ContactForm = () => {
         </div>
 
         <div className="middle-container flex flex-col mt-12">
-          <h1 className="text-mainBlue font-semibold text-2xl">
+          <h1 className="text-mainBlue font-semibold text-xl">
             Select Subject ?
           </h1>
           <div className=" sm:flex-row flex flex-col flex-wrap sm:gap-12">
