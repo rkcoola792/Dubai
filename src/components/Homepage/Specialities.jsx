@@ -37,15 +37,15 @@ const Card = ({  subtitle, Icon, href }) => {
     <motion.div
       className="w-full  rounded border-[1px] border-slate-300 relative overflow-hidden group bg-subtleBlue cursor-pointer p-6 h-40"
       initial={{ y: 0 }}
-      // whileHover={{ y: -15, boxShadow: "0px 30px 40px -13px rgba(0,0,0,0.65)" }}
+      whileHover={{ scale:1.01, boxShadow: "0px 5px 20px -13px rgba(0,0,0,0.65)" }}
       transition={{ duration: 0.6 }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-mainBlue to-secondaryBlue translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
+      <div className="absolute inset-0 bg-white translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 
-      <Icon className="absolute z-10 -top-12 -right-12 text-9xl text-slate-100 group-hover:text-secondaryBlue group-hover:rotate-12 transition-transform duration-300" />
-      <Icon className="mb-2 text-4xl text-mainBlue group-hover:text-white transition-colors relative z-10 duration-300" />
+      <Icon className="absolute z-10 -top-12 -right-12 text-9xl text-slate-100 opacity-90 group-hover:text-mainBlue group-hover:rotate-12 transition-transform duration-300" />
+      <Icon className="mb-2 text-4xl text-mainBlue  transition-colors relative z-10 duration-300" />
 
-      <p className="text-slate-400 group-hover:text-violet-200 relative z-10 duration-300">
+      <p className="text-slate-400  relative z-10 duration-300">
         {subtitle}
       </p>
     </motion.div>
