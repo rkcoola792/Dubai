@@ -67,7 +67,7 @@ const NavLink = ({ children, href, idx }) => {
       }}
       exit={{ opacity: 0, y: -8 }}
       href={href}
-      className="block text-5xl font-semibold text-secondaryBlue transition-colors hover:text-violet-50 md:text-7xl"
+      className="block text-5xl font-semibold text-mainBlue transition-colors hover:text-violet-50 md:text-7xl"
     >
       {children}.
     </motion.a>
@@ -84,7 +84,7 @@ const HamburgerButton = ({ active, setActive }) => {
         animate={active ? "open" : "closed"}
         variants={UNDERLAY_VARIANTS}
         style={{ top: 16, right: 36 }}
-        className="fixed z-10 rounded-xl bg-mainBlue shadow-lg  "
+        className="fixed z-10 rounded-xl bg-white "
       />
 
       <motion.button
@@ -97,17 +97,17 @@ const HamburgerButton = ({ active, setActive }) => {
       >
         <motion.span
           variants={HAMBURGER_VARIANTS.top}
-          className="absolute block h-1 w-10 bg-white"
+          className="absolute block h-1 w-10 bg-black"
           style={{ y: "-50%", left: "50%", x: "-50%" }}
         />
         <motion.span
           variants={HAMBURGER_VARIANTS.middle}
-          className="absolute block h-1 w-10 bg-white"
+          className="absolute block h-1 w-10 bg-black"
           style={{ left: "50%", x: "-50%", top: "50%", y: "-50%" }}
         />
         <motion.span
           variants={HAMBURGER_VARIANTS.bottom}
-          className="absolute block h-1 w-5 bg-white"
+          className="absolute block h-1 w-5 bg-black"
           style={{ x: "-50%", y: "50%" }}
         />
       </motion.button>
@@ -136,7 +136,7 @@ const FooterCTAs = () => {
               }}
               exit={{ opacity: 0, y: -8 }}
             >
-              <l.Component className="text-xl text-white transition-colors hover:text-secondaryBlue" />
+              <l.Component className="text-xl text-white transition-colors hover:text-mainBlue" />
             </motion.a>
           );
         })}
