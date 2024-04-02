@@ -5,19 +5,19 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-4 sm:mx-12 lg:mx-12 bg-mainBlue sm:h-[500px] my-12 rounded-3xl overflow-hidden sm:flex-row flex flex-col h-[800px]"
+      className="Hero mx-4 sm:mx-12 lg:mx-12 bg-mainBlue md:h-[500px] my-12 rounded-3xl overflow-hidden md:flex-row flex flex-col h-[800px]"
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="left-container-content sm:w-[50%] flex lg:my-8 ">
+      <div className="left-container-content md:w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
         <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8">
           <motion.h1
             className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.8 }}
+            transition={{ duration: 0.2, delay: 0.1 }}
           >
             Hello I’m Subodh Bajpai !
           </motion.h1>
