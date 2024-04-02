@@ -6,11 +6,11 @@ const Footer = () => {
   // const currentYear = new Date().getFullYear();
   return (
     <div className="footer bg-mainBlue px-4 sm:px-12 lg:px-12 md:py-6 py-12">
-      <div className="top sm:flex-row flex flex-col md:justify-between md:items-center gap-4">
+      <div className="top lg:flex-row flex flex-col lg:justify-between lg:items-center gap-4">
         <div className="left-logo ">
           <img src="/logo-white.png" alt="logo" className="w-36" />
         </div>
-        <div className="center-links md:flex-row flex flex-col gap-4  sm:justify-center sm:items-center sm:gap-8 px-2 text-2xl sm:text-base  md:mt-0">
+        <div className="center-links md:flex-row flex flex-col gap-4  lg:justify-center lg:items-center lg:gap-8 px-2 text-2xl md:text-base   md:mt-0">
           <Link to="/">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               Home
