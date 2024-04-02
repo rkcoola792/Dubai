@@ -6,7 +6,7 @@ import Section4 from './Section4';
 
 const Business = () => {
   return (
-    <div className="Business px-4">
+    <div className="Business px-4 sm:px-12">
       <Hero
         heading1="Home"
         heading2="Business"

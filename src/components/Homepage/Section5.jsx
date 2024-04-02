@@ -16,7 +16,7 @@ const Section5 = () => {
   });
   return (
     <div className="services section5 relative flex flex-col gap-8 my-16">
-      <div className="top-headings sticky sm:top-24 top-20 bg-white p-8 z-40">
+      <div className="top-headings sticky sm:top-20 top-20 bg-white p-8 z-40">
         <motion.div
           className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
           initial={{ x: 100, opacity: 0 }}
