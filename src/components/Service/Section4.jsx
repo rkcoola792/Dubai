@@ -5,7 +5,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 
 const Section4 = () => {
   return (
-    <div className="section4 my-12 relative">
+    <div className="section4 my-12 relative ">
       <div className=" absolute w-12">
         <StarIcon></StarIcon>
       </div>
@@ -15,7 +15,7 @@ const Section4 = () => {
           subheading="few easy steps and done"
         ></Heading>
       </div>
-      <div className="bottom sm:flex sm:flex-wrap flex flex-col justify-between my-12 ">
+      <div className="bottom sm:flex-row sm:flex-wrap flex flex-col justify-between my-12 ">
         <Section5Component
           icon=""
           heading="Renewable Energy"

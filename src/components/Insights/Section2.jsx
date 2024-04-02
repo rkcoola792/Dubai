@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <div className="middle-insights-blogs">
+    <div className="middle-insights-blogs my-8">
       <div className="section1 flex flex-col gap-8 justify-between my-6">
         <div className="top flex ">
           <div className="left w-[50%]">
@@ -77,8 +77,72 @@ const Section2 = () => {
           </h1>
         </div>
       </div>
-      <div className="section2"></div>
-      <div className="section3"></div>
+      <div className="section2 flex flex-col gap-6 mt-8">
+        <h1 className="text-2xl font-bold">
+          Adipiscing lacus dui rutrum quam. In morbi facilisis elit.
+        </h1>
+        <h2 className="text-gray-600">
+          Tincidunt et amet suspendisse venenatis neque ultricies eget. Aliquam
+          duis amet amet lobortis. Elit risus ultrices gravida fringilla id odio
+          tortor, vitae. In pretium purus ac potenti pretium ultrices. Aliquam
+          velit scelerisque auctor in libero amet. Commodo faucibus consequat,
+          dolor fringilla volutpat sed nibh. Amet, sit ut id eget. Egestas
+          hendrerit.
+        </h2>
+        <h3 className="text-gray-600">
+          Tempor lorem diam curabitur ac in nec, elementum arcu. Risus habitasse
+          in aliquet mattis augue augue ornare in. Orci eu maecenas purus diam,
+          sapien facilisis. Nunc tincidunt urna amet, et, in turpis sagittis,
+          tristique purus. Facilisis sagittis nec et egestas leo lorem diam
+          aenean egestas. Cras vestibulum, purus pretium nisl. Diam eleifend
+          egestas gravida cursus in.
+        </h3>
+      </div>
+      <div className="section3 mt-8 flex flex-col gap-6">
+        <h1 className="text-2xl font-bold">
+          Adipiscing lacus dui rutrum quam. In morbi facilisis elit.
+        </h1>
+        <h2 className="text-gray-600">
+          Tincidunt et amet suspendisse venenatis neque ultricies eget. Aliquam
+          duis amet amet lobortis. Elit risus ultrices gravida fringilla id odio
+          tortor, vitae. In pretium purus ac potenti pretium ultrices. Aliquam
+          velit scelerisque auctor in libero amet. Commodo faucibus consequat,
+          dolor fringilla volutpat sed nibh. Amet, sit ut id eget. Egestas
+          hendrerit.
+        </h2>
+        <h3 className="text-gray-600">
+          Tempor lorem diam curabitur ac in nec, elementum arcu. Risus habitasse
+          in aliquet mattis augue augue ornare in. Orci eu maecenas purus diam,
+          sapien facilisis. Nunc tincidunt urna amet, et, in turpis sagittis,
+          tristique purus. Facilisis sagittis nec et egestas leo lorem diam
+          aenean egestas. Cras vestibulum, purus pretium nisl. Diam eleifend
+          egestas gravida cursus in.
+        </h3>
+        <h1 className="font-semibold text-gray-700">
+          “Despite the strides made by the banking and the formal financial
+          sector, India continues to be a credit starved country as more and
+          more entrepreneurs are coming up with their unique business ideas but
+          most of them remain far from execution due to a lack of funding
+          avenues. I help them realise their dreams by helping them with
+          adequate financing,” says Mr. Bajpai.
+        </h1>
+        <h1 className="text-gray-600">
+          It is through his firm ‘Haitch Holdings’, he holds extraordinary
+          expertise in providing loans up to Rs 5 crore within a few days of
+          receiving requests. While he is supporting people including political
+          parties and NGOs in their fundraising endeavours, he also helps
+          corporates in raising funds through equity financing. He thus helps
+          people find the right person at the right time of need.
+        </h1>
+        <h1 className="text-gray-600">
+          “Despite the strides made by the banking and the formal financial
+          sector, India continues to be a credit starved country as more and
+          more entrepreneurs are coming up with their unique business ideas but
+          most of them remain far from execution due to a lack of funding
+          avenues. I help them realise their dreams by helping them with
+          adequate financing,” says Mr. Bajpai.
+        </h1>
+      </div>
     </div>
   );
 }

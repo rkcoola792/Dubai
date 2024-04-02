@@ -13,11 +13,11 @@ const Section3 = () => {
         <div className="texts absolute sm:flex-row flex flex-col  justify-between  top-8 sm:px-32 items-center">
           <div className="left flex flex-col gap-8 sm:w-[60%]">
             <div className="heading">
-              <h1 className="text-white font-semibold sm:text-[36px] text-2xl text-center sm:text-left sm:leading-[40px]">
+              <h1 className="text-white font-semibold sm:text-[36px] text-2xl text-center sm:text-left sm:leading-[40px] pt-6">
                 Have a project in mind! Let’s work together.
               </h1>
             </div>
-            <div className="subheading text-[16px] text-white opacity-90 w-[90%] text-center sm:text-left ml-4 sm:ml-0">
+            <div className="subheading text-[16px] text-white opacity-75 w-[90%] text-center sm:text-left ml-4 sm:ml-0 leading-5">
               <h1>
                 Nam tincidunt condimentum arcu, rhoncus interdum eros vulputate
                 ut. Maecenas molestie sodales tristique. Nunc scelerisque tortor
