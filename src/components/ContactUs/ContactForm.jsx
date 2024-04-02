@@ -58,8 +58,10 @@ const ContactForm = () => {
         </div>
 
         <div className="middle-container flex flex-col mt-12">
-          <h1 className="text-mainBlue font-semibold">Select Subject?</h1>
-          <div className=" flex sm:gap-12 flex-wrap gap-6">
+          <h1 className="text-mainBlue font-semibold text-2xl">
+            Select Subject ?
+          </h1>
+          <div className=" sm:flex-row flex flex-col flex-wrap sm:gap-12">
             <div class="options inline-flex items-center mt-4   ">
               <input
                 type="radio"
@@ -67,7 +69,9 @@ const ContactForm = () => {
                 name="option"
                 value="option1"
               />
-              <span class="ml-2 text-mainBlue text-sm">Option 1</span>
+              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
+                Option 1
+              </span>
             </div>
             <h1 class="inline-flex items-center mt-3">
               <input
@@ -76,7 +80,9 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue text-sm">Option 2</span>
+              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
+                Option 2
+              </span>
             </h1>
             <h1 class="inline-flex items-center mt-3 text-sm">
               <input
@@ -85,7 +91,9 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue text-sm">Option 3</span>
+              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
+                Option 3
+              </span>
             </h1>
             <h1 class="inline-flex items-center mt-3">
               <input
@@ -94,13 +102,15 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue text-sm">Option 4</span>
+              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
+                Option 4
+              </span>
             </h1>
           </div>
         </div>
         <div className="bottom-conatiner mt-12 relative">
           <div className="Message">
-            <p className="text-gray-500">Message</p>
+            <p className="text-gray-500 text-xl sm:text-base">Message</p>
             <input
               type="text"
               placeholder="Write your message"
