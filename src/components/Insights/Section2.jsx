@@ -4,20 +4,21 @@ const Section2 = () => {
   return (
     <div className="middle-insights-blogs my-8">
       <div className="section1 flex flex-col gap-8 justify-between my-6">
-        <div className="top flex ">
-          <div className="left w-[50%]">
+        <div className="top flex flex-col lg:flex-row  justify-center items-center lg:items-start">
+          <div className="left lg:w-[50%]">
             <div className="top">
-              <h1 className="uppercase text-4xl font-semibold w-[80%] leading-[50px]">
+              <h1 className="uppercase lg:text-3xl text-3xl font-semibold lg:w-[80%] leading-[50px]">
                 the funding mogul empowering business needs
               </h1>
             </div>
-            <div className="bottom flex gap-8 mt-6 text-gray-600">
-              <div className="left w-[45%] flex flex-col gap-4">
+            <div className="bottom flex gap-8  mt-6 text-gray-600">
+              <div className="left  w-[45%] flex flex-col gap-4">
                 <div className="flex gap-2">
-                  <div className="text-A-image ">
-                    <img src="A.png" alt="" className="w-[400px] h-24" />
+                  <div className="text-A-image hidden md:block ">
+                    <img src="A.png" alt="" className="lg:w-[400px] h-24  " />
                   </div>
                   <h1 className="leading-[20px]">
+                  <span className='md:hidden'>A</span>
                     n Houston-based Axiom has signed a memorandum of
                     understanding with the UK Space
                   </h1>
@@ -55,9 +56,9 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div className="right w-[50%]">
+          <div className="right lg:w-[50%] mt-8 lg:mt-0 ">
             <div className="right-image">
-              <div className="w-[600px]">
+              <div className="lg:w-[600px]">
                 <img src="Image.png" alt="" />{" "}
               </div>
             </div>

@@ -5,7 +5,7 @@ import Section2 from './Section2';
 
 const Insights = () => {
   return (
-    <div className="insights px-12">
+    <div className="insights px-4 sm:px-12">
       <div className="hero">
         <Hero
           heading1="Home"
