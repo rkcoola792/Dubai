@@ -12,7 +12,7 @@ const Section2 = () => {
           <StarIcon className="text-yellow-500"></StarIcon>
         </div>
         <div className="heading sm:w-[65%]">
-          <h1 className="font-bold sm:text-[42px] text-2xl sm:leading-[50px]">
+          <h1 className="font-bold lg:text-[42px] text-2xl lg:leading-[50px]">
             Remote Work is the Future, but Should You Go Remote?
           </h1>
         </div>
