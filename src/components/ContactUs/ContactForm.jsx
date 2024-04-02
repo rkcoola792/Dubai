@@ -3,10 +3,10 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="Contact-form rounded-lg shadow-md h-[600px] flex ">
-      <div className="left relative w-[40%] bg-mainBlue text-white h-svh flex flex-col p-12 rounded-lg gap-16">
+    <div className="Contact-form rounded-lg sm:h-[585px] overflow-hidden sm:flex shadow-md my-6">
+      <div className="left relative sm:w-[40%] bg-mainBlue text-white sm:h-svh flex flex-col sm:p-12 p-8 rounded-lg gap-16 h-[500px]">
         <div className="top-heading flex flex-col gap-4">
-          <h1 className="text-3xl">Contact Information</h1>
+          <h1 className="text-3xl ">Contact Information</h1>
           <h1 className="opacity-75">Say something to start a live chat!</h1>
         </div>
         <div className="middle-details flex flex-col gap-8">
@@ -25,7 +25,7 @@ const ContactForm = () => {
             </h1>
           </div>
         </div>
-        <div className="bottom-links flex gap-6 absolute bottom-8">
+        <div className="bottom-links flex gap-6 sm:mt-12">
           <div className="icon">
             <img src="twitter.png" alt="" />
           </div>
@@ -37,7 +37,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <div className="right w-[60%] p-12">
+      <div className="right sm:w-[60%] sm:p-12 p-8 shadow-lg">
         <div className="top-inputs flex flex-wrap gap-12">
           <div className="first-name ">
             <p className="text-gray-500">First Name</p>
@@ -59,8 +59,8 @@ const ContactForm = () => {
 
         <div className="middle-container flex flex-col mt-12">
           <h1 className="text-mainBlue font-semibold">Select Subject?</h1>
-          <div className=" flex  gap-12">
-            <div class="options inline-flex items-center mt-3   ">
+          <div className=" flex sm:gap-12 flex-wrap gap-6">
+            <div class="options inline-flex items-center mt-4   ">
               <input
                 type="radio"
                 class="form-radio h-5 w-5 text-blue-600"
@@ -107,7 +107,7 @@ const ContactForm = () => {
               className="border-b py-2 border-gray-400 w-full"
             />
           </div>
-          <div className="contact-us-button bg-mainBlue text-white p-2 px-8 rounded-full cursor-pointer absolute right-8 top-24 py-3 ">
+          <div className="contact-us-button bg-mainBlue text-white p-2 px-8 rounded-full cursor-pointer w- text-center mt-12  py-3 ">
             Send Message
           </div>
         </div>
