@@ -3,19 +3,20 @@ import Hero from '../Service/Hero'
 import Section2 from './Section2';
 import Section3 from '../Service/Section3';
 import Section4 from './Section4';
+import Section6 from '../Homepage/Section6';
 
 
 
 const Blogs = () => {
   return (
-    <div className="blogs px-12">
+    <div className="blogs px-4 sm:px-12">
       <Hero
         heading1="home"
         heading2="blog"
         subheading="our latest blogs"
         description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
       ></Hero>
-      <Section2></Section2>
+      <Section6></Section6>
 
       <div className='my-24 bg-subtleBlue'>
 
