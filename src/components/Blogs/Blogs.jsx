@@ -9,7 +9,7 @@ import Section6 from '../Homepage/Section6';
 
 const Blogs = () => {
   return (
-    <div className="blogs px-4 sm:px-12">
+    <div className="blogs px-4 md:px-12 ">
       <Hero
         heading1="home"
         heading2="blog"
