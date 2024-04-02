@@ -6,7 +6,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 const Section4 = () => {
   return (
     <div className="section4 my-12 relative">
-      <div className=" absolute">
+      <div className=" absolute w-12">
         <StarIcon></StarIcon>
       </div>
       <div className="heading">
