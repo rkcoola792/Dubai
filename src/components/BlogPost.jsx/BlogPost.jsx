@@ -6,10 +6,10 @@ import Section4 from '../Blogs/Section4'
 
 const BlogPost = () => {
   return (
-    <div className='px-12'>
+    <div className='px-4'>
     
-    <div className='section1 hero-image my-12'>
-        <img src="/Blog Post.png" alt="" />
+    <div className='section1 hero-image my-12 '>
+        <img src="/Blog Post.png" alt="" className='h-72 sm:h-auto object-fill' />
     </div>
     <div className='px-2'>
 

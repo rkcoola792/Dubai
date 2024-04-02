@@ -11,12 +11,12 @@ const Section2 = () => {
           <StarIcon className="text-yellow-500"></StarIcon>
           <StarIcon className="text-yellow-500"></StarIcon>
         </div>
-        <div className="heading w-[65%]">
-          <h1 className="font-bold text-[42px] ">
+        <div className="heading sm:w-[65%]">
+          <h1 className="font-bold sm:text-[42px] text-2xl sm:leading-[50px]">
             Remote Work is the Future, but Should You Go Remote?
           </h1>
         </div>
-        <div className="subheading w-[75%]">
+        <div className="subheading sm:w-[75%]">
           <h1 className="text-gray-500">
             We’ve been told it is possible to revolutionize the payment
             industry. We have not reinvented the wheel, we decided to build upon
@@ -39,8 +39,8 @@ const Section2 = () => {
                 </div>
               </div>
             </div>
-            <div className="right flex gap-4 ">
-              <h1 className="text-gray-600">25 Apr,2023</h1>
+            <div className="right flex sm:gap-4 gap-4 ">
+              <h1 className="text-gray-600 hidden sm:block">25 Apr,2023</h1>
               <h1 className="w-6">
                 <img src="/facebook.png" alt="" />
               </h1>
@@ -71,7 +71,7 @@ const Section2 = () => {
         </div>
 
         <div className="section2">
-          <h1 className="font-bold mt-12 text-4xl">
+          <h1 className="font-bold mt-12 sm:text-4xl text-2xl">
             Assessing Your Suitability for Remote Work
           </h1>
           <h1 className="mt-6 text-gray-600">
@@ -101,7 +101,7 @@ const Section2 = () => {
         </div>
 
         <div className="section3 ">
-          <h1 className="font-bold mt-12 text-4xl ">Challenges to Consider</h1>
+          <h1 className="font-bold mt-12 sm:text-4xl text-2xl ">Challenges to Consider</h1>
           <h1 className="mt-6 text-gray-600">
             Working from home requires self-discipline to stay focused amidst
             potential distractions. Setting boundaries between work and personal

@@ -15,7 +15,7 @@ const Section4 = () => {
           subheading="few easy steps and done"
         ></Heading>
       </div>
-      <div className="bottom flex flex-wrap justify-between my-12 ">
+      <div className="bottom sm:flex sm:flex-wrap flex flex-col justify-between my-12 ">
         <Section5Component
           icon=""
           heading="Renewable Energy"
