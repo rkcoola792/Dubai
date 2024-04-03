@@ -20,18 +20,15 @@ import { MobileMenu } from './MobileMenu'
 
 const Homepage = () => {
   return (
-    <div className="homepage">
-      <Hero/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-      <Section8/> 
-
-      
-      
+    <div className="homepage 2xl:mx-[20%]">
+      <Hero />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
+      <Section8 />
     </div>
   );
 }
