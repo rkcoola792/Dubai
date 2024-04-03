@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   // const currentYear = new Date().getFullYear();
   return (
-    <div className="footer bg-mainBlue px-4 sm:px-12 lg:px-12 md:py-6 py-12">
+    <div className="footer bg-mainBlue px-4 sm:px-12  2xl:px-[20%] 3xl:px-[25%] 4xl:px-[30%] 5xl:px-[35%]  md:py-6 py-12">
       <div className="top lg:flex-row flex flex-col lg:justify-between lg:items-center gap-4">
         <div className="left-logo ">
           <img src="/logo-white.png" alt="logo" className="w-36" />
