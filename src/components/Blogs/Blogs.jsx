@@ -9,7 +9,7 @@ import Section6 from '../Homepage/Section6';
 
 const Blogs = () => {
   return (
-    <div className="blogs  md:px-12 px-4 sm:px-12 2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
+    <div className="blogs px-4 sm:px-12  2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
       <Hero
         heading1="home"
         heading2="blog"
