@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Section2 = () => {
   return (
-    <div className="section2 my-12 py-12 px-4 sm:px-12 lg:px-12 bg-[#F8FCFF]  relative">
+    <div className="section2 my-12 py-12   bg-[#F8FCFF]  relative">
       <motion.div className="heading">
         <Heading
           heading="journal"
