@@ -12,6 +12,11 @@ export default {
         secondaryBlue: "#A5DBFF",
         subtleBlue: "#F8FCFF",
       },
+      screens: {
+        "3xl": "2000px",
+        "4xl": "2500px",
+        "5xl": "2800px",
+      },
     },
   },
   plugins: [],

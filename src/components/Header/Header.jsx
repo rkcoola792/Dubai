@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="Header sticky top-0 z-[100] bg-white w-full shadow-md h-[100px] flex justify-between px-8 sm:px-12  items-center 2xl:px-[20%]">
+    <div className="Header sticky top-0 z-[100] bg-white w-full shadow-md h-[100px] flex justify-between px-8 sm:px-12  items-center 2xl:px-[20%] 3xl:px-[25%] 4xl:px-[30%] 5xl:px-[35%] ">
       <Link to="/">
         <div className="logo cursor-pointer">
           <img src="/Header Logo.png" alt="logo" className="w-36" />
