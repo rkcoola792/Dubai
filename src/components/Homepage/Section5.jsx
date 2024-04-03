@@ -40,7 +40,7 @@ const Section5 = () => {
         </div>
       </div>
       <div className="multiple-services flex flex-col gap-6 " ref={ref}>
-        <div className="services px-4 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -63,7 +63,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-8 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -85,7 +85,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-8 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -107,7 +107,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-8 sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
           <Section5Component
             icon=""
             heading="Renewable Energy"

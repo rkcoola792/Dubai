@@ -9,14 +9,16 @@ import Section6 from '../Homepage/Section6';
 
 const Blogs = () => {
   return (
-    <div className="blogs px-4 sm:px-12  2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
+    <div className="blogs px-4 sm:p-12  2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
       <Hero
         heading1="home"
         heading2="blog"
         subheading="our latest blogs"
         description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
       ></Hero>
-      <Section6></Section6>
+      <div className="">
+        <Section6></Section6>
+      </div>
 
       <div className="my-24 bg-subtleBlue">
         <Section3></Section3>
