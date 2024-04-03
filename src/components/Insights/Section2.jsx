@@ -58,7 +58,7 @@ const Section2 = () => {
           </div>
           <div className="right lg:w-[50%] mt-8 lg:mt-0 ">
             <div className="right-image">
-              <div className="lg:w-[600px]">
+              <div className="lg:w-full">
                 <img src="Image.png" alt="" />{" "}
               </div>
             </div>
