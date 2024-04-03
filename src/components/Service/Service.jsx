@@ -6,7 +6,7 @@ import Section4 from './Section4';
 
 const Service = () => {
   return (
-    <div className="service  px-4 sm:px-12 ">
+    <div className="service  px-4 sm:px-12 2xl:px-0 2xl:mx-[20%] ">
       <Hero
         heading1="Home"
         heading2="Real Estate"
