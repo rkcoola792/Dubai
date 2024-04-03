@@ -34,3 +34,7 @@ hover gradient : hover:bg-gradient-to-r from-mainBlue to-secondaryBlue
 other- oppostite scroll
 
 p color = #555555
+
+  initial={{ y: 75,opacity:0 }}
+              whileInView={{ y: 0 ,opacity:1}}
+              transition={{ duration: 0.5 }}

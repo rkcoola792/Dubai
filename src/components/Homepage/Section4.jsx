@@ -4,6 +4,7 @@ import { StarIcon } from "../StarIcon/StarIcon";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import { SmallStar } from "../StarIcon/SmallStar";
 import Section4Component from "./Section4Component";
+import { motion } from "framer-motion";
 
 const Section4 = () => {
   return (
@@ -18,7 +19,12 @@ const Section4 = () => {
         ></Heading>
       </div>
       <div className="bottom md:flex gap-12 my-12 bg-white rounded-lg p- shadow-lg md:p-8 p-4 ">
-        <div className="left md:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg">
+        <motion.div
+          className="left md:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg"
+          initial={{ scale: 0.5 }}
+          whileInView={{ scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
           <h1 className="text-2xl font-semibold">Introduction</h1>
           <p className="text-gray-600 leading-7">
             Mr. Bajpai is not just an investor, he's a visionary architect,
@@ -35,16 +41,22 @@ const Section4 = () => {
               <ArrowOutwardIcon />
             </span>
           </h1>
-        </div>
+        </motion.div>
         <div className="right md:w-[55%] flex flex-col ">
           <div className="top flex  flex-col gap-4">
-            <div className="heading flex gap-2 md:mt-2 mt-6">
-              <div className="mt-2 md:mt-0">
-
-              <SmallStar></SmallStar>
-              </div>
-              <h1 className="text-2xl ">Turning Visions into Venture Capital</h1>
-            </div>
+            <motion.div
+              className="heading flex gap-2 md:mt-2 mt-6"
+              initial={{ y: 75, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              <motion.div className="mt-2 md:mt-0">
+                <SmallStar></SmallStar>
+              </motion.div>
+              <motion.h1 className="text-2xl ">
+                Turning Visions into Venture Capital
+              </motion.h1>
+            </motion.div>
             <div className="components md:flex-row flex flex-col gap-4">
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
@@ -53,8 +65,13 @@ const Section4 = () => {
           </div>
           <hr className="mt-8" />
           <div className="bottom">
-            <div className="heading flex flex-col gap-6 my-8">
-              <div className="flex gap-2">
+            <motion.div
+              className="heading flex flex-col gap-6 my-8"
+              initial={{ y: 75, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="flex gap-2 ">
                 <SmallStar></SmallStar>
                 <h1 className="text-2xl">Get In Touch</h1>
               </div>
@@ -68,36 +85,55 @@ const Section4 = () => {
                   <p className="text-gray-600">hello@example.com</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
       <div className="book-part md:flex-row flex flex-col  justify-between items-start">
         <div className="left flex flex-col md:text-left text-center gap-6">
-          <div className="headings flex flex-col gap-2">
+          <motion.div
+            className="headings flex flex-col gap-2"
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
             <h1 className="text-mainBlue">RISE AND THRIVE</h1>
             <h1 className="text-3xl font-semibold">
               Unleashing Entrepreneurial<br></br> Warrior{" "}
             </h1>
-          </div>
-          <div className="middle-headings flex gap-2 justify-center md:justify-normal ">
+          </motion.div>
+          <motion.div
+            className="middle-headings flex gap-2 justify-center md:justify-normal "
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.7 }}
+          >
             <div className="hidden md:block">
-
-            <SmallStar></SmallStar>
+              <SmallStar></SmallStar>
             </div>
             <h1 className="text-2xl md:text-base">Available on </h1>
-          </div>
-          <div className="icons flex gap-6 justify-center md:justify-normal">
+          </motion.div>
+          <motion.div
+            className="icons flex gap-6 justify-center md:justify-normal"
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.9 }}
+          >
             <img className="w-8" src="/amazon.png" alt="" />
             <img className="w-8" src="/flipkart.png" alt="" />
             <img className="w-8" src="/amazon.png" alt="" />
-          </div>
+          </motion.div>
         </div>
-        <div className="right ">
+        <motion.div
+          className="right "
+          initial={{ y: 75, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
           <div className="book-image w-[400px] md:-mt-12 md:-mr-16 -ml-10  ">
             <img src="/book.png" alt="" className="object-cover " />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
