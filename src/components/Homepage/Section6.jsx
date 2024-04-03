@@ -12,7 +12,7 @@ const Section6 = () => {
         <StarIcon></StarIcon>
       </div>
       <div className="top sticky lg:top-20 top-20 bg-subtleBlue p-8 z-40 ">
-        <div className="w-full bg-white">
+        <div className="w-full bg-subtleBlue">
           <Heading heading="blogs" subheading="latest post"></Heading>
         </div>
       </div>

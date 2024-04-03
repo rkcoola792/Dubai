@@ -13,14 +13,14 @@ const Hero = () => {
       <div className="left-container-content md:w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
         <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8">
-          <motion.h1
+          <motion.h2
             className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
           >
             Hello I’m Subodh Bajpai !
-          </motion.h1>
+          </motion.h2>
           <motion.div
             className="description flex flex-col gap-4 mb-4"
             initial={{ x: 30, opacity: 0 }}
@@ -43,7 +43,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col">
+            <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col">
               Get started
             </div>
             <div className="phone flex justify-center items-center bg-secondaryBlue w-12 h-12 rounded-[50%]">

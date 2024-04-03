@@ -16,8 +16,8 @@ const Section3 = () => {
     damping: "30",
   });
   return (
-    <div className="px-4 sm:px-12 lg:px-12 2xl:px-0 flex flex-col  relative">
-      <motion.div className="heading sm:sticky  sm:top-24 bg-white p-8 z-40 ">
+    <div className="px-4 sm:px-12 lg:px-12 2xl:px-0 flex flex-col  relative bg-subtleBlue">
+      <motion.div className="heading sm:sticky  sm:top-24 bg-subtleBlue  p-8 z-40 bg">
         <Heading
           heading="Loans"
           subheading="Specialties of Subodh Bajpai"
@@ -39,7 +39,7 @@ const Section3 = () => {
         ></motion.div>
       </motion.div>
       <div className=" flex flex-col gap-6  " ref={ref}>
-        <div className="group1 flex flex-col sm:gap-8 sm:sticky  sm:top-72  z-10 sm:my-6 sm:py-4 bg-subtleBlue">
+        <div className="group1 flex flex-col sm:gap-8 sm:sticky  sm:top-72  z-10 sm:my-6 sm:py-4">
           <motion.div
             className="heading flex gap-2 items-center mb-4 sm:mb-0  "
             initial={{ y: 75, opacity: 0 }}
