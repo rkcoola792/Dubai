@@ -6,14 +6,16 @@ import { Link } from "react-router-dom";
 
 export const MobileMenu = () => {
   return (
-    <div className="mobile-nav flex bg-white h-24   items-center justify-between px-8 sm:px-12 lg:px-12 shadow-lg ">
+    <div className="mobile-nav flex bg-white h-24 items-center justify-between px-4 shadow-lg ">
       <Link to="">
         <div className="w-32 cursor-pointer ">
           <img src="/Header Logo.png" className=""></img>
         </div>
       </Link>
+<div>
 
       <Nav />
+</div>
     </div>
   );
 };
@@ -31,7 +33,7 @@ const Nav = () => {
 
 const LinksOverlay = () => {
   return (
-    <nav className="fixed right-4 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden">
+    <nav className="fixed right-0 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden">
       <LinksContainer />
       <FooterCTAs />
     </nav>
@@ -91,7 +93,7 @@ const HamburgerButton = ({ active, setActive }) => {
         initial={false}
         animate={active ? "open" : "closed"}
         onClick={() => setActive((pv) => !pv)}
-        className={`group fixed right-7 top-2 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
+        className={`group fixed right-2 top-2 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
           active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"
         }`}
       >

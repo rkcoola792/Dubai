@@ -25,17 +25,18 @@ function App() {
     return (
       <>
       
-        {/* <Header></Header> */}
-        <div className="hidden lg:block sticky top-0 z-[100]">
+        <div className="overflow-x-hidden relative">
+        <div className="hidden lg:block fixed w-full top-0 z-[100]">
 
         <Example></Example>
         </div>
-        <div className="lg:hidden sticky -top-2 z-[100] ">
+        <div className="lg:hidden fixed w-full -top-2 z-[100] ">
         <MobileMenu/>
         </div>
         
         <Outlet></Outlet>
         <Footer></Footer>
+        </div>
       </>
     );
   };
