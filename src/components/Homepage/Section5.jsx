@@ -17,7 +17,7 @@ const Section5 = () => {
   });
   return (
     <div className="services section5 relative flex flex-col gap-8 my-16 px-4">
-      <div className="top-headings sticky sm:top-20 top-20 bg-white p-8 z-40">
+      <div className="top-headings sticky sm:top-24 top-20 bg-white p-8 z-[90]">
         <motion.div
           className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
           initial={{ x: 100, opacity: 0 }}
@@ -40,77 +40,48 @@ const Section5 = () => {
           ></motion.div>
         </div>
       </div>
-      <div className="multiple-services flex flex-col gap-6 realtive" ref={ref}>
-        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
+      <div className="multiple-services flex flex-col gap-6 relative" ref={ref}>
+        
+        <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[10] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
+
+        <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[20] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
+
+        <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[30] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
+
+         <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -121,18 +92,61 @@ const Section5 = () => {
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
+          </div>
+
+
+        <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[50] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          {/* <div className=''></div> */}
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+
+          <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[60] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
+
+        <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[70] justify-between flex flex-wrap gap-4">
+          
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+       </div>
+
+          <div className="services px-12 2xl:px-0 sticky top-80 bg-white z-[80] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+         </div>
        
       </div>
     </div>
