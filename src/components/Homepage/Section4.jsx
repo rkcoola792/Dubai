@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Section4 = () => {
   return (
-    <div className="section-4 flex flex-col gap-12 my-16 relative px-4  sm:px-12  2xl:px-0 bg-[#F8FCFF] py-6 justify-center items-center md:justify-normal md:items-stretch">
+    <div className="section-4 2xl:px-12 flex flex-col gap-12 my-16 relative px-4  sm:px-12   bg-[#F8FCFF] py-6 justify-center items-center md:justify-normal md:items-stretch">
       <div className="absolute w-12 ">
         <StarIcon></StarIcon>
       </div>

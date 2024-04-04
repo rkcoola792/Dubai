@@ -14,9 +14,7 @@ const Section4 = () => {
       </div>
       <div className="bottom">
         <div className="section4 my-12 relative">
-          {/* <div className=" absolute">
-            <StarIcon></StarIcon>
-          </div> */}
+         
          
           <div className="bottom flex flex-wrap justify-between my-12 ">
             <Section5Component
