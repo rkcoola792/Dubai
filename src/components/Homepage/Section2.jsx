@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { StarIcon } from '../StarIcon/StarIcon';
 import Heading from '../Heading/Heading';
 import { motion } from 'framer-motion';
+import "./Section2.scss"
 
 const Section2 = () => {
 
@@ -39,24 +40,27 @@ paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz
 {id:"5",
 heading:"Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just",
 date:"15 Feb,2022 05:13:03 PM IST",
-paragraph1:"sdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-paragraph2:"dassssssssssssssssssssssssssssssssssssssssssssssssss"
+paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
+paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
+
 
 
 },
 {id:"6",
 heading:"This a my heading",
 date:"15 Jan,2022 05:13:03 PM IST",
-paragraph1:"dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-paragraph2:"dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
+paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
+
 
 
 },
 {id:"7",
-heading:"Your name is king",
+heading:"Lorem ispsum dolor ais ",
 date:"21 Auguts,2022 05:13:03 PM IST",
-paragraph1:"dasfasdvc asdfffff adf svsdgv sdafhi sfj sadf hstfius yaufia isdghfasidf t",
-paragraph2:"vsadvvvvvvvvvvvvvvvvvvvv   fwfsddddddddddd    fasudi fsihsdfiu yasif a f78 yfshfau is adwsf"
+paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
+paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
+
 
 
 },]
@@ -64,7 +68,19 @@ paragraph2:"vsadvvvvvvvvvvvvvvvvvvvv   fwfsddddddddddd    fasudi fsihsdfiu yasif
 const arr=["rajeev", "kumar"]
   const [journal,setJournal]=useState(0)
 
-console.log("jornal",journal)
+  useEffect(()=>{
+    const iconLinks=document.querySelectorAll(".icon-news")
+    iconLinks.forEach(ele=>{
+      ele?.addEventListener("click",()=>{
+        document.querySelector(".active")?.classList.remove("active");
+        ele.classList.add("active");
+      })
+      // console.log(ele)
+      // ele.addEventListener
+    })
+  },)
+
+
   return (
     <div className="section2 my-12 py-12 bg-[#F8FCFF]  relative">
       <motion.div className="heading">
@@ -109,26 +125,26 @@ console.log("jornal",journal)
         <div className="bottom-icons flex flex-col gap-8 mt-8 py-4">
           <hr />
           <div className="bottom-icons flex gap-4 justify-between items-center ">
-            <div className="icon cursor-pointer" onClick={()=>setJournal(0)}>
+            <div className="icon-news cursor-pointer opacity-30 active " onClick={()=>setJournal(0)}>
               <img src="/Section2/forbes.png" alt="forbes" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(1)}>
-              <img src="/Section2/mint.png" alt="mint" />
+            <div className="icon-news cursor-pointer opacity-30"  onClick={()=>setJournal(1)}>
+              <img src="/mint.png" alt="mint" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(2)}>
-              <img src="/Section2/moneyControl.png" alt="moneycontrol" />
+            <div className="icon-news cursor-pointer opacity-30"  onClick={()=>setJournal(2)}>
+              <img src="/money.png" alt="moneycontrol" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(3)}>
-              <img src="/Section2/fortune.png" alt="fortune" />
+            <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(3)}>
+              <img src="/fortune.png" alt="fortune" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(4)}>
-              <img src="/Section2/abp.png" alt="abp" />
+            <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(4)}>
+              <img src="/abp.png" alt="abp" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(5)}>
-              <img src="/Section2/zeeNews.png" alt="zee news" />
+            <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(5)}>
+              <img src="/zee.png" alt="zee news" />
             </div>
-            <div className="icon cursor-pointer" onClick={()=>setJournal(6)}>
-              <img src="/Section2/aajtak.png" alt="aajtak" />
+            <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(6)}>
+              <img src="/aajtak.png" alt="aajtak" />
             </div>
           </div>
         </div>
