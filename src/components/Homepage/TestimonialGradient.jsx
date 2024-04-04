@@ -64,15 +64,15 @@ const Card = ({ title, subtitle, Icon, href,designation,company }) => {
           className="w-12 h-12 rounded-[50%] object-cover mb-2 text-2xl text-mainBlue group-hover:text-white transition-colors relative z-10 duration-300 "
         />
         <div className="headings flex flex-col ">
-          <h3 className="font-medium text-lg text-slate-950  relative z-10 duration-300">
+          <h2 className="font-medium text-lg text-slate-950  relative z-10 duration-300">
             {title}
-          </h3>
-          <p className="text-sm  text-slate-950  relative z-10 duration-300">
+          </h2>
+          <h3 className="text-sm  text-slate-950  relative z-10 duration-300">
             {designation}
             <span className="text-mainBlue font-semibold   relative z-10 duration-300">
               {company}
             </span>
-          </p>
+          </h3>
         </div>
       </div>
       <p className="text-slate-500  relative z-10 duration-300 text-sm leading-6 ">

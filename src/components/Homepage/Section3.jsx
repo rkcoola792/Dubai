@@ -49,7 +49,7 @@ const Section3 = () => {
             <div className="mt-1">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="sm:text-2xl text-xl font-semibold">Quick Loans</h1>
+            <h3 className="sm:text-2xl text-xl font-semibold">Quick Loans</h3>
           </motion.div>
           <Specialities
             subtitle1="Ability to raise funds through private funding on an urgent basis"
@@ -67,9 +67,9 @@ const Section3 = () => {
             <div className="mt-1">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="sm:text-2xl font-semibold text-xl">
+            <h3 className="sm:text-2xl font-semibold text-xl">
               PR & Communication Specialist
-            </h1>
+            </h3>
           </motion.div>
 
           <Specialities
@@ -88,9 +88,9 @@ const Section3 = () => {
             <div className="mt-1">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="sm:text-2xl font-semibold text-xl">
+            <h3 className="sm:text-2xl font-semibold text-xl">
               Promoting Grassroot Entrepreneurship
-            </h1>
+            </h3>
           </motion.div>
           <Specialities
             subtitle1="Mr. Bajpai’s holds expertise in PR and communication"

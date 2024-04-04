@@ -9,10 +9,10 @@ const Heading = ({heading,subheading}) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
     >
-      <h1 className="text-mainBlue tracking-widest uppercase font-semibold">
+      <p className="text-mainBlue tracking-widest uppercase font-semibold">
         {heading}
-      </h1>
-      <h1 className="sm:text-5xl text-4xl font-bold capitalize">{subheading}</h1>
+      </p>
+      <h2 className="sm:text-5xl text-4xl font-bold capitalize">{subheading}</h2>
     </motion.div>
   );
 }

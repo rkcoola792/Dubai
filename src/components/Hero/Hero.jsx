@@ -14,24 +14,24 @@ const Hero = () => {
       <div className="left-container-content lg:w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
         <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8 px-6">
-          <motion.h2
+          <motion.h1
             className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
           >
             Hello I’m Subodh Bajpai !
-          </motion.h2>
+          </motion.h1>
           <motion.div
             className="description flex flex-col gap-4 mb-4"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h1 className="text-white xl:text-6xl lg:text-5xl  font-semibold text-4xl">
+            <h2 className="text-white xl:text-6xl lg:text-5xl  font-semibold text-4xl">
               An
               <span className="text-secondaryBlue"> Investor</span>
-            </h1>
+            </h2>
             <p className="text-white leading-7 opacity-70 sm:text-sm sm:leading-7  md:">
               About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
               Business Loans in Delhi NCR and Beyond. With years of experience
@@ -45,7 +45,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
           >
             <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
-              Get started
+             <p>Get started</p> 
             </div>
             <div className=' phone-number-div flex gap-6  sm:ml-2'>
             <div className="phone flex justify-center items-center bg-secondaryBlue w-12 h-12 rounded-[50%]">

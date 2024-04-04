@@ -25,7 +25,7 @@ const Section4 = () => {
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-2xl font-semibold">Introduction</h1>
+          <h3 className="text-2xl font-semibold">Introduction</h3>
           <p className="text-gray-600 leading-7">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
@@ -34,13 +34,13 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[250px] sm:w-[250px] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
+          <h3 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[250px] sm:w-[250px] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
             {" "}
             Schedule a meet{" "}
             <span>
               <ArrowOutwardIcon />
             </span>
-          </h1>
+          </h3>
         </motion.div>
         <div className="right lg:w-[55%] flex flex-col mt-4 lg:mt-0 ">
           <div className="top flex  flex-col gap-4">
@@ -53,9 +53,9 @@ const Section4 = () => {
               <motion.div className="mt- md:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
-              <motion.h1 className="text-2xl ">
+              <motion.h2 className="text-2xl ">
                 Turning Visions into Venture Capital
-              </motion.h1>
+              </motion.h2>
             </motion.div>
             <div className="components md:flex-row flex flex-col gap-4">
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
@@ -73,15 +73,15 @@ const Section4 = () => {
             >
               <div className="flex gap-2 ">
                 <SmallStar></SmallStar>
-                <h1 className="text-2xl">Get In Touch</h1>
+                <h2 className="text-2xl">Get In Touch</h2>
               </div>
               <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32">
                 <div className="phone flex flex-col">
-                  <h1 className="text-mainBlue font-semibold"> Phone:</h1>
+                  <h3 className="text-mainBlue font-semibold"> Phone:</h3>
                   <p className="text-gray-600">+1 908-736-1801</p>
                 </div>
                 <div className="email flex flex-col">
-                  <h1 className="text-mainBlue font-semibold"> Email:</h1>
+                  <h3 className="text-mainBlue font-semibold"> Email:</h3>
                   <p className="text-gray-600">hello@example.com</p>
                 </div>
               </div>
@@ -97,10 +97,10 @@ const Section4 = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-mainBlue">RISE AND THRIVE</h1>
-            <h1 className="text-3xl font-semibold">
+            <p className="text-mainBlue">RISE AND THRIVE</p>
+            <h3 className="text-3xl font-semibold">
               Unleashing Entrepreneurial<br></br> Warrior{" "}
-            </h1>
+            </h3>
           </motion.div>
           <motion.div
             className="middle-headings flex gap-2 justify-center md:justify-normal "
@@ -111,7 +111,7 @@ const Section4 = () => {
             <div className="hidden md:block">
               <SmallStar></SmallStar>
             </div>
-            <h1 className="text-2xl md:text-base">Available on </h1>
+            <p className="text-2xl md:text-base">Available on </p>
           </motion.div>
           <motion.div
             className="icons flex gap-6 justify-center md:justify-normal"
@@ -119,9 +119,9 @@ const Section4 = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.9 }}
           >
-            <img className="w-8" src="/amazon.png" alt="" />
-            <img className="w-8" src="/flipkart.png" alt="" />
-            <img className="w-8" src="/amazon.png" alt="" />
+            <img className="w-8" src="/amazon.png" alt="amazon" />
+            <img className="w-8" src="/flipkart.png" alt="flipkart" />
+            <img className="w-8" src="/amazon.png" alt="amazon" />
           </motion.div>
         </div>
         <motion.div
@@ -131,7 +131,7 @@ const Section4 = () => {
           transition={{ duration: 1 }}
         >
           <div className="book-image w-[400px] md:-mt-12 md:-mr-16 -ml-10  ">
-            <img src="/book.png" alt="" className="object-cover " />
+            <img src="/book.png" alt="rise and thrive" className="object-cover " />
           </div>
         </motion.div>
       </div>

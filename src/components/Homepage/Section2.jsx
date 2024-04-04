@@ -83,9 +83,9 @@ console.log("jornal",journal)
         
         >
           <div className="left-headings sm:w-[40%] flex flex-col gap-8 ">
-            <h1 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
+            <h3 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
               {journalArray[journal]?.heading}
-            </h1>
+            </h3>
             <p className="opacity-70 text-center sm:text-left mb-4">
             {journalArray[journal]?.date}
             </p>
@@ -100,9 +100,9 @@ console.log("jornal",journal)
               </p>
             </div>
             <div className="read more mt-4">
-              <h1 className="text-mainBlue font-semibold">
+              <p className="text-mainBlue font-semibold">
                 Read More <ArrowRightAltIcon></ArrowRightAltIcon>
-              </h1>
+              </p>
             </div>
           </div>
         </motion.div>

@@ -16,9 +16,9 @@ const Section4Component = ({icon,heading}) => {
       
     >
       <div className="icon">
-        <img src="/Vector.png" alt="" className="w-6" />
+        <img src="/Vector.png" alt="icon" className="w-6" />
       </div>
-      <div className="heading text-xs leading-5">{heading}</div>
+      <div className="heading text-xs leading-5"><p>{heading}</p></div>
     </motion.div>
   );
 }

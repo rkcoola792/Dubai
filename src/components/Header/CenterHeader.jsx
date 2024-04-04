@@ -8,7 +8,7 @@ const CenterHeader = () => {
     <div className="flex justify-center px-3  gap-12">
       <Link to="/blogs">
 
-      <h1 className="cursor-pointer">Blog</h1>
+      <p className="cursor-pointer">Blog</p>
       </Link>
       <Link to="/service">
         <div className="services flex justify-center items-center text-textColor ">
@@ -28,7 +28,7 @@ const CenterHeader = () => {
       </Link>
       <Link to="/insights">
 
-      <h1 className="cursor-pointer">Insights</h1>
+      <p className="cursor-pointer">Insights</p>
       </Link>
     </div>
   );

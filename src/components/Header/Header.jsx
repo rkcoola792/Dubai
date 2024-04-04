@@ -13,7 +13,7 @@ const Header = () => {
       <CenterHeader />
       <Link to="/contact-us">
         <div className="contact-us-button bg-mainBlue text-white p-2 px-4 rounded-full cursor-pointer">
-          Contact Us
+         <p>Contact Us</p>
         </div>
       </Link>
     </div>

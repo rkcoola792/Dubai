@@ -7,7 +7,7 @@ const Section5Component = ({heading,subheading}) => {
         <img src="/Vector-white.png" alt="" className='w-6' />
       </div>
 <div className="right-heading sm:w-[80%] w-[100%] flex flex-col gap-2 ">
-    <h1 className='text-2xl font-semibold'>{heading}</h1>
+    <h3 className='text-2xl font-semibold'>{heading}</h3>
     <p className='text-sm leading-7 text-gray-600'> {subheading}</p>
 </div>
       <div>

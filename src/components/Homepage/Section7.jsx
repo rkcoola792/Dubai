@@ -22,8 +22,10 @@ const Section7 = () => {
         initial={{ y: 0 }}
        
         transition={{ duration: 0.6 }}
-      >
+      ><p>
+
         View More
+      </p>
       </motion.div>
     </div>
   );
