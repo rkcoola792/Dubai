@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-4 sm:mx-12 2xl:mx-0 bg-mainBlue md:h-[500px] my-12 rounded-3xl overflow-hidden md:flex-row flex flex-col h-[800px] "
+      className="Hero mx-2 sm:mx-12 text-center sm:text-left 2xl:mx-0 bg-mainBlue md:h-[500px] my-12 rounded-3xl overflow-hidden md:flex-row flex flex-col h-[800px] "
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <div className="left-container-content md:w-[50%] flex lg:my-8 ">
         <div className="left-icons flex flex-col "></div>
-        <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8">
+        <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8 px-6">
           <motion.h2
             className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
             initial={{ x: 30, opacity: 0 }}
@@ -38,20 +38,23 @@ const Hero = () => {
             </p>
           </motion.div>
           <motion.div
-            className="contact flex gap-6"
+            className="bottom-contact flex gap-4 justify-center sm:justify-normal sm:flex-row sm:gap-6"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <div className="contact-us-button bg-secondaryBlue text-mainBlue p-2 px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col">
+            <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
               Get started
             </div>
+            <div className=' phone-number-div flex  gap-6  sm:ml-2'>
             <div className="phone flex justify-center items-center bg-secondaryBlue w-12 h-12 rounded-[50%]">
               <PhoneIcon></PhoneIcon>
             </div>
             <div className="phone-number flex justify-center items-center">
               <p className="text-white -ml-4">0800555443</p>
             </div>
+            </div>
+           
           </motion.div>
         </div>
       </div>
