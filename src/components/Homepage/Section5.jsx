@@ -42,7 +42,7 @@ const Section5 = () => {
       </div>
       <div className="multiple-services flex flex-col gap-6 relative" ref={ref}>
         
-        <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[10] justify-between flex flex-wrap gap-4">
+        <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[10] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -55,7 +55,7 @@ const Section5 = () => {
           ></Section5Component>
         </div>
 
-        <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[20] justify-between flex flex-wrap gap-4">
+        <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[20] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -68,7 +68,7 @@ const Section5 = () => {
           ></Section5Component>
         </div>
 
-        <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[30] justify-between flex flex-wrap gap-4">
+        <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[30] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -81,7 +81,7 @@ const Section5 = () => {
           ></Section5Component>
         </div>
 
-         <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+         <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -95,7 +95,7 @@ const Section5 = () => {
           </div>
 
 
-        <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[50] justify-between flex flex-wrap gap-4">
+        <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[50] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -108,7 +108,7 @@ const Section5 = () => {
           ></Section5Component>
           </div>
 
-          <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[60] justify-between flex flex-wrap gap-4">
+          <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[60] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -121,7 +121,7 @@ const Section5 = () => {
           ></Section5Component>
         </div>
 
-        <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[70] justify-between flex flex-wrap gap-4">
+        <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[70] justify-between flex flex-wrap gap-4">
           
           <Section5Component
             icon=""
@@ -135,7 +135,7 @@ const Section5 = () => {
           ></Section5Component>
        </div>
 
-          <div className="services px-4 2xl:px-0 sticky top-80 bg-white z-[80] justify-between flex flex-wrap gap-4">
+          <div className="services px-4 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[80] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
