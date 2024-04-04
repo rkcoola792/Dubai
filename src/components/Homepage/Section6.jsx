@@ -18,7 +18,7 @@ const Section6 = () => {
       </div>
       <div className="blogs my-12 flex flex-col gap-8 px-4 sm:px-12  2xl:px-0 ">
         <motion.div
-          className="lg:flex-row flex flex-col gap-6 lg:sticky top-48 bg-subtleBlue z-10"
+          className="lg:flex-row flex flex-col gap-6 lg:sticky top-60 bg-subtleBlue z-10"
           initial={{ y: 75, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           // transition={{ duration: 0.5, delay: 0.1 }}
@@ -39,7 +39,7 @@ const Section6 = () => {
           ></Blog>
         </motion.div>
         <motion.div
-          className="lg:flex-row flex flex-col gap-6 lg:sticky top-48 bg-subtleBlue z-10"
+          className="lg:flex-row flex flex-col gap-6 lg:sticky top-60 bg-subtleBlue z-10"
           initial={{ y: 75, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           // transition={{ duration: 0.5, delay: 0.1 }}

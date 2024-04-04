@@ -40,15 +40,13 @@ const Section5 = () => {
           ></motion.div>
         </div>
       </div>
-      <div className="multiple-services flex flex-col gap-6 " ref={ref}>
-        <div className="services px-12 2xl:px-0  justify-between flex flex-wrap gap-4">
-          {/* <Link to="/service/Renewable Energy"> */}
+      <div className="multiple-services flex flex-col gap-6 realtive" ref={ref}>
+        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
-            heading="RenewableEnergy"
+            heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          {/* </Link> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -66,7 +64,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        {/* <div className="services  sm:px-12 lg:px-12 flex flex-wrap  gap-8">
+        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -82,35 +80,14 @@ const Section5 = () => {
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-        </div> */}
-        {/* <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
+          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-        <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -126,12 +103,37 @@ const Section5 = () => {
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
+          {/* <div className=''></div> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
-        </div> */}
+        </div>
+        <div className="services px-12 2xl:px-0 sticky top-16 bg-white z-10 justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          {/* <div className=''></div> */}
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+        </div>
+       
       </div>
     </div>
   );
