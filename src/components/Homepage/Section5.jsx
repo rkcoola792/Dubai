@@ -3,6 +3,7 @@ import Heading from '../Heading/Heading'
 import { StarIcon } from '../StarIcon/StarIcon';
 import Section5Component from './Section5Component';
 import { motion, useScroll, useSpring } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Section5 = () => {
   const ref = useRef();
@@ -41,11 +42,13 @@ const Section5 = () => {
       </div>
       <div className="multiple-services flex flex-col gap-6 " ref={ref}>
         <div className="services  sm:px-12 lg:px-12 flex flex-wrap justify-around gap-8">
+          <Link to="/service/Renewable Energy">
           <Section5Component
             icon=""
-            heading="Renewable Energy"
+            heading="RenewableEnergy"
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
+          </Link>
           <Section5Component
             icon=""
             heading="Renewable Energy"

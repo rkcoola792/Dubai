@@ -1,6 +1,9 @@
 import React from 'react'
 import StarIcon from "@mui/icons-material/Star";
+import { useParams } from 'react-router-dom';
 const Section2 = () => {
+  const blogName=useParams()
+  console.log(blogName.blogName)
   return (
     <div className="section2 my-12 ">
       <div className="top flex flex-col gap-6 items-center justify-center text-center">

@@ -45,10 +45,10 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
-        { path: "/service", element: <Service></Service> },
+        { path: "/service/", element: <Service></Service> },
         { path: "/blogs", element: <Blogs></Blogs> },
         { path: "/business", element: <Business></Business> },
-        { path: "/blog", element: <BlogPost></BlogPost> },
+        { path: "/blog/:blogName", element: <BlogPost></BlogPost> },
         { path: "/contact-us", element: <ContactUs></ContactUs> },
         { path: "/insights", element: <Insights></Insights> },
       ],
