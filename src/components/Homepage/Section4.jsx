@@ -18,9 +18,9 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom md:flex gap-12 my-12 bg-white rounded-lg p- shadow-lg md:p-8 p-4 ">
+      <div className="bottom lg:flex gap-12 my-12 bg-white rounded-lg p- shadow-lg md:p-8 p-4 ">
         <motion.div
-          className="left md:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg"
+          className="left lg:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg"
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -34,7 +34,7 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[80%] md:w-[60%] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
+          <h1 className="uppercase  border-mainBlue border-2 p-4 rounded-lg w-[250px] sm:w-[250px] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
             {" "}
             Schedule a meet{" "}
             <span>
@@ -42,7 +42,7 @@ const Section4 = () => {
             </span>
           </h1>
         </motion.div>
-        <div className="right md:w-[55%] flex flex-col ">
+        <div className="right lg:w-[55%] flex flex-col mt-4 lg:mt-0 ">
           <div className="top flex  flex-col gap-4">
             <motion.div
               className="heading flex gap-2 md:mt-2 mt-6"
@@ -50,7 +50,7 @@ const Section4 = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <motion.div className="mt-2 md:mt-0">
+              <motion.div className="mt- md:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
               <motion.h1 className="text-2xl ">

@@ -17,7 +17,7 @@ const Section3 = () => {
   });
   return (
     <div className="px-4 sm:px-12 lg:px-12 2xl:px-0 flex flex-col  relative bg-subtleBlue">
-      <motion.div className="heading sm:sticky  sm:top-24 bg-subtleBlue  p-8 z-40 bg">
+      <motion.div className="heading sm:sticky  sm:top-20 bg-subtleBlue  p-8 z-40 bg">
         <Heading
           heading="Loans"
           subheading="Specialties of Subodh Bajpai"
