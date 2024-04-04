@@ -79,7 +79,9 @@ console.log("jornal",journal)
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <div className="top-descriptions sm:flex sm:flex-row gap-8 ">
+        <motion.div className="top-descriptions sm:flex sm:flex-row gap-8 "
+        
+        >
           <div className="left-headings sm:w-[40%] flex flex-col gap-8 ">
             <h1 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
               {journalArray[journal]?.heading}
@@ -103,7 +105,7 @@ console.log("jornal",journal)
               </h1>
             </div>
           </div>
-        </div>
+        </motion.div>
         <div className="bottom-icons flex flex-col gap-8 mt-8 py-4">
           <hr />
           <div className="bottom-icons flex gap-4 justify-between items-center ">
