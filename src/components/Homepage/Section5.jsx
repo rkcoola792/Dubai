@@ -18,8 +18,8 @@ const Section5 = () => {
     damping: "30",
   });
   return (
-    <div className="services section5 relative flex flex-col gap-8 my-16 px-2">
-      <div className="top-headings sticky sm:top-24 top-20 bg-white p-8 z-[90]">
+    <div className="services section5 relative flex flex-col gap-8 my-12 px-2">
+      <div className="top-headings sticky sm:top-24 top-20 bg-white pt-4 z-[90]">
         <motion.div
           className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
           initial={{ x: 100, opacity: 0 }}
