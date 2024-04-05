@@ -25,7 +25,7 @@ function App() {
     return (
       <>
       
-        {/* <div className="overflow-x-hidden relative"> */}
+        <div className="overflow-x-hidden sm:overflow-x-visible relative">
         <div className="hidden lg:block fixed w-full top-0 z-[100]">
 
         <Example></Example>
@@ -36,7 +36,7 @@ function App() {
         
         <Outlet></Outlet>
         <Footer></Footer>
-        {/* </div> */}
+        </div>
       </>
     );
   };
@@ -57,7 +57,7 @@ function App() {
   ]);
 
   return (
-    <div className="App ">
+    <div className="App  ">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

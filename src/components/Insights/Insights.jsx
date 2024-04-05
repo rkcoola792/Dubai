@@ -5,7 +5,7 @@ import Section2 from './Section2';
 
 const Insights = () => {
   return (
-    <div className="insights px-4 sm:px-12 2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
+    <div className="insights mt-[120px] lg:mt-[150px] px-4 sm:px-12 2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
       <div className="hero">
         <Hero
           heading1="Home"

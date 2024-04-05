@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-2 sm:mx-12 text-center lg:text-left 2xl:mx-0 bg-mainBlue lg:h-[500px] my-12
+      className="Hero mx-2 mt-12 sm:mx-12 text-center lg:text-left 2xl:mx-0 bg-mainBlue lg:h-[500px] my-12
       rounded-3xl overflow-hidden lg:flex-row flex flex-col gap-4 h-[800px]  "
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
