@@ -35,7 +35,7 @@ const Specialities = ({subtitle1,subtitle2,subtitle3,icon1,icon2,icon3}) => {
 const Card = ({  subtitle, Icon, href }) => {
   return (
     <motion.div
-      className="w-full  rounded border-[1px] border-slate-300 relative overflow-hidden group bg-subtleBlue cursor-pointer p-6 h-40"
+      className="w-full  rounded border-[1px] border-slate-300 relative overflow-hidden group bg-subtleBlue cursor-pointer p-6 h-48"
       initial={{ y: 0 }}
       whileHover={{ scale:1.05, boxShadow: "0px 5px 20px -13px rgba(0,0,0,0.65)" }}
       transition={{ duration: 0.6 }}
