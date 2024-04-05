@@ -25,7 +25,7 @@ function App() {
     return (
       <>
       
-        <div className="overflow-x-hidden sm:overflow-x-visible relative">
+        <div className="overflow-x-hidden lg:overflow-x-visible relative">
         <div className="hidden lg:block fixed w-full top-0 z-[100]">
 
         <Example></Example>

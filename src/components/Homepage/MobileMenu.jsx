@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const MobileMenu = () => {
   return (
-    <div className="mobile-nav flex bg-white h-24 items-center justify-between px-4 shadow-lg ">
+    <div className="mobile-nav flex bg-white h-24 items-center justify-between px-4 sm:px-12 shadow-lg ">
       <Link to="/">
         <div className="w-32 cursor-pointer ">
           <img src="/Header Logo.png" className=""></img>

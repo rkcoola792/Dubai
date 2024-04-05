@@ -18,14 +18,14 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom lg:flex gap-12 my-12 bg-white z-[50] rounded-lg p- shadow-lg md:p-8 p-4 ">
+      <div className="bottom lg:flex gap-12 my-12 bg-white z-[50] rounded-lg  shadow-lg md:p-8 p-8 ">
         <motion.div
           className="left lg:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-lg"
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-2xl font-semibold">Introduction</h3>
+          <h3 className="text-3xl font-semibold">Introduction</h3>
           <p className="text-gray-600 leading-7">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
@@ -50,10 +50,10 @@ const Section4 = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <motion.div className="mt- md:mt-0">
+              <motion.div className="mb-6 md:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
-              <motion.h2 className="text-2xl ">
+              <motion.h2 className="text-2xl  ">
                 Turning Visions into Venture Capital
               </motion.h2>
             </motion.div>
@@ -98,7 +98,7 @@ const Section4 = () => {
             transition={{ duration: 0.5 }}
           >
             <p className="text-mainBlue">RISE AND THRIVE</p>
-            <h3 className="text-3xl font-semibold">
+            <h3 className="text-5xl font-semibold">
               Unleashing Entrepreneurial<br></br> Warrior{" "}
             </h3>
           </motion.div>
