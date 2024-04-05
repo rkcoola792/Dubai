@@ -12,7 +12,7 @@ export const MobileMenu = () => {
           <img src="/Header Logo.png" className=""></img>
         </div>
       </Link>
-<div>
+      <div>
 
       <Nav />
 </div>
@@ -123,9 +123,10 @@ const FooterCTAs = () => {
       <div className="absolute bottom-6 left-6 flex gap-4 md:flex-col">
         {SOCIAL_CTAS.map((l, idx) => {
           return (
+            <Link to={l.href}>
             <motion.a
               key={idx}
-              href={l.href}
+              // href={l.href}
               initial={{ opacity: 0, y: -8 }}
               animate={{
                 opacity: 1,
@@ -140,6 +141,7 @@ const FooterCTAs = () => {
             >
               <l.Component className="text-xl text-white transition-colors hover:text-mainBlue" />
             </motion.a>
+            </Link>
           );
         })}
       </div>
