@@ -93,7 +93,7 @@ const HamburgerButton = ({ active, setActive }) => {
         initial={false}
         animate={active ? "open" : "closed"}
         onClick={() => setActive((pv) => !pv)}
-        className={`group fixed right-2 top-2 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
+        className={`group fixed right-2 sm:right-8 top-2 z-50 h-16 w-16 scale-90 bg-white/0 transition-all hover:bg-white/20 ${
           active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"
         }`}
       >
