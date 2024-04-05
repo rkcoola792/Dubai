@@ -17,49 +17,47 @@ const Section2 = () => {
 {id:"2",
   heading:"lorem ispusium dolor second one",
   date:"12 March,2022 05:13:03 PM IST",
-  paragraph1:"lorenkjkj hsdfkjkjsda shfdkjash ihsdfahsf hsdfihasf hsdfipua",
-  paragraph2:"lorenkjkj hsdfkjkjsda shfdkjash ihsdfahsf hsdfihasf hsdfipua"
+  paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+    paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 },
 {id:"3",
 heading:"Welcome to the Dummy Text Generator!",
 date:"15 April,2022 05:13:03 PM IST",
-paragraph1:"Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean i",
-paragraph2:"Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean i"
+paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 
 },
 {id:"4",
-heading:"Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just",
+heading:"Alex Trebek's fun TV quiz game.  Brawny gods just",
 date:"15 June,2022 05:13:03 PM IST",
-paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
-paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
+paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 
 },
 {id:"5",
-heading:"Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just",
+heading:"Alex Trebek's fun TV quiz game. Brawny gods just",
 date:"15 Feb,2022 05:13:03 PM IST",
-paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
-paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
-
+paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 
 },
 {id:"6",
 heading:"This a my heading",
 date:"15 Jan,2022 05:13:03 PM IST",
-paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
-paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
-
+paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 
 },
 {id:"7",
 heading:"Lorem ispsum dolor ais ",
 date:"21 Auguts,2022 05:13:03 PM IST",
-paragraph1:"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, ",
-paragraph2:"ax my big quiz. Quick, Baz, get my woven flax jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job,"
+paragraph1:"In 2010, Bajpai decided to start his own investment firm with the aim of providing investment opportunities to businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
+paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability to identify businesses."
 
 
 
