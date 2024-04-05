@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import Heading from '../Heading/Heading'
 import { StarIcon } from '../StarIcon/StarIcon';
 import Section5Component from './Section5Component';
@@ -6,6 +6,8 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const Section5 = () => {
+  const [viewMore, setViewMore]=useState(false)
+  console.log("view more " ,viewMore)
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -80,74 +82,79 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
         </div>
-
-         <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-
-
-        <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[50] justify-between flex flex-wrap gap-4">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-
-          <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[60] justify-between flex flex-wrap gap-4">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-        </div>
-
-        <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[70] justify-between flex flex-wrap gap-4">
-          
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-       </div>
-
-          <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[80] justify-between flex flex-wrap gap-4">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-         </div>
        
+        
+     { viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+}
+{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+}
+{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+}
+
+{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+}
+
+{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          <Section5Component
+            icon=""
+            heading="Renewable Energy"
+            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+          ></Section5Component>
+          </div>
+}
+<button className='sm:hidden view-more bg-mainBlue text-white px-6 py-4 rounded-full mx-2  ' onClick={()=>{setViewMore(!viewMore)}}>
+        
+        <p>{viewMore?"View Less Services":"View More Services"}</p>
+        </button>
       </div>
     </div>
   );
