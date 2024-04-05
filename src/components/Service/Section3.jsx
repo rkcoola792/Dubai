@@ -2,13 +2,13 @@ import React from 'react'
 
 const Section3 = () => {
   return (
-    <div className="section3">
+    <div className="section3 ">
       <div className="image relative">
         <img
           src="/Call to Action.png
         "
           alt=""
-          className='h-[320px] xl:h-auto'
+          className='h-[350px] rounded-lg xl:h-auto'
         />
         <div className="texts absolute lg:flex-row lg:flex flex flex-col justify-between top-8 lg:px-32 items-center ">
           <div className="left flex flex-col gap-8 lg:w-[60%] items-center lg:items-baseline text-center lg:text-left">
