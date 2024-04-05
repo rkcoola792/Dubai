@@ -50,7 +50,7 @@ const Section4 = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <motion.div className="mb-6 md:mt-0">
+              <motion.div className="mt-2 md:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
               <motion.h2 className="text-2xl  ">
@@ -89,7 +89,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="book-part md:flex-row flex flex-col  justify-between items-start">
+      <div className="book-part md:flex-row flex flex-col  justify-between items-center">
         <div className="left flex flex-col md:text-left text-center gap-6 sm:gap-16">
           <motion.div
             className="headings flex flex-col gap-2"
@@ -98,7 +98,7 @@ const Section4 = () => {
             transition={{ duration: 0.5 }}
           >
             <p className="text-mainBlue font-semibold">RISE AND THRIVE</p>
-            <h3 className="lg:text-5xl text-4xl  font-bold leading-10 ">
+            <h3 className="lg:text-5xl text-3xl  font-bold  " style={{lineHeight:1.3}}>
               Unleashing Entrepreneurial<br></br> Warrior{" "}
             </h3>
           </motion.div>
@@ -130,7 +130,7 @@ const Section4 = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <div className="book-image w-[500px] md:-mt-12 md:-mr-16 flex justify-center  ">
+          <div className="book-image sm:w-[500px] -ml-10 md:-mt-12 md:-mr-16 flex justify-center  ">
             <img src="/book.png" alt="rise and thrive" className="object-cover " />
           </div>
         </motion.div>
