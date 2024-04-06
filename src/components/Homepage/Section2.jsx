@@ -4,6 +4,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 import Heading from '../Heading/Heading';
 import { motion } from 'framer-motion';
 import "./Section2.scss"
+import { Link } from 'react-router-dom';
 
 const Section2 = () => {
 
@@ -89,16 +90,16 @@ const arr=["rajeev", "kumar"]
         ></Heading>
       </motion.div>
       <motion.div
-        className="bottom-content h-[27rem] mt-6 sm:mx-12 2xl:mx-0 sm:my-12 flex flex-col bg-white shadow-lg sm:p-12 p-4 rounded-lg "
+        className="bottom-content   mt-6 sm:mx-12 2xl:mx-0 sm:my-12 flex flex-col bg-white shadow-lg sm:p-12 p-4 rounded-lg  "
         initial={{ scale: 0.75, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <motion.div className="top-descriptions sm:flex sm:flex-row gap-8 "
+        <motion.div className="top-descriptions sm:flex sm:flex-row gap-12 "
         
         >
           <div className="left-headings sm:w-[40%] flex flex-col gap-8 ">
-            <h3 className="uppercase sm:text-3xl sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
+            <h3 style={{lineHeight:"50px"}} className ="uppercase sm:text-3xl 2xl:text-4xl  sm:text-left text-xl text-center font-medium opacity-90 my-6 sm:my-0">
               {journalArray[journal]?.heading}
             </h3>
             <p className="opacity-70 text-center sm:text-left mb-4">
@@ -107,17 +108,21 @@ const arr=["rajeev", "kumar"]
           </div>
           <div className="right-descriptions sm:w-[60%] flex text-center sm:text-left flex-col">
             <div className="descriptions flex flex-col gap-6 leading-7 text-gray-700 text-sm">
-              <p>
+              <p className='2xl:text-lg 2xl:leading-8'>
               {journalArray[journal]?.paragraph1}
               </p>
-              <p>
+              <p className='2xl:text-lg 2xl:leading-8'>
               {journalArray[journal]?.paragraph2}
               </p>
             </div>
             <div className="read more mt-4">
-              <p className="text-mainBlue font-semibold">
+              <Link to ="/blogs">
+
+              
+              <p className="text-mainBlue font-semibold 2xl:text-lg">
                 Read More <ArrowRightAltIcon></ArrowRightAltIcon>
               </p>
+              </Link>
             </div>
           </div>
         </motion.div>
