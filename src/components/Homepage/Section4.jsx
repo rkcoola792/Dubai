@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Section4 = () => {
   return (
-    <div className="section-4  2xl:px-12 flex flex-col gap-12 my-16 relative px-4  sm:px-12   bg-[#F8FCFF] pt-6 justify-center items-center md:justify-normal md:items-stretch">
+    <div className="section-4  2xl:px-12 flex flex-col gap-12 my-16 relative px-4  sm:px-12   bg-[#F8FCFF] pt-6 justify-center items-center md:justify-normal ">
     <div className="max-w-[1440px] mx-auto">
 
     
