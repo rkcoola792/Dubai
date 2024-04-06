@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 const Section4 = () => {
   return (
-    <div className="section-4  2xl:px-12 flex flex-col gap-12 my-16 relative px-4  sm:px-12   bg-[#F8FCFF] pt-6 justify-center items-center md:justify-normal ">
-    <div className="max-w-[1440px] mx-auto">
+    <div className="section-4  2xl:px-12  my-16 relative px-4  sm:px-12   bg-[#F8FCFF] pt-6 justify-center items-center md:justify-normal  ">
+    <div className="max-w-[1440px] mx-auto flex flex-col gap-16">
 
     
       <div className="absolute w-12 ">
@@ -21,15 +21,15 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom lg:flex gap-12  bg-white z-[50] rounded-2xl  shadow-lg md:p-8 p-8 ">
+      <div className="bottom lg:flex gap-12  bg-white z-[50] rounded-2xl  shadow-lg md:p-12 p-8  2xl:p-16">
         <motion.div
-          className="left lg:w-[45%] bg-[#EBF3F9] p-6 flex flex-col gap-6 rounded-2xl"
+          className="left lg:w-[35rem]   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 rounded-2xl"
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-3xl font-semibold">Introduction</h3>
-          <p className="text-gray-600 leading-7">
+          <h3 className="text-4xl font-semibold 2xl:text-5xl">Introduction</h3>
+          <p className="text-gray-600 leading-8 text-lg 2xl:text-xl 2xl:leading-10 w-[95%] ">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
             and a diverse range of ventures to achieve their full potential.  He
@@ -37,7 +37,7 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h3 className="uppercase  border-mainBlue border-2 p-4 rounded-2xl w-[250px] sm:w-[250px] text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
+          <h3 className="uppercase  border-mainBlue border-2 p-6 text-xl  rounded-2xl  w-fit text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear">
             {" "}
             Schedule a meet{" "}
             <span>
@@ -45,10 +45,10 @@ const Section4 = () => {
             </span>
           </h3>
         </motion.div>
-        <div className="right lg:w-[55%] flex flex-col mt-4 lg:mt-0 ">
-          <div className="top flex  flex-col gap-4">
+        <div className="right lg:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">
+          <div className="top flex  flex-col gap-12">
             <motion.div
-              className="heading flex gap-2 md:mt-2 mt-6"
+              className="heading flex gap-4 md:mt-2 mt-6"
               initial={{ y: 75, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
@@ -56,7 +56,7 @@ const Section4 = () => {
               <motion.div className="mt-2 md:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
-              <motion.h2 className="text-2xl  ">
+              <motion.h2 className="text-2xl lg:text-[28px] ">
                 Turning Visions into Venture Capital
               </motion.h2>
             </motion.div>
@@ -69,21 +69,21 @@ const Section4 = () => {
           <hr className="mt-8" />
           <div className="bottom">
             <motion.div
-              className="heading flex flex-col gap-6 my-8"
+              className="heading flex flex-col gap-12 my-8"
               initial={{ y: 75, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
               <div className="flex gap-2 ">
                 <SmallStar></SmallStar>
-                <h2 className="text-2xl">Get In Touch</h2>
+                <h2 className="text-2xl lg:text-[28px]">Get In Touch</h2>
               </div>
               <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32">
-                <div className="phone flex flex-col">
-                  <h3 className="text-mainBlue font-semibold"> Phone:</h3>
-                  <p className="text-gray-600">+1 908-736-1801</p>
+                <div className="phone flex flex-col 2xl:text-2xl gap-2">
+                  <h3 className="text-mainBlue font-semibold "> Phone:</h3>
+                  <p className="text-gray-600 text-lg">+1 908-736-1801</p>
                 </div>
-                <div className="email flex flex-col">
+                <div className="email flex flex-col  2xl:text-2xl gap-2 ">
                   <h3 className="text-mainBlue font-semibold"> Email:</h3>
                   <p className="text-gray-600">hello@example.com</p>
                 </div>
@@ -92,7 +92,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="book-part md:flex-row flex flex-col  justify-between items-center">
+      <div className="book-part md:flex-row flex flex-col  justify-between items-start">
         <div className="left flex flex-col md:text-left text-center gap-6 sm:gap-16">
           <motion.div
             className="headings flex flex-col gap-2"
@@ -133,7 +133,7 @@ const Section4 = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <div className="book-image sm:w-[500px] -ml-10 md:-mt-12 md:-mr-16 flex justify-center  ">
+          <div className="book-image sm:w-[500px]  -ml-10 md:-mt-12 md:-mr-16 flex justify-center  ">
             <img src="/book.png" alt="rise and thrive" className="object-cover " />
           </div>
         </motion.div>
