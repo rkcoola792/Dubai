@@ -11,7 +11,7 @@ const Section8 = () => {
         <Heading heading="partners" subheading="our partners"></Heading>
       </div>
       
-      <div className='double-scroll max-w-[1440px] mx-auto'>
+      <div className='double-scroll max-w-[1440px] 2xl:mx-auto mx-6'>
         <DoubleScroll/>
       </div>
     </div>

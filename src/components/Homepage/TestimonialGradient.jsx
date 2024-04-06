@@ -75,7 +75,7 @@ const Card = ({ title, subtitle, Icon, href,designation,company }) => {
           </h3>
         </div>
       </div>
-      <p className="text-slate-500  relative z-10 duration-300 text-sm leading-6 ">
+      <p className="text-slate-500  relative z-10 duration-300 text-sm leading-6 2xl:text-lg 2xl:leading-8 ">
         {subtitle}
       </p>
       <div className="bottom-stars flex mb-2 mt-2 text-2xl text-mainBluetransition-colors relative z-10 duration-300">
