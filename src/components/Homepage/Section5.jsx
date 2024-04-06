@@ -18,8 +18,8 @@ const Section5 = () => {
     damping: "30",
   });
   return (
-    <div className="services section5 relative flex flex-col gap-8 my-12 px-2">
-      <div className='max-w-[1440px] mx-auto'>
+    <div className="services section5 relative bg-white  my-12 px-2">
+      <div className='flex flex-col gap-8'>
       <div className="top-headings sticky sm:top-24 top-20 bg-white pt-4 z-[90]">
         <motion.div
           className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
@@ -35,7 +35,7 @@ const Section5 = () => {
             subheading="unique services provided"
           ></Heading>
           <motion.div
-            className="progressBar mt-8 bg-mainBlue h-2 rounded-md"
+            className="progressBar mt-8 bg-mainBlue h-2 rounded-md max-w-[1440px] mx-auto "
             style={{ scaleX }}
             initial={{ x: -175, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -43,7 +43,7 @@ const Section5 = () => {
           ></motion.div>
         </div>
       </div>
-      <div className="multiple-services flex flex-col gap-6 relative" ref={ref}>
+      <div className="max-w-[1440px] mx-auto  multiple-services flex flex-col gap-6 relative" ref={ref}>
         
         <div className="services px-2  sm:px-12 2xl:px-0 sticky top-80 bg-white z-[10] justify-between flex flex-wrap gap-4">
           <Section5Component
@@ -85,7 +85,8 @@ const Section5 = () => {
         </div>
        
         
-     { viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+     {/* { viewMore &&  */}
+     <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -97,8 +98,9 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
           </div>
-}
-{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+{/* } */}
+{/* { viewMore &&  */}
+<div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -110,7 +112,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
           </div>
-}
+{/* } */}
 { viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
@@ -125,7 +127,8 @@ const Section5 = () => {
           </div>
 }
 
-{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+{/* { viewMore &&  */}
+<div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -137,9 +140,10 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
           </div>
-}
+{/* } */}
 
-{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
+{/* { viewMore && */}
+ <div className="services px-2 sm:px-12 2xl:px-0 sticky top-80 bg-white z-[40] justify-between flex flex-wrap gap-4">
           <Section5Component
             icon=""
             heading="Renewable Energy"
@@ -151,7 +155,7 @@ const Section5 = () => {
             subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
           ></Section5Component>
           </div>
-}
+{/* } */}
 <button className='sm:hidden view-more bg-mainBlue text-white px-6 py-4 rounded-full mx-2  ' onClick={()=>{setViewMore(!viewMore)}}>
         
         <p>{viewMore?"View Less Services":"View More Services"}</p>
