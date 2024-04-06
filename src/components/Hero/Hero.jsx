@@ -11,31 +11,40 @@ const Hero = () => {
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="left-container-content lg:w-[50%] flex lg:my-8 ">
-        <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8 px-6">
+      <div className="left-container-content lg:w-[60%] flex  items-center ">
+        <div className="content  flex flex-col gap-12 p-8 px-6 lg:px-16">
+          <div className='heading flex flex-col gap-4 '>
           <motion.h1
-            className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
+            className="text-white font-semibold lg:text-[1.8em] xl:text-[2.4rem] text-[1.3rem] sm:text-[1.5rem]"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
           >
             Subodh Bajpai !
           </motion.h1>
+         
           <motion.div
-            className="description flex flex-col gap-4 mb-4"
+            className="subheading "
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h2 className="text-white  lg:text-4xl  font-semibold text-4xl">
+            <h2 className="text-white   text-[1.5rem] sm:text-[2.5rem]  lg:text-[2rem] xl:text-[3rem] font-semibold ">
               The <span className="text-secondaryBlue"> Venture Catalyst</span>
             </h2>
-            <p className="text-white leading-7 opacity-70 sm:text-sm sm:leading-7  md:">
-              About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
-              Business Loans in Delhi NCR and Beyond. With years of experience
-              providing credit-line to businesses.
+            </motion.div>
+          </div>
+         
+
+            <div className='decription'>
+            <p className="text-white leading-7 opacity-75  sm:leading-7  md:">
+            He is a visionary investor who doesn’t just back business, he conjures them into existence. Forget spreadsheets and stuffy boardrooms, he is an alchemist’s touch, transforming audacious ideas into glittering success stories. 
             </p>
-          </motion.div>
+            </div>
+           
+        
+          
+          
           <motion.div
             className="bottom-contact flex gap-4 justify-center lg:justify-normal sm:flex-row sm:gap-6"
             initial={{ x: 30, opacity: 0 }}
