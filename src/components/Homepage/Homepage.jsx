@@ -20,7 +20,7 @@ import { MobileMenu } from './MobileMenu'
 
 const Homepage = () => {
   return (
-    <div className="homepage mt-[120px] lg:mt-[150px] 2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%]">
+    <div className="homepage mt-[120px] lg:mt-[150px] max-w-[1440px] mx-auto">
       <Hero />
       <Section2 />
       <Section3 />

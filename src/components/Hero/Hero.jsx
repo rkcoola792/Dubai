@@ -5,14 +5,13 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <motion.div
-      className="Hero mx-2 mt-12 sm:mx-12 text-center lg:text-left 2xl:mx-0 bg-mainBlue lg:h-[500px] my-12
+      className="Hero mx-2 mt-12 sm:mx-12 text-center lg:text-left 2xl:mx-0 bg-mainBlue lg:h-[600px] my-12
       rounded-3xl overflow-hidden lg:flex-row flex flex-col gap-4 h-[800px]  "
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <div className="left-container-content lg:w-[50%] flex lg:my-8 ">
-        <div className="left-icons flex flex-col "></div>
         <div className="right-content sm:py-16 sm:px-12 flex flex-col gap-4 p-8 px-6">
           <motion.h1
             className="text-white xl:text-[36px] md:text-[28px] sm:text-[24px] text-2xl"
@@ -20,7 +19,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
           >
-            Hello I’m Subodh Bajpai !
+            Subodh Bajpai !
           </motion.h1>
           <motion.div
             className="description flex flex-col gap-4 mb-4"
@@ -28,9 +27,8 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h2 className="text-white xl:text-6xl lg:text-5xl  font-semibold text-4xl">
-              An
-              <span className="text-secondaryBlue"> Investor</span>
+            <h2 className="text-white  lg:text-4xl  font-semibold text-4xl">
+              The <span className="text-secondaryBlue"> Venture Catalyst</span>
             </h2>
             <p className="text-white leading-7 opacity-70 sm:text-sm sm:leading-7  md:">
               About Funding Guru Subodh Bajpai: Empowering Entrepreneurs with
@@ -60,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
       <motion.div
-        className="right-container-image lg:w-[50%] "
+        className="right-container-image lg:w-[60%] "
         initial={{ y: 300, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.7 }}
