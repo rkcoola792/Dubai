@@ -34,7 +34,7 @@ const Section3 = () => {
       </motion.div>
       <div className="flex flex-col gap-24 mt-12  px-4 sm:px-12 lg:px-12 2xl:px-0  " ref={ref}>
         
-        <div className="group1 flex flex-col sm:gap-12 sm:sticky  sm:top-48  z-10 shadow-lg border border-gray-100  p-10 rounded-lg">
+        <div className="group1 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-10 shadow-lg border border-gray-100  p-12  rounded-lg">
           <motion.div
             className="heading flex gap-6 items-center mb-4 sm:mb-0  "
             initial={{ y: 75, opacity: 0 }}
@@ -52,7 +52,7 @@ const Section3 = () => {
             subtitle3="Range of funding from Rs 5 lakhs to Rs 50 crores"
           />
         </div>
-        <div className="group2 flex flex-col gap-8  sm:sticky top-48 bg-white border border-gray-100 z-20 sm:my-6  p-8 py-12 rounded-lg">
+        <div className="group2 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-20 shadow-lg border border-gray-100  p-12  rounded-lg">
           <motion.div
             className="heading flex gap-2 items-center  "
             initial={{ y: 75, opacity: 0 }}
@@ -62,7 +62,7 @@ const Section3 = () => {
             <div className="-mt-6 sm:mt-0">
               <SmallStar></SmallStar>
             </div>
-            <h3 className="sm:text-2xl font-semibold text-xl">
+            <h3 className="sm:text-2xl lg:text-3xl text-xl font-semibold">
               PR & Communication Specialist
             </h3>
           </motion.div>
@@ -73,7 +73,7 @@ const Section3 = () => {
             subtitle3="Supporting NBFCs in raising funds for contingency"
           />
         </div>
-        <div className="group3 flex flex-col gap-8  sticky top-48 border border-gray-100 bg-white z-30 sm:my-6  p-8 py-12 rounded-lg ">
+        <div className="group3 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-30 shadow-lg border border-gray-100  p-12  rounded-lg">
           <motion.div
             className="heading flex gap-2 items-center "
             initial={{ y: 75, opacity: 0 }}
@@ -83,12 +83,12 @@ const Section3 = () => {
             <div className="-mt-6 sm:mt-0">
               <SmallStar></SmallStar>
             </div>
-            <h3 className="sm:text-2xl font-semibold text-xl">
+            <h3 className="sm:text-2xl lg:text-3xl text-xl font-semibold">
               Promoting Grassroot Entrepreneurship
             </h3>
           </motion.div>
           <Specialities
-            subtitle1="Mr. Bajpai’s holds expertise in PR and communication"
+            subtitle1="Mr. Bajpai’s holds expertise in nd communication"
             subtitle2="Helping startups and businesses establish themselves in the market"
             subtitle3="Assisting clients in gainingvisibility, brand recognition, and market share"
           />
