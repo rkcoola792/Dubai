@@ -20,14 +20,26 @@ import { MobileMenu } from './MobileMenu'
 
 const Homepage = () => {
   return (
-    <div className="homepage mt-[120px] lg:mt-[150px] max-w-[1440px] mx-auto">
+    <div className="homepage mt-[120px] lg:mt-[150px]  ">
+      <div className='max-w-[1440px] mx-auto'>
       <Hero />
+      </div>
+      
+      <div className=''>
       <Section2 />
+      </div>
+
+      <div className='max-w-[1440px] mx-auto'>
+
       <Section3 />
+      </div>
       <Section4 />
       <Section5 />
       <Section6 />
+      <div className='max-w-[1440px] mx-auto'>
+
       <Section7 />
+      </div>
       <Section8 />
     </div>
   );

@@ -9,6 +9,9 @@ import { motion } from "framer-motion";
 const Section4 = () => {
   return (
     <div className="section-4  2xl:px-12 flex flex-col gap-12 my-16 relative px-4  sm:px-12   bg-[#F8FCFF] pt-6 justify-center items-center md:justify-normal md:items-stretch">
+    <div className="max-w-[1440px] mx-auto">
+
+    
       <div className="absolute w-12 ">
         <StarIcon></StarIcon>
       </div>
@@ -134,6 +137,7 @@ const Section4 = () => {
             <img src="/book.png" alt="rise and thrive" className="object-cover " />
           </div>
         </motion.div>
+      </div>
       </div>
     </div>
   );

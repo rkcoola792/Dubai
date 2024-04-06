@@ -80,7 +80,8 @@ const arr=["rajeev", "kumar"]
 
 
   return (
-    <div className="section2 my-12 py-12 bg-[#F8FCFF]  relative">
+    <div className="section2 my-12 py-12 bg-[#F8FCFF]  relative  ">
+      <div className='max-w-[1440px] mx-auto'>
       <motion.div className="heading">
         <Heading
           heading="journal"
@@ -88,7 +89,7 @@ const arr=["rajeev", "kumar"]
         ></Heading>
       </motion.div>
       <motion.div
-        className="bottom-content mt-6 sm:mx-12 sm:my-12 flex flex-col bg-white shadow-lg sm:p-12 p-4 rounded-lg"
+        className="bottom-content h-[27rem] mt-6 sm:mx-12 2xl:mx-0 sm:my-12 flex flex-col bg-white shadow-lg sm:p-12 p-4 rounded-lg "
         initial={{ scale: 0.75, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
@@ -155,6 +156,8 @@ const arr=["rajeev", "kumar"]
       >
         <StarIcon></StarIcon>
       </motion.div>
+      </div>
+   
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <motion.div
       className="Hero mx-2 mt-12 sm:mx-12 text-center lg:text-left 2xl:mx-0 bg-mainBlue lg:h-[600px] my-12
-      rounded-3xl overflow-hidden lg:flex-row flex flex-col gap-4 h-[800px]  "
+      rounded-3xl overflow-hidden lg:flex-row flex flex-col gap-4 lg:gap-0 h-[800px]  "
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
