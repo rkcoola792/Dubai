@@ -4,7 +4,7 @@ import React from 'react'
 const Section4Component = ({icon,heading}) => {
   return (
     <motion.div
-      className="  border border-gray-300 bg-white rounded-lg flex flex-col gap-2  p-4  2xl:p-6 cursor-pointer z-50 justify-center"
+      className=" h-[13rem] sm:h-fit border border-gray-300 bg-white rounded-lg flex flex-col sm:gap-2  gap-6 p-4  2xl:p-6 cursor-pointer z-50 justify-center items-center sm:items-start"
       initial={{ scale: 1, y: 75, opacity: 0 }}
  
       whileInView={{ y: 0, opacity: 1 }}
@@ -16,9 +16,9 @@ const Section4Component = ({icon,heading}) => {
       
     >
       <div className="icon">
-        <img src="/Vector.png" alt="icon" className="w-6 2xl:w-8" />
+        <img src="/Vector.png" alt="icon" className=" sm:w-6 2xl:w-8" />
       </div>
-      <div className="heading text-xs leading-5 2xl:text-base"><p>{heading}</p></div>
+      <div className="heading  sm:text-xs sm:leading-5 2xl:text-base"><p>{heading}</p></div>
     </motion.div>
   );
 }

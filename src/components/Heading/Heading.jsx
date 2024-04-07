@@ -12,7 +12,7 @@ const Heading = ({heading,subheading}) => {
       <p className="text-mainBlue tracking-widest uppercase font-semibold">
         {heading}
       </p>
-      <h2 className="sm:text-5xl text-4xl font-bold capitalize">{subheading}</h2>
+      <h2 className="sm:text-5xl text-3xl leading-10 font-bold capitalize">{subheading}</h2>
     </motion.div>
   );
 }
