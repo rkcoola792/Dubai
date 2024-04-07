@@ -31,13 +31,13 @@ const Section6 = () => {
             date="17 Feb, 2023"
             author="Janet Fleming"
           />
-          <Blog
+          {/* <Blog
             heading="Social Media"
             subheading="complete web developer guideline 2023"
             description="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.  standard dummy text ever since the 1500s, when "
             date="17 Feb, 2023"
             author="Janet Fleming"
-          ></Blog>
+          ></Blog> */}
         </motion.div>
         <motion.div
           className="lg:flex-row flex flex-col gap-6 lg:sticky top-60 bg-subtleBlue z-10"
@@ -45,13 +45,13 @@ const Section6 = () => {
           whileInView={{ y: 0, opacity: 1 }}
           // transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <Blog
+          {/* <Blog
             heading="Social Media"
             subheading="complete web developer guideline 2023"
             description="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.  standard dummy text ever since the 1500s, when "
             date="17 Feb, 2023"
             author="Janet Fleming"
-          ></Blog>
+          ></Blog> */}
           <BlogWithImage
             heading="Social Media"
             subheading="complete web developer guideline 2023"

@@ -20,9 +20,9 @@ const Section5 = () => {
   return (
     <div className="services section5 relative bg-white  my-12 px-2">
       <div className='flex flex-col gap-8'>
-      <div className="top-headings sticky sm:top-28  bg-white pt-4 z-[90]">
+      <div className="top-headings sticky sm:top-24  bg-white pt-4 z-[90]">
         <motion.div
-          className="absolute sm:top-4 sm:right-24 right-4 w-16 top-4"
+          className="absolute sm:top-4 sm:right- right-4 w-16 top-4"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.1 }}
