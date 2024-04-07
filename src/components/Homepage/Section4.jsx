@@ -21,9 +21,9 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom lg:flex gap-12  bg-white z-[50] rounded-2xl  sm:shadow-lg md:p-12 text-center sm:text-left  2xl:p-16">
+      <div className="bottom xl:flex gap-12  md:bg-white z-[50] rounded-2xl  md:shadow-lg md:p-12 text-center sm:text-left  2xl:p-16">
         <motion.div
-          className="left lg:w-[35rem]   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 rounded-2xl"
+          className="left xl:w-[35rem] h-fit   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 justify-center items-center xl:justify-start xl:items-start rounded-2xl"
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -45,22 +45,22 @@ const Section4 = () => {
             </span>
           </h3>
         </motion.div>
-        <div className="right lg:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">
+        <div className="right xl:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">
           <div className="top flex  flex-col gap-12">
             <motion.div
-              className="heading flex gap-4 md:mt-2 mt-6"
+              className="heading flex gap-4 xl:mt-2 mt-12 justify-center md:justify-start"
               initial={{ y: 75, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <motion.div className="hidden sm:block mt-2 md:mt-0">
+              <motion.div className="hidden sm:block mt-1  xl:mt-0">
                 <SmallStar></SmallStar>
               </motion.div>
               <motion.h2 className="text-2xl lg:text-[28px] ">
                 Turning Visions into Venture Capital
               </motion.h2>
             </motion.div>
-            <div className="components md:flex-row flex flex-col gap-4">
+            <div className="components md:flex-row  flex flex-col gap-4">
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
@@ -81,7 +81,7 @@ const Section4 = () => {
                 </div>
                 <h2 className="text-2xl lg:text-[28px] ">Get In Touch</h2>
               </div>
-              <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32">
+              <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32 sm:ml-6 md:ml-0">
                 <div className="phone flex flex-col 2xl:text-2xl gap-2">
                   <h3 className="text-mainBlue font-semibold "> Phone:</h3>
                   <p className="text-gray-600 text-lg">+1 908-736-1801</p>
@@ -95,7 +95,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="book-part md:flex-row flex flex-col text-center justify-between items-start mt-8  ">
+      <div className="book-part md:flex-row flex flex-col text-center justify-center items-center lg:justify-between md:items-start mt-8  ">
         <div className="left flex flex-col md:text-left text-center gap-6 sm:gap-16">
           <motion.div
             className="headings flex flex-col gap-2"
