@@ -4,7 +4,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 
 const Section2 = () => {
   return (
-    <div className="section2  py-12 my-12   ">
+    <div className="section2  py-6 my-6   ">
       <div className="right-6 absolute w-12">
         <StarIcon></StarIcon>
       </div>
@@ -14,10 +14,10 @@ const Section2 = () => {
           subheading="Service description"
         ></Heading>
       </div>
-      <div className="bottom lg:flex justify-between my-12 ">
+      <div className="bottom lg:flex-row lg:justify-between  flex flex-col justify-center    my-12 ">
         <div className="left lg:w-[50%] flex flex-col gap-4 ">
           <div className="left-subheadings flex gap-2 ">
-            <div className="mt-1 ml-2">
+            <div className="mt-1 ml-2 w-fit">
               <img src="/tick-circle.png"></img>
             </div>
             <div></div>

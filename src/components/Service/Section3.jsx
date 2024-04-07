@@ -8,12 +8,12 @@ const Section3 = () => {
           src="/Call to Action.png
         "
           alt=""
-          className='h-[380px] sm:h[350px] lg:h-full w-full rounded-lg xl:h-auto'
+          className='h-[380px] sm:h[350px] lg:h-full w-full rounded-lg xl:h-auto z-10'
         />
-        <div className="texts px-4 absolute lg:flex-row lg:flex flex flex-col justify-between  top-8 2xl:top-16 lg:px-32 items-center ">
+        <div className="texts px-4 absolute lg:flex-row lg:flex flex flex-col justify-between  top-12 sm:top-16 2xl:top-16 lg:px-32 items-center ">
           <div className="left flex flex-col gap-8 lg:w-[60%] items-center lg:items-baseline text-center lg:text-left">
             <div className="heading">
-              <h1 className="text-white font-semibold lg:text-[36px] text-2xl text-center sm:text-left lg:leading-[40px] pt-6">
+              <h1 className="text-white font-semibold lg:text-[36px] text-2xl sm:text-3xl text-center lg:text-left lg:leading-[40px] pt-6">
                 Have a project in mind! Let’s work together.
               </h1>
             </div>
@@ -31,6 +31,9 @@ const Section3 = () => {
             </div>
           </div>
         </div>
+
+       
+
       </div>
     </div>
   );

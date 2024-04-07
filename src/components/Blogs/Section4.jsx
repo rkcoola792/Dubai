@@ -4,7 +4,7 @@ import MutipleBlogs from './MutipleBlogs'
 
 const Section4 = () => {
   return (
-    <div className='section4 my-12 max-w-[1440px] mx-auto '>
+    <div className='section4 my-16 max-w-[1440px] mx-auto '>
       <div className="top-heading">
         <Heading heading="featured" subheading="featured blogs" ></Heading>
       </div>
