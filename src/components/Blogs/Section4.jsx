@@ -8,7 +8,7 @@ const Section4 = () => {
       <div className="top-heading">
         <Heading heading="featured" subheading="featured blogs" ></Heading>
       </div>
-      <div className="bottom-blogs ">
+      <div className="bottom-blogs  ">
         <MutipleBlogs></MutipleBlogs>
       </div>
     </div>

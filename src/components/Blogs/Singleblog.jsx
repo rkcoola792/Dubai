@@ -2,7 +2,7 @@ import React from 'react'
 
 const Singleblog = ({heading,subheading, author, designation,img,authorImage}) => {
   return (
-    <div className="flex flex-col w-[350px] 2xl:w-[400px]   ">
+    <div className="flex flex-col w-[350px] md:w-[100%]">
       <div className="image">
         <img
           src="/blog.png"

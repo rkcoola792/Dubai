@@ -16,7 +16,7 @@ const BlogPost = () => {
       </div>
       <div className="px-2">
         <Section2></Section2>
-        <div className="my-12">
+        <div className="">
           <Section3></Section3>
         </div>
       </div>
