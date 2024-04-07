@@ -17,7 +17,7 @@ const Section6 = () => {
           <Heading heading="blogs" subheading="latest post"></Heading>
         </div>
       </div>
-      <div className="blogs my-12 flex flex-col gap-8 px-4 sm:px-12  2xl:px-0 ">
+      <div className="blogs my-6 flex flex-col gap-8 px-4 sm:px-12  2xl:px-0 ">
         <motion.div
           className="lg:flex-row flex flex-col gap-6 lg:sticky top-60 bg-subtleBlue z-10"
           initial={{ y: 75, opacity: 0 }}

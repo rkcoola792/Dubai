@@ -83,7 +83,7 @@ const Section3 = () => {
             <div className="hidden lg:block -mt-6 sm:mt-0">
               <SmallStar></SmallStar>
             </div>
-            <h3 className="sm:text-2xl mb-4 sm:mb-0 lg:text-3xl text-xl font-semibold">
+            <h3 className="sm:text-2xl  sm:mb-0 lg:text-3xl text-xl font-semibold">
               Promoting Grassroot Entrepreneurship
             </h3>
           </motion.div>

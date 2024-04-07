@@ -37,7 +37,7 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h3 className="uppercase  border-mainBlue border-2 p-6 text-xl   rounded-2xl  w-fit text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear ml-[3%] sm:ml-0">
+          <h3 className="uppercase  border-mainBlue border-2 sm:p-6 p-4 text-sm   rounded-2xl  w-fit text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear  sm:ml-0">
             {" "}
             Schedule a meet{" "}
             <span>
@@ -79,7 +79,7 @@ const Section4 = () => {
 
                 <SmallStar></SmallStar>
                 </div>
-                <h2 className="text-2xl lg:text-[28px] ">Get In Touch</h2>
+                <h2 className="text-2xl lg:text-[28px] mt-4 ">Get In Touch</h2>
               </div>
               <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32 sm:ml-6 md:ml-0">
                 <div className="phone flex flex-col 2xl:text-2xl gap-2">

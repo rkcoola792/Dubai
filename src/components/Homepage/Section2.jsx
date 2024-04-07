@@ -81,7 +81,7 @@ const arr=["rajeev", "kumar"]
 
 
   return (
-    <div className="section2 my-12 py-12 bg-[#F8FCFF]  relative  ">
+    <div className="section2 my-12 py-12 pb-4 bg-[#F8FCFF]  relative  ">
       <div className='max-w-[1440px] mx-auto'>
       <motion.div className="heading">
         <Heading
