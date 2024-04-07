@@ -21,7 +21,7 @@ const Section4 = () => {
           subheading="Funding Guru Subodh Bajpai."
         ></Heading>
       </div>
-      <div className="bottom lg:flex gap-12  bg-white z-[50] rounded-2xl  shadow-lg md:p-12 text-center sm:text-left  2xl:p-16">
+      <div className="bottom lg:flex gap-12  bg-white z-[50] rounded-2xl  sm:shadow-lg md:p-12 text-center sm:text-left  2xl:p-16">
         <motion.div
           className="left lg:w-[35rem]   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 rounded-2xl"
           initial={{ scale: 0.5 }}
