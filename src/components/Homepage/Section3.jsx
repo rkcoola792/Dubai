@@ -36,12 +36,12 @@ const Section3 = () => {
         
         <div className="group1 sticky top-20 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-10 shadow-lg border border-gray-100 p-4  sm:p-12  rounded-lg">
           <motion.div
-            className="heading flex gap-6 items-center justify-center sm:justify-normal mb-4 sm:mb-0  "
+            className="heading flex gap-6 items-center justify-center lg:justify-normal mb-4 sm:mb-0  "
             initial={{ y: 75, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="mt-1 hidden sm:block">
+            <div className="mt-1 hidden lg:block">
               <SmallStar></SmallStar>
             </div>
             <h3 className="sm:text-2xl lg:text-3xl text-xl font-semibold ">Quick Loans</h3>
@@ -54,15 +54,15 @@ const Section3 = () => {
         </div>
         <div className="group2 flex  sticky top-20  flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-20 shadow-lg border border-gray-100 p-4 sm:p-12  rounded-lg">
           <motion.div
-            className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center sm:justify-normal "
+            className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center lg:justify-normal "
             initial={{ y: 75, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="hidden sm:block sm:mt-0">
+            <div className="hidden lg:block sm:mt-0">
               <SmallStar></SmallStar>
             </div>
-            <h3 className="sm:text-2xl lg:text-3xl text-xl text-center sm:text-left font-semibold">
+            <h3 className="sm:text-2xl lg:text-3xl text-xl text-center lg:text-left font-semibold">
               PR & Communication Specialist
             </h3>
           </motion.div>
@@ -73,14 +73,14 @@ const Section3 = () => {
             subtitle3="Supporting NBFCs in raising funds for contingency"
           />
         </div>
-        <div className="group3  sticky top-20  flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-30 shadow-lg border border-gray-100 p-4  sm:p-12  rounded-lg">
+        <div className="group3  sticky top-20  flex flex-col justify-center items-center lg:items-start lg:justify-start sm:gap-12 sm:sticky  sm:top-40 bg-white z-30 shadow-lg border border-gray-100 p-4  sm:p-12  rounded-lg">
           <motion.div
-            className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center text-center sm:justify-normal "
+            className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center text-center lg:justify-normal "
             initial={{ y: 75, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="hidden sm:block -mt-6 sm:mt-0">
+            <div className="hidden lg:block -mt-6 sm:mt-0">
               <SmallStar></SmallStar>
             </div>
             <h3 className="sm:text-2xl mb-4 sm:mb-0 lg:text-3xl text-xl font-semibold">

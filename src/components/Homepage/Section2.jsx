@@ -95,18 +95,18 @@ const arr=["rajeev", "kumar"]
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <motion.div className="top-descriptions flex flex-col md:flex md:flex-row gap-6 "
+        <motion.div className="top-descriptions flex flex-col lg:flex lg:flex-row gap-6 "
         
         >
-          <div className="left-headings md:w-[40%] flex flex-col gap-4  md:gap-8 justify-center   md:text-left">
-            <h3 style={{lineHeight:"50px"}} className ="uppercase sm:text-3xl 2xl:text-4xl  md:text-left text-2xl text-center font-medium opacity-90 my-6 sm:my-0">
+          <div className="left-headings lg:w-[40%] flex flex-col gap-4  lg:gap-8 justify-center   lg:text-left">
+            <h3 style={{lineHeight:"50px"}} className ="uppercase sm:text-3xl 2xl:text-4xl  lg:text-left text-2xl text-center font-medium opacity-90 my-6 sm:my-0">
               {journalArray[journal]?.heading}
             </h3>
-            <p className="opacity-70 text-center md:text-left mb-4">
+            <p className="opacity-70 text-center lg:text-left mb-4">
             {journalArray[journal]?.date}
             </p>
           </div>
-          <div className="right-descriptions md:w-[60%] flex text-center md:text-left flex-col">
+          <div className="right-descriptions lg:w-[60%] flex text-center lg:text-left flex-col">
             <div className="descriptions flex flex-col gap-6 leading-7 text-gray-700 text-sm">
               <p className='2xl:text-lg 2xl:leading-8'>
               {journalArray[journal]?.paragraph1}
