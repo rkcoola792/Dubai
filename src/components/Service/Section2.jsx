@@ -14,7 +14,7 @@ const Section2 = () => {
           subheading="Service description"
         ></Heading>
       </div>
-      <div className="bottom lg:flex my-12 ">
+      <div className="bottom lg:flex justify-between my-12 ">
         <div className="left lg:w-[50%] flex flex-col gap-4 ">
           <div className="left-subheadings flex gap-2 ">
             <div className="mt-1 ml-2">
@@ -62,7 +62,7 @@ const Section2 = () => {
             </h1>
           </div>
         </div>
-        <div className="right lg:w-[50%] mt-6 sm:mt-0">
+        <div className="right  mt-6 sm:mt-0">
           <img src="/image 38.png" alt="" />
         </div>
       </div>

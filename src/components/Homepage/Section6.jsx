@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Section6 = () => {
   return (
-    <div className="section6 blogs  bg-subtleBlue pt-8 sm:py-6 relative 2xl:p-4">
+    <div className="section6 blogs  bg-subtleBlue py-8 relative ">
      <div className='max-w-[1440px] mx-auto'>
       <div className="absolute ">
         <StarIcon></StarIcon>

@@ -2,15 +2,15 @@ import React from 'react'
 
 const Section3 = () => {
   return (
-    <div className="section3  ">
+    <div className="section3   ">
       <div className="image relative">
         <img
           src="/Call to Action.png
         "
           alt=""
-          className='h-[380px] rounded-lg xl:h-auto'
+          className='h-[380px] lg:h-full w-full rounded-lg xl:h-auto'
         />
-        <div className="texts px-4 absolute lg:flex-row lg:flex flex flex-col justify-between top-8 lg:px-32 items-center ">
+        <div className="texts px-4 absolute lg:flex-row lg:flex flex flex-col justify-between top-8 2xl:top-16 lg:px-32 items-center ">
           <div className="left flex flex-col gap-8 lg:w-[60%] items-center lg:items-baseline text-center lg:text-left">
             <div className="heading">
               <h1 className="text-white font-semibold lg:text-[36px] text-2xl text-center sm:text-left lg:leading-[40px] pt-6">

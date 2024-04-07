@@ -41,3 +41,5 @@ p color = #555555
 
 
 xl:px-32 2xl:px-48
+
+max-w-[1440px] mx-auto

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const MutipleBlogs = () => {
   return (
-    <div className="my-12 md:flex-row justify-center items-center flex flex-col gap-12">
+    <div className="my-12  md:flex-row justify-between items-center flex flex-col gap-12 ">
       <Link to="/blog/post1">
       <Singleblog
         heading="Organize your digital assets  with a new methodology."

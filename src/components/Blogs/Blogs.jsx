@@ -9,7 +9,7 @@ import Section6 from '../Homepage/Section6';
 
 const Blogs = () => {
   return (
-    <div className="blogs mt-[120px] lg:mt-[54px] px-4 sm:p-12  2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%] ">
+    <div className="blogs mt-[120px] lg:mt-[150px] px-4 sm:px-12  2xl:px-0    ">
       <Hero
         heading1="home"
         heading2="blog"
@@ -20,7 +20,7 @@ const Blogs = () => {
         <Section6></Section6>
       </div>
 
-      <div className="my-24 bg-subtleBlue">
+      <div className="my-12 py-12 max-w-[1440px] mx-auto ">
         <Section3></Section3>
       </div>
 

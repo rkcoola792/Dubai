@@ -2,12 +2,12 @@ import React from 'react'
 
 const Singleblog = ({heading,subheading, author, designation,img,authorImage}) => {
   return (
-    <div className="flex flex-col w-[350px]  ">
+    <div className="flex flex-col w-[350px] 2xl:w-[400px]   ">
       <div className="image">
         <img
           src="/blog.png"
           alt=""
-          className="w-[350px] h-[250px] rounded-lg"
+          className="w-[350px] h-[250px] 2xl:w-[400px] 2xl:h-[300px] rounded-lg"
         />
       </div>
       <div className="content flex flex-col gap-4 mt-4">
