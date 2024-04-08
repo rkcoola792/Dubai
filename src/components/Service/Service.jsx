@@ -6,7 +6,7 @@ import Section4 from './Section4';
 
 const Service = () => {
   return (
-    <div className="service px-4 sm:px-12 mt-[120px]  max-w-[1440px] mx-auto">
+    <div className="service  px-4 sm:px-12 2xl:px-0 mt-[120px] lg:mt-[150px]  max-w-[1440px] mx-auto">
       
       <Hero
         heading1="Home"
