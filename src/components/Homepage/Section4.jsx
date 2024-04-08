@@ -29,7 +29,7 @@ const Section4 = () => {
           transition={{ duration: 0.5 }}
         >
           <h3 className="text-4xl font-semibold 2xl:text-5xl">Introduction</h3>
-          <p className="text-gray-600 leading-8 text-lg 2xl:text-xl 2xl:leading-10 sm:w-[95%] ">
+          <p className="text-gray-600 leading-8 text-lg 2xl:text-xl 2xl:leading-10 sm:w-[95%] text-center lg:text-left  ">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
             and a diverse range of ventures to achieve their full potential.  He
@@ -66,10 +66,10 @@ const Section4 = () => {
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
             </div>
           </div>
-          <hr className="mt-8" />
+          <hr className="my-6 hidden lg:block" />
           <div className="bottom">
             <motion.div
-              className="heading flex flex-col sm:gap-12 gap-6 sm:my-8 mb-12"
+              className="my-6 lg:my-0 heading flex flex-col sm:gap-12 gap-8  bg-white p-8 lg:p-0 rounded-lg border border-gray-200 lg:border-none"
               initial={{ y: 75, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
@@ -79,9 +79,9 @@ const Section4 = () => {
 
                 <SmallStar></SmallStar>
                 </div>
-                <h2 className="text-2xl lg:text-[28px] mt-4 ">Get In Touch</h2>
+                <h2 className="text-2xl lg:text-[28px] ">Get In Touch</h2>
               </div>
-              <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32 sm:ml-6 md:ml-0">
+              <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32 sm:ml-10 ">
                 <div className="phone flex flex-col 2xl:text-2xl gap-2">
                   <h3 className="text-mainBlue font-semibold "> Phone:</h3>
                   <p className="text-gray-600 text-lg">+1 908-736-1801</p>
@@ -95,7 +95,7 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="book-part md:flex-row flex flex-col text-center justify-center items-center lg:justify-between md:items-start mt-8  ">
+      <div className="book-part md:flex-row flex flex-col text-center justify-center items-center lg:justify-between md:items-start   ">
         <div className="left flex flex-col md:text-left text-center gap-6 sm:gap-16">
           <motion.div
             className="headings flex flex-col gap-2"
