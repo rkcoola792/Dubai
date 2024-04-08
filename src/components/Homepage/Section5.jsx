@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Section5 = () => {
   const [viewMore, setViewMore]=useState(false)
-  console.log("view more " ,viewMore)
+  // console.log("view more " ,viewMore)
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -156,10 +156,7 @@ const Section5 = () => {
           ></Section5Component>
           </div>
 {/* } */}
-<button className='sm:hidden view-more bg-mainBlue text-white px-6 py-4 rounded-full mx-2  ' onClick={()=>{setViewMore(!viewMore)}}>
-        
-        <p>{viewMore?"View Less Services":"View More Services"}</p>
-        </button>
+
       </div>
       </div>
     </div>
