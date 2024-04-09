@@ -46,7 +46,7 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
-        { path: "/service/", element: <Service></Service> },
+        { path: "/service/:serviceName", element: <Service></Service> },
         { path: "/blogs", element: <Blogs></Blogs> },
         { path: "/business", element: <Business></Business> },
         { path: "/blog/:blogName", element: <BlogPost></BlogPost> },
@@ -57,7 +57,7 @@ function App() {
   ]);
 
   return (
-    <div className="App  ">
+    <div className="App">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import CreditScoreIcon from '@mui/icons-material/CreditScore';
 
 const CenterHeader = () => {
   return (
@@ -10,22 +11,18 @@ const CenterHeader = () => {
 
       <p className="cursor-pointer">Blog</p>
       </Link>
-      <Link to="/service">
-        <div className="services flex justify-center items-center text-textColor ">
+        <div className="services flex justify-center items-center text-textColor cursor-pointer ">
           <FlyoutLink href="#" FlyoutContent={PricingContent}>
             Services
             <KeyboardArrowDownIcon className="text-textColor " />
           </FlyoutLink>
         </div>
-      </Link>
-      <Link to="/business">
-      <div className="business flex">
-        <FlyoutLink href="#" FlyoutContent={PricingContent}>
+      <div className="business flex cursor-pointer">
+        <FlyoutLink href="#" FlyoutContent={Business}>
           Business
           <KeyboardArrowDownIcon />
         </FlyoutLink>
       </div>
-      </Link>
       <Link to="/insights">
 
       <p className="cursor-pointer">Insights</p>
@@ -76,31 +73,106 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
 
 const PricingContent = () => {
   return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold">For Individuals</h3>
-        <a href="#" className="block text-sm hover:underline">
-          Introduction
-        </a>
-        <a href="#" className="block text-sm hover:underline">
-          Pay as you go
-        </a>
-      </div>
-      <div className="mb-6 space-y-3">
-        <h3 className="font-semibold">For Companies</h3>
-        <a href="#" className="block text-sm hover:underline">
-          Startups
-        </a>
-        <a href="#" className="block text-sm hover:underline">
-          SMBs
-        </a>
-        <a href="#" className="block text-sm hover:underline">
-          Enterprise
-        </a>
-      </div>
-      <button className="w-full rounded-lg border-2 border-neutral-950 px-4 py-2 font-semibold transition-colors hover:bg-neutral-950 hover:text-white">
-        Contact sales
-      </button>
+    <div className="w-[600px] bg-white p-6 shadow-xl">
+      <div className="space grid grid-cols-2 gap-4 ">
+        
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Instant Business Loan </p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Banking</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Transfer</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Wealth Management Solutions</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Mutual Fund, Stock Market</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Treasury & Debt Instruments</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt. Licensing</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Debt Recovery</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Insurance</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Restructuring</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Assets Restructuring</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt Tender Liaison</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tax/Audit Consulting</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Professional Advisory</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Banking</p>
+        </Link>
+       
+      
+     </div>
+    </div>
+  );
+};
+
+const Business = () => {
+  return (
+    <div className="w-[600px] bg-white p-6 shadow-xl">
+      <div className="space grid grid-cols-2 gap-4 ">
+        
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Capital and Investments India</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Media Dynox Private Limited India </p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Investments LLC Dubai</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Events and Hospitality Dubai</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Haitch Holdings DIFC Dubai</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Dubai</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Philippines</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Chelsea Plaza Hotel</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Properties Dubai</p>
+        </Link>
+        <Link to="#" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Dynox Media LLC Dubai</p>
+        </Link>
+       
+       
+      
+     </div>
     </div>
   );
 };

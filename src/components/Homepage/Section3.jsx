@@ -34,7 +34,7 @@ const Section3 = () => {
       </motion.div>
       <div className="flex flex-col gap-24 mt-12  px-4 sm:px-12 lg:px-12 2xl:px-0  " ref={ref}>
         
-        <div className="group1 sticky top-20 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-10 shadow-lg border border-gray-100 p-4  sm:p-12  rounded-lg">
+        <div className="group1 sticky top-20 flex flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-10 shadow-md border border-gray-100 p-4  sm:p-12  rounded-lg">
           <motion.div
             className="heading flex gap-6 items-center justify-center lg:justify-normal mb-4 sm:mb-0  "
             initial={{ y: 75, opacity: 0 }}
@@ -52,7 +52,7 @@ const Section3 = () => {
             subtitle3="Range of funding from Rs 5 lakhs to Rs 50 crores"
           />
         </div>
-        <div className="group2 flex  sticky top-20  flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-20 shadow-lg border border-gray-100 p-4 sm:p-12  rounded-lg">
+        <div className="group2 flex  sticky top-20  flex-col sm:gap-12 sm:sticky  sm:top-40 bg-white z-20 shadow-md border border-gray-100 p-4 sm:p-12  rounded-lg">
           <motion.div
             className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center lg:justify-normal "
             initial={{ y: 75, opacity: 0 }}
@@ -73,7 +73,7 @@ const Section3 = () => {
             subtitle3="Supporting NBFCs in raising funds for contingency"
           />
         </div>
-        <div className="group3  sticky top-20  flex flex-col justify-center items-center lg:items-start lg:justify-start sm:gap-12 sm:sticky  sm:top-40 bg-white z-30 shadow-lg border border-gray-100 p-4  sm:p-12  rounded-lg">
+        <div className="group3  sticky top-20  flex flex-col justify-center items-center lg:items-start lg:justify-start sm:gap-12 sm:sticky  sm:top-40 bg-white z-30 shadow-md border border-gray-100 p-4  sm:p-12  rounded-lg">
           <motion.div
             className="heading flex gap-6 sm:gap-6 mb-4 items-center justify-center text-center lg:justify-normal "
             initial={{ y: 75, opacity: 0 }}
