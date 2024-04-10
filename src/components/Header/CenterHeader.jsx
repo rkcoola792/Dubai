@@ -76,58 +76,31 @@ const PricingContent = () => {
     <div className="w-[600px] bg-white p-6 shadow-xl">
       <div className="space grid grid-cols-2 gap-4 ">
         
-        <Link to="/service/businessLoan" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
+        <Link to="/service/real-estate" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Real State</p>
         </Link>
-        <Link to="/service/instantBusinessLoan" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Instant Business Loan </p>
+        <Link to="/service/renewable-energy" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Renewable Energy </p>
         </Link>
-        <Link to="/service/businessBanking" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Banking</p>
+        <Link to="/service/business-setup" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Setup</p>
         </Link>
-        <Link to="/service/loanTransfer" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Transfer</p>
+        <Link to="/service/tourism-and-hospitality" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tourism and Hospitality</p>
         </Link>
-        <Link to="/service/wealthManagementSolutions" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Wealth Management Solutions</p>
+        <Link to="/service/infrastructure" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Infrastructure</p>
         </Link>
-        <Link to="/service/mutualFund" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Mutual Fund, Stock Market</p>
+        <Link to="/service/healthcare" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Healtcare</p>
         </Link>
-        <Link to="/service/treasury" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Treasury & Debt Instruments</p>
+        <Link to="/service/education" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Education</p>
         </Link>
-        <Link to="/service/licensing" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt. Licensing</p>
+        <Link to="/service/stock-market" className="block text-sm hover:underline">
+          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Stock Market</p>
         </Link>
-        <Link to="/service/debtRecovery" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Debt Recovery</p>
-        </Link>
-        <Link to="/service/insurance" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Insurance</p>
-        </Link>
-        <Link to="/service/loanRestructuring" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Restructuring</p>
-        </Link>
-        <Link to="/service/assetsRestructuring" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Assets Restructuring</p>
-        </Link>
-        <Link to="/service/businessLoan" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
-        </Link>
-        <Link to="/service/tender" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt Tender Liaison</p>
-        </Link>
-        <Link to="/service/taxConsulting" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tax/Audit Consulting</p>
-        </Link>
-        <Link to="/service/professionalAdvisory" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Professional Advisory</p>
-        </Link>
-        <Link to="/service/banking" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Banking</p>
-        </Link>
-       
+        
       
      </div>
     </div>

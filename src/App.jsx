@@ -22,22 +22,30 @@ import UnifiedChelseaPlazaHotel from "./components/Business/UnifiedChelseaPlazaH
 import UnifiedEventsAndHospitalityDubai from "./components/Business/UnifiedEventsAndHospitalityDubai/UnifiedEventsAndHospitalityDubai";
 import UnifiedInvestmentsLLCDubai from "./components/Business/UnifiedInvestmentsLLCDubai/UnifiedInvestmentsLLCDubai";
 import UnifiedPropertiesDubai from "./components/Business/UnifiedPropertiesDubai/UnifiedPropertiesDubai";
-import AssetsRestructuring from "./components/Service/AssetsRestructuring/AssetsRestructuring";
-import InstantBusinessLoan from "./components/Service/InstantBusinessLoan/InstantBusinessLoan";
-import BusinessBanking from "./components/Service/BusinessBanking/BusinessBanking";
+import AssetsRestructuring from "./components/Service/RealEstate/RealEstate";
+import InstantBusinessLoan from "./components/Service/HealthCare/Healthcare";
+import BusinessBanking from "./components/Service/BusinessSetup/BusinessSetup";
 import LoanTransfer from "./components/Service/LoanTransfer/LoanTransfer";
 import WealthManagementSolutions from "./components/Service/WealthManagementSolutions/WealthManagementSolutions";
 import MutualFund from "./components/Service/MutualFund/MutualFund";
 import Treasury from "./components/Service/Treasury/Treasury";
-import Licensing from "./components/Service/Licensing/Licensing";
-import DebtRecovery from "./components/Service/DebtRecovery/DebtRecovery";
-import Insurance from "./components/Service/Insurance/Insurance";
+import Licensing from "./components/Service/StockMarket/StockMarket";
+import DebtRecovery from "./components/Service/Infrastructure/Infrastructure";
+import Insurance from "./components/Service/Education/Education ";
 import LoanRestructuring from "./components/Service/LoanRestructuring/LoanRestructuring";
 import Tender from "./components/Service/Tender/Tender";
 import TaxConsulting from "./components/Service/TaxConsulting/TaxConsulting";
 import ProfessionalAdvisory from "./components/Service/ProfessionalAdvisory/ProfessionalAdvisory";
-import Banking from "./components/Service/Banking/Banking";
-import BusinessLoan from "./components/Service/BusinessLoan/BusinessLoan";
+import Banking from "./components/Service/RenewableEnergy/RenewableEnergy";
+import BusinessLoan from "./components/Service/TourismAndHospitality/TourismAndHospitality";
+import RealEstate from "./components/Service/RealEstate/RealEstate";
+import RenewableEnergy from "./components/Service/RenewableEnergy/RenewableEnergy";
+import StockMarket from "./components/Service/StockMarket/StockMarket";
+import Education from "./components/Service/Education/Education ";
+import HealthCare from "./components/Service/HealthCare/Healthcare";
+import Infrastructure from "./components/Service/Infrastructure/Infrastructure";
+import TourismAndHospitality from "./components/Service/TourismAndHospitality/TourismAndHospitality";
+import BusinessSetup from "./components/Service/BusinessSetup/BusinessSetup";
 
 
 
@@ -72,14 +80,15 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
-        { path: "/service/assetsRestructuring", element: <AssetsRestructuring/> },
-        { path: "/service/instantBusinessLoan", element: <InstantBusinessLoan/> },
-        { path: "/service/businessLoan", element: <BusinessLoan/> },
-        { path: "/service/businessBanking", element: <BusinessBanking/> },
-        { path: "/service/loanTransfer", element: <LoanTransfer/> },
-        { path: "/service/wealthManagementSolutions", element: <WealthManagementSolutions/> },
-        { path: "/service/mutualFund", element: <MutualFund/> },
-        { path: "/service/treasury", element: <Treasury/> },
+        { path: "/service/real-estate", element: <RealEstate/> },
+        { path: "/service/renewable-energy", element: <RenewableEnergy/> },
+        { path: "/service/business-setup", element: <BusinessSetup/> },
+        { path: "/service/tourism-and-hospitality", element: <TourismAndHospitality/> },
+        { path: "/service/infrastructure", element: <Infrastructure/> },
+        { path: "/service/healthcare", element: <HealthCare/> },
+        { path: "/service/education", element: <Education/> },
+        { path: "/service/stock-market", element: <StockMarket/> },
+
         { path: "/service/licensing", element: <Licensing/> },
         { path: "/service/debtRecovery", element: <DebtRecovery/> },
         { path: "/service/assetsRestructuring", element: <AssetsRestructuring/> },
