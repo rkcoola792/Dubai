@@ -63,7 +63,7 @@ function App() {
         { path: "/business/DynoxMediaLLCDubai", element: <DynoxMediaLLCDubai></DynoxMediaLLCDubai> },
         { path: "/business/HaitchHoldingsDIFCDubai", element: <HaitchHoldingsDIFCDubai></HaitchHoldingsDIFCDubai> },
         { path: "/business/MediaDynoxPrivateLimitedIndia", element: <MediaDynoxPrivateLimitedIndia></MediaDynoxPrivateLimitedIndia> },
-        { path: "/business/UnifiedCapitalAndInvestmentIndia", element: <UnifiedCapitalAndInvestmentIndia></UnifiedCapitalAndInvestmentIndia> },
+        { path: "/business/UnifiedCapitalAndInvestmentsIndia", element: <UnifiedCapitalAndInvestmentIndia></UnifiedCapitalAndInvestmentIndia> },
         { path: "/business/UnifiedChelseaPlazaHotel", element: <UnifiedChelseaPlazaHotel></UnifiedChelseaPlazaHotel> },
         { path: "/business/UnifiedEventsAndHospitalityDubai", element: <UnifiedEventsAndHospitalityDubai></UnifiedEventsAndHospitalityDubai> },
         { path: "/business/UnifiedInvestmentsLLCDubai", element: <UnifiedInvestmentsLLCDubai></UnifiedInvestmentsLLCDubai> },
