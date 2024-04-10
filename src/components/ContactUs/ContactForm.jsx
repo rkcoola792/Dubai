@@ -37,7 +37,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <div className="right w-[80%] sm:p-12 p-8 shadow-lg">
+      <div className="right sm:w-[80%] sm:p-12 p-8 shadow-lg">
         <div className="top-inputs flex flex-wrap gap-12">
           <div className="first-name ">
             <p className="text-gray-500">First Name</p>

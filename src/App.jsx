@@ -46,6 +46,7 @@ import HealthCare from "./components/Service/HealthCare/Healthcare";
 import Infrastructure from "./components/Service/Infrastructure/Infrastructure";
 import TourismAndHospitality from "./components/Service/TourismAndHospitality/TourismAndHospitality";
 import BusinessSetup from "./components/Service/BusinessSetup/BusinessSetup";
+import MobileMenuNew from "./components/MobileMenuNew/MobileMenuNew";
 
 
 
@@ -65,7 +66,8 @@ function App() {
         <Example></Example>
         </div>
         <div className="lg:hidden fixed w-full -top-2 z-[100] ">
-        <MobileMenu/>
+        {/* <MobileMenu/> */}
+        <MobileMenuNew></MobileMenuNew>
         </div>
         
         <Outlet></Outlet>
