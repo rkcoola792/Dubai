@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../Heading/Heading'
 import { StarIcon } from '../StarIcon/StarIcon';
 
-const Section2 = () => {
+const Section2 = ({para1,para2,para3,para4,img}) => {
   return (
     <div className="section2     ">
       <div className="right-6 absolute w-12">

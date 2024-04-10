@@ -18,6 +18,10 @@ const Blogs = () => {
         description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
       ></Hero>
       </div>
+      {/* <div className=''>
+
+      <Section2></Section2>
+      </div> */}
       
       <div className="">
         <Section6></Section6>

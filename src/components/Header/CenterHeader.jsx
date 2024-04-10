@@ -12,13 +12,13 @@ const CenterHeader = () => {
       <p className="cursor-pointer">Blog</p>
       </Link>
         <div className="services flex justify-center items-center text-textColor cursor-pointer ">
-          <FlyoutLink href="#" FlyoutContent={PricingContent}>
+          <FlyoutLink href="/service/loanTransfer" FlyoutContent={PricingContent}>
             Services
             <KeyboardArrowDownIcon className="text-textColor " />
           </FlyoutLink>
         </div>
       <div className="business flex cursor-pointer">
-        <FlyoutLink href="#" FlyoutContent={Business}>
+        <FlyoutLink href="/service/loanTransfer" FlyoutContent={Business}>
           Business
           <KeyboardArrowDownIcon />
         </FlyoutLink>
@@ -76,55 +76,55 @@ const PricingContent = () => {
     <div className="w-[600px] bg-white p-6 shadow-xl">
       <div className="space grid grid-cols-2 gap-4 ">
         
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/businessLoan" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/instantBusinessLoan" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Instant Business Loan </p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/businessBanking" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Banking</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/loanTransfer" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Transfer</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/wealthManagementSolutions" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Wealth Management Solutions</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/mutualFund" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Mutual Fund, Stock Market</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/treasury" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Treasury & Debt Instruments</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/licensing" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt. Licensing</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/debtRecovery" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Debt Recovery</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/insurance" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Insurance</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/loanRestructuring" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Loan Restructuring</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/assetsRestructuring" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Assets Restructuring</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/businessLoan" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Loan</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/tender" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Govt Tender Liaison</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/taxConsulting" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tax/Audit Consulting</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/professionalAdvisory" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Professional Advisory</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/service/banking" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Banking</p>
         </Link>
        
@@ -139,37 +139,36 @@ const Business = () => {
     <div className="w-[600px] bg-white p-6 shadow-xl">
       <div className="space grid grid-cols-2 gap-4 ">
         
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/unifiedCapitalandInvestmentsIndia" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Capital and Investments India</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/mediaDynoxPrivateLimitedIndia" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Media Dynox Private Limited India </p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/unifiedInvestmentsLLCDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Investments LLC Dubai</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/unifiedEventsAndHospitalityDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Events and Hospitality Dubai</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/haitchHoldingsDIFCDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Haitch Holdings DIFC Dubai</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/catsClubAndBarDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Dubai</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/catsClubandBarPhilippines" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Philippines</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/unifiedChelseaPlazaHotel" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Chelsea Plaza Hotel</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/unifiedPropertiesDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Properties Dubai</p>
         </Link>
-        <Link to="#" className="block text-sm hover:underline">
+        <Link to="/business/dynoxMediaLLCDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Dynox Media LLC Dubai</p>
         </Link>
-       
        
       
      </div>
