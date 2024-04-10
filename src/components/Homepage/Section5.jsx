@@ -91,11 +91,15 @@ const Section5 = () => {
         
      {/* { viewMore &&  */}
      <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
+
+    
           <Section5Component
             icon=""
             heading="Education"
             subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible.With the passage of time, the education sector has diversified in Dubai, specifically, after March 2020."
           ></Section5Component>
+         
+         
           <Section5Component
             icon=""
             heading="Stock Market"

@@ -13,7 +13,6 @@ export const MobileMenu = () => {
         </div>
       </Link>
       <div>
-
       <Nav />
 </div>
     </div>
@@ -173,11 +172,11 @@ const LINKS = [
   },
   {
     title: "Services",
-    href: "/service",
+    href: "/service/real-estate",
   },
   {
     title: "Business",
-    href: "/business",
+    href: "/business/unifiedCapitalAndInvestmentsIndia",
   },
   {
     title: "Insights",
