@@ -22,6 +22,22 @@ import UnifiedChelseaPlazaHotel from "./components/Business/UnifiedChelseaPlazaH
 import UnifiedEventsAndHospitalityDubai from "./components/Business/UnifiedEventsAndHospitalityDubai/UnifiedEventsAndHospitalityDubai";
 import UnifiedInvestmentsLLCDubai from "./components/Business/UnifiedInvestmentsLLCDubai/UnifiedInvestmentsLLCDubai";
 import UnifiedPropertiesDubai from "./components/Business/UnifiedPropertiesDubai/UnifiedPropertiesDubai";
+import AssetsRestructuring from "./components/Service/AssetsRestructuring/AssetsRestructuring";
+import InstantBusinessLoan from "./components/Service/InstantBusinessLoan/InstantBusinessLoan";
+import BusinessBanking from "./components/Service/BusinessBanking/BusinessBanking";
+import LoanTransfer from "./components/Service/LoanTransfer/LoanTransfer";
+import WealthManagementSolutions from "./components/Service/WealthManagementSolutions/WealthManagementSolutions";
+import MutualFund from "./components/Service/MutualFund/MutualFund";
+import Treasury from "./components/Service/Treasury/Treasury";
+import Licensing from "./components/Service/Licensing/Licensing";
+import DebtRecovery from "./components/Service/DebtRecovery/DebtRecovery";
+import Insurance from "./components/Service/Insurance/Insurance";
+import LoanRestructuring from "./components/Service/LoanRestructuring/LoanRestructuring";
+import Tender from "./components/Service/Tender/Tender";
+import TaxConsulting from "./components/Service/TaxConsulting/TaxConsulting";
+import ProfessionalAdvisory from "./components/Service/ProfessionalAdvisory/ProfessionalAdvisory";
+import Banking from "./components/Service/Banking/Banking";
+import BusinessLoan from "./components/Service/BusinessLoan/BusinessLoan";
 
 
 
@@ -56,7 +72,24 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { path: "/", element: <Homepage></Homepage> },
-        { path: "/service/:serviceName", element: <Service></Service> },
+        { path: "/service/assetsRestructuring", element: <AssetsRestructuring/> },
+        { path: "/service/instantBusinessLoan", element: <InstantBusinessLoan/> },
+        { path: "/service/businessLoan", element: <BusinessLoan/> },
+        { path: "/service/businessBanking", element: <BusinessBanking/> },
+        { path: "/service/loanTransfer", element: <LoanTransfer/> },
+        { path: "/service/wealthManagementSolutions", element: <WealthManagementSolutions/> },
+        { path: "/service/mutualFund", element: <MutualFund/> },
+        { path: "/service/treasury", element: <Treasury/> },
+        { path: "/service/licensing", element: <Licensing/> },
+        { path: "/service/debtRecovery", element: <DebtRecovery/> },
+        { path: "/service/assetsRestructuring", element: <AssetsRestructuring/> },
+        { path: "/service/insurance", element: <Insurance/> },
+        { path: "/service/loanRestructuring", element: <LoanRestructuring/> },
+        { path: "/service/assetsRestructuring", element: <AssetsRestructuring/> },
+        { path: "/service/tender", element: <Tender/> },
+        { path: "/service/taxConsulting", element: <TaxConsulting/> },
+        { path: "/service/professionalAdvisory", element: <ProfessionalAdvisory/> },
+        { path: "/service/banking", element: <Banking/> },
         { path: "/blogs", element: <Blogs></Blogs> },
         { path: "/business/CatsClubAndBarDubai", element: <CatsClubAndBarDubai></CatsClubAndBarDubai> },
         { path: "/business/CatsClubsAndBarPhilippines", element: <CatsClubsAndBarPhilippines></CatsClubsAndBarPhilippines> },
