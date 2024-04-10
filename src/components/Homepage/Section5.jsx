@@ -46,41 +46,45 @@ const Section5 = () => {
       <div className="max-w-[1440px] mx-auto text-center sm:text-left  multiple-services flex flex-col  gap-12 sm:gap-6 relative" ref={ref}>
         
         <div className="services px-2  sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[10] justify-between flex flex-wrap gap-">
+          {/* <Link to="/services/real-estate"> */}
+          <Section5Component
+            icon=""
+            heading="Real Estate"
+            subheading="Dubai is the best market for real estate investment today! The city offers a diverse range of options, from standalone properties to flats and luxury villas."
+          ></Section5Component>
+          {/* </Link> */}
+          {/* <Link to="/services/renewable-energy"> */}
           <Section5Component
             icon=""
             heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            subheading="Become Part Of Sustainable Emirates By Investing In Dubai's Renewable Energy Sector With Unified Investment.Dubai is fastest-growing city in the world. "
           ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
+          {/* </Link> */}
         </div>
 
         <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[20] justify-between flex flex-wrap ">
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Business Setup"
+            subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible.Every business owner wishes to expand beyond borders"
           ></Section5Component>
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Tourism and Hospitality"
+            subheading="Planning to invest in the tourism and hospitality industry in Dubai? Dubai, famously known as the City of Gold, is experiencing incessant growth."
           ></Section5Component>
         </div>
 
         <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[30] justify-between flex flex-wrap ">
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Infrastructure"
+            subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible.the country has become the global hub for investment, tourism and trade. "
           ></Section5Component>
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Healthcare"
+            subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible. Healthcare investment in Dubai"
           ></Section5Component>
         </div>
        
@@ -89,70 +93,13 @@ const Section5 = () => {
      <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Education"
+            subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible.With the passage of time, the education sector has diversified in Dubai, specifically, after March 2020."
           ></Section5Component>
           <Section5Component
             icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-{/* } */}
-{/* { viewMore &&  */}
-<div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-{/* } */}
-{ viewMore && <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-}
-
-{/* { viewMore &&  */}
-<div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          </div>
-{/* } */}
-
-{/* { viewMore && */}
- <div className="services px-2 sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[40] justify-between flex flex-wrap ">
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
-          ></Section5Component>
-          <Section5Component
-            icon=""
-            heading="Renewable Energy"
-            subheading="We offer investments in innovative renewable energy projects, focusing on wind, solar, geothermal, and other clean technologies."
+            heading="Stock Market"
+            subheading="Identify a suitable property and manage its revenue generation to attain highest ROI possible. Kick Start Your Trading Journey In Dubai With Unified Investment"
           ></Section5Component>
           </div>
 {/* } */}
