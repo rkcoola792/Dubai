@@ -97,8 +97,8 @@ const Section2 = () => {
               maintain communication with colleagues and seek out opportunities
               for collaboration and networking.
             </li>
-            <div className="mt-8">
-              <img src="/Img container.png" alt="" />
+            <div className="mt-8 ">
+              <img src="/Img container.png" alt="" className='w-full'/>
             </div>
           </ul>
         </div>
