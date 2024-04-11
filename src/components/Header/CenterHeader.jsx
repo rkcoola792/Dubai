@@ -81,33 +81,33 @@ const PricingContent = () => {
       <div className="space grid grid-cols-2 gap-4 ">
         
         <Link to="/service/real-estate" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Real State</p>
+          <div className="flex gap-2"><span className="">
+          <img src='/Real Estate.webp' className="w-6"></img>
+          </span>Real State</div>
         </Link>
         <Link to="/service/renewable-energy" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Renewable Energy </p>
+          <div className="mr-2 flex gap-2"><span ><img src="/Renewable Energy.webp" className="w-6"></img></span>Renewable Energy </div>
         </Link>
         <Link to="/service/business-setup" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Setup</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Instant Business Loan.webp"></img></span>Business Setup</div>
         </Link>
         <Link to="/service/tourism-and-hospitality" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tourism and Hospitality</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Tourism & Hospitality.webp"></img></span>Tourism and Hospitality</div>
         </Link>
         <Link to="/service/infrastructure" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Infrastructure</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Infrastructure.webp"></img></span>Infrastructure</div>
         </Link>
         <Link to="/service/healthcare" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Healtcare</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Health Care.webp"></img></span>Healtcare</div>
         </Link>
         <Link to="/service/education" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Education</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Education.webp"></img></span>Education</div>
         </Link>
         <Link to="/service/stock-market" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Stock Market</p>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Stock Market.webp"></img></span>Stock Market</div>
         </Link>
-        
-      
      </div>
-    </div>
+  </div>
   );
 };
 
@@ -117,34 +117,34 @@ const Business = () => {
       <div className="space grid grid-cols-2 gap-4 ">
         
         <Link to="/business/unifiedCapitalAndInvestmentsIndia" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Capital and Investments India</p>
+          <p><span className="mr-2"></span>Unified Capital and Investments India</p>
         </Link>
         <Link to="/business/mediaDynoxPrivateLimitedIndia" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Media Dynox Private Limited India </p>
+          <p><span className="mr-2"></span>Media Dynox Private Limited India </p>
         </Link>
         <Link to="/business/unifiedInvestmentsLLCDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Investments LLC Dubai</p>
+          <p><span className="mr-2"></span>Unified Investments LLC Dubai</p>
         </Link>
         <Link to="/business/unifiedEventsAndHospitalityDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Events and Hospitality Dubai</p>
+          <p><span className="mr-2"></span>Unified Events and Hospitality Dubai</p>
         </Link>
         <Link to="/business/haitchHoldingsDIFCDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Haitch Holdings DIFC Dubai</p>
+          <p><span className="mr-2"></span>Haitch Holdings DIFC Dubai</p>
         </Link>
         <Link to="/business/catsClubAndBarDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Dubai</p>
+          <p><span className="mr-2"></span>Cats Club and Bar Dubai</p>
         </Link>
         <Link to="/business/CatsClubsAndBarPhilippines" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Cats Club and Bar Philippines</p>
+          <p><span className="mr-2"></span>Cats Club and Bar Philippines</p>
         </Link>
         <Link to="/business/unifiedChelseaPlazaHotel" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Chelsea Plaza Hotel</p>
+          <p><span className="mr-2"></span>Unified Chelsea Plaza Hotel</p>
         </Link>
         <Link to="/business/unifiedPropertiesDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Properties Dubai</p>
+          <p><span className="mr-2"></span>Unified Properties Dubai</p>
         </Link>
         <Link to="/business/dynoxMediaLLCDubai" className="block text-sm hover:underline">
-          <p><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Dynox Media LLC Dubai</p>
+          <p><span className="mr-2"></span>Dynox Media LLC Dubai</p>
         </Link>
        
       

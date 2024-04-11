@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="Contact-form rounded-lg sm:h-[585px] overflow-hidden sm:flex shadow-md my-6">
+    <div className="Contact-form rounded-lg sm:h-[650px] overflow-hidden sm:flex shadow-md my-6 px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
       <div className="left relative sm:w-[40%] bg-mainBlue text-white sm:h-svh flex flex-col sm:p-12 p-8 rounded-lg gap-16 h-[500px]">
         <div className="top-heading flex flex-col gap-4">
           <h1 className="text-3xl ">Contact Information</h1>
@@ -11,17 +11,18 @@ const ContactForm = () => {
         </div>
         <div className="middle-details flex flex-col gap-8">
           <div className="flex gap-6">
-            <Phone></Phone>
-            <h1>+1012 3456 789</h1>
+            <div className='sm:hidden lg:block'><Phone></Phone></div>
+            <h1> 971 543119922</h1>
           </div>
           <div className="flex gap-6">
-            <Email></Email>
-            <h1>demo@gmail.com</h1>
+            <div className='sm:hidden lg:block'><Email></Email></div>
+            <h1> connect@unifiedinvestments.ae</h1>
           </div>
           <div className="flex gap-6">
-            <Map></Map>
-            <h1>
-              132 Dartmouth Street Boston, Massachusetts 02156 United States
+            <div className='sm:hidden lg:block'><Map></Map>
+</div>         
+   <h1>
+       AI Amal St, Business Bay - Dubai - United Arab Emirates
             </h1>
           </div>
         </div>
@@ -37,23 +38,23 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <div className="right sm:w-[80%] sm:p-12 p-8 shadow-lg">
-        <div className="top-inputs flex flex-wrap gap-12">
+      <div className="right sm:w-[80%] sm:p-12 p-8 ">
+        <div className="top-inputs grid grid-cols-2 gap-12">
           <div className="first-name ">
             <p className="text-gray-500">First Name</p>
-            <input type="text" className="border-b border-gray-400 w-[260px]" />
+            <input type="text" className="border-b border-gray-400  w-[80%]" />
           </div>
           <div className="first-name">
             <p className="text-gray-500">Last Name</p>
-            <input type="text" className="border-b border-gray-400 w-[260px]" />
+            <input type="text" className="border-b border-gray-400 w-[80%]" />
           </div>
           <div className="first-name">
             <p className="text-gray-500">Email</p>
-            <input type="text" className="border-b border-gray-400 w-[260px]" />
+            <input type="text" className="border-b border-gray-400  w-[80%]" />
           </div>
           <div className="first-name">
             <p className="text-gray-500">Phone Number</p>
-            <input type="text" className="border-b border-gray-400 w-[260px]" />
+            <input type="text" className="border-b border-gray-400 w-[80%]" />
           </div>
         </div>
 
@@ -69,8 +70,8 @@ const ContactForm = () => {
                 name="option"
                 value="option1"
               />
-              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
-                Option 1
+              <span class="ml-2 text-mainBlue sm:text-sm text-base">
+                General Enquiry
               </span>
             </div>
             <h1 class="inline-flex items-center mt-3">
@@ -80,8 +81,8 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
-                Option 2
+              <span class="ml-2 text-mainBlue sm:text-sm text-base">
+              General Enquiry
               </span>
             </h1>
             <h1 class="inline-flex items-center mt-3 text-sm">
@@ -91,8 +92,8 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
-                Option 3
+              <span class="ml-2 text-mainBlue sm:text-sm text-base">
+                General Enquiry
               </span>
             </h1>
             <h1 class="inline-flex items-center mt-3">
@@ -102,8 +103,8 @@ const ContactForm = () => {
                 name="option"
                 value="option2"
               />
-              <span class="ml-2 text-mainBlue sm:text-sm text-xl">
-                Option 4
+              <span class="ml-2 text-mainBlue sm:text-sm text-base">
+              General Enquiry
               </span>
             </h1>
           </div>
@@ -117,7 +118,7 @@ const ContactForm = () => {
               className="border-b py-2 border-gray-400 w-full"
             />
           </div>
-          <div className="contact-us-button bg-mainBlue text-white p-2 px-8 rounded-full cursor-pointer w- text-center mt-12  py-3 ">
+          <div className="contact-us-button bg-mainBlue text-white p-2 px-8 rounded-full cursor-pointer w-fit text-center mt-12  py-3 ">
             Send Message
           </div>
         </div>
