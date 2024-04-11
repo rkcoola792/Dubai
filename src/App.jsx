@@ -47,6 +47,9 @@ import Infrastructure from "./components/Service/Infrastructure/Infrastructure";
 import TourismAndHospitality from "./components/Service/TourismAndHospitality/TourismAndHospitality";
 import BusinessSetup from "./components/Service/BusinessSetup/BusinessSetup";
 import MobileMenuNew from "./components/MobileMenuNew/MobileMenuNew";
+import AboutMe from "./components/AboutMe/AboutMe";
+// import AboutMe from "./components/AboutMe/AboutMe";
+
 
 
 
@@ -115,6 +118,7 @@ function App() {
         { path: "/blog/:blogName", element: <BlogPost></BlogPost> },
         { path: "/contact-us", element: <ContactUs></ContactUs> },
         { path: "/insights", element: <Insights></Insights> },
+        { path: "/about-me", element: <AboutMe/> },
       ],
     },
   ]);

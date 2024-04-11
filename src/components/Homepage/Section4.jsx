@@ -23,13 +23,13 @@ const Section4 = () => {
       </div>
       <div className="bottom xl:flex gap-12  md:bg-white z-[50] rounded-2xl  md:shadow-lg md:p-12 text-center sm:text-left  2xl:p-16">
         <motion.div
-          className="left xl:w-[35rem] h-fit   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 justify-center items-center xl:justify-start xl:items-start rounded-2xl"
+          className="left xl:w-[35rem] h-fit   bg-[#EBF3F9] p-8 2xl:p-12 flex flex-col gap-6 justify-center items-center xl:justify-start xl:items-start rounded-2xl relative"
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-4xl font-semibold 2xl:text-5xl">Introduction</h3>
-          <p className="text-gray-600 leading-8 text-lg 2xl:text-xl 2xl:leading-10 sm:w-[95%] text-center lg:text-left  ">
+          <h3 className="text-4xl font-semibold 2xl:text-5xl z-20">Introduction</h3>
+          <p className=  " z-20 text-gray-600 leading-8 text-lg 2xl:text-xl 2xl:leading-10 sm:w-[95%] text-center lg:text-left  ">
             Mr. Bajpai is not just an investor, he's a visionary architect,
             crafting funding solutions that empower individuals, corporations,
             and a diverse range of ventures to achieve their full potential.  He
@@ -37,13 +37,17 @@ const Section4 = () => {
             Renewable Energy, Business Setup, Stock Market, and the underlying
             foundations of all big movers and shakers.  
           </p>
-          <h3 className="uppercase  border-mainBlue border-2 sm:p-6 p-4 text-sm   rounded-2xl  w-fit text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear  sm:ml-0">
+          <h3 className="uppercase z-20 border-mainBlue border-2  p-4 text-sm   rounded-full px-6  w-fit text-mainBlue font-semibold cursor-pointer hover:bg-mainBlue hover:text-white transition duration-200 ease-linear hover:ease-linear  sm:ml-0">
             {" "}
             Schedule a meet{" "}
             <span>
               <ArrowOutwardIcon />
             </span>
           </h3>
+          <img
+            src="/abc.png"
+            className="absolute z-10 bottom-1 right-1 opacity-50"
+          ></img>
         </motion.div>
         <div className="right xl:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">
           <div className="top flex  flex-col gap-12">
@@ -60,10 +64,10 @@ const Section4 = () => {
                 Turning Visions into Venture Capital
               </motion.h2>
             </motion.div>
-            <div className="components md:flex-row  flex flex-col gap-4">
+            <div className="components md:grid grid-cols-3   flex flex-col gap-4">
               <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
-              <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
-              <Section4Component heading="A deep understanding of financial markets, current trends, and investment strategies."></Section4Component>
+              <Section4Component heading="Business plan, compelling pitch deck, identify the right investors, and navigate negotiations."></Section4Component>
+              <Section4Component heading="Funding solutions from early-stage ventures INR 5 lakh to established businesses INR 50 crore."></Section4Component>
             </div>
           </div>
           <hr className="my-6 hidden lg:block" />

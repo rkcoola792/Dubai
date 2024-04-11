@@ -4,7 +4,7 @@ import React from 'react'
 const Section4Component = ({icon,heading}) => {
   return (
     <motion.div
-      className=" h-[13rem] xl:h-fit border border-gray-300 bg-white rounded-lg flex flex-col sm:gap-2 sm:p-8 md:gap-6  gap-6 p-4 md:p-5 lg:p-4   2xl:p-6 cursor-pointer z-50 justify-center items-center sm:items-start"
+      className=" h-[5remrem]  border border-gray-300 bg-white rounded-lg flex flex-col sm:gap-2 sm:p-8 md:gap-  gap-6 p-4 md:p-5 lg:p-4   2xl:p-6 cursor-pointer z-50 justify-center items-center sm:items-start"
       initial={{ scale: 1, y: 75, opacity: 0 }}
  
       whileInView={{ y: 0, opacity: 1 }}

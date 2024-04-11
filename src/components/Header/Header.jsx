@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="Header sticky top-0 z-[150] bg-white w-full shadow-md h-[100px] flex justify-center   items-center  mx-auto ">
+    <div className="Header sticky top-0 z-[150] bg-white w-full shadow-md h-[100px] flex justify-center   items-center  mx-auto border border-gray-200 ">
       <div className='header flex justify-between items-center w-[1440px] md:mx-12 lg:px-0'>
         
     

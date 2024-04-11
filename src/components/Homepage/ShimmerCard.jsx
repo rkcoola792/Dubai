@@ -30,10 +30,10 @@ const ShimmerBorderCard = () => {
           <span>
             <ArrowOutwardIcon />
           </span>
-          {/* <img
+          <img
             src="/abc.png"
             className="absolute z-10 bottom-1 right-1 opacity-50"
-          ></img> */}
+          ></img>
         </h1>
       </div>
 

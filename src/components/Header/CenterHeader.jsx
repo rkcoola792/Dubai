@@ -27,6 +27,10 @@ const CenterHeader = () => {
 
       <p className="cursor-pointer">Insights</p>
       </Link>
+      <Link to="/about-me">
+
+      <p className="cursor-pointer">About Me</p>
+      </Link>
     </div>
   );
 };
