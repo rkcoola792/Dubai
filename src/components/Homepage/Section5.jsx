@@ -47,7 +47,9 @@ const Section5 = () => {
         
         <div className="services px-2  sm:px-12 2xl:px-0 sticky top-28  sm:top-80 bg-white z-[10] justify-between flex flex-wrap gap-">
           {/* <Link to="/services/real-estate"> */}
+          
           <Section5Component
+            link="/services/real-estate"
             icon=""
             heading="Real Estate"
             subheading="Dubai is the best market for real estate investment today! The city offers a diverse range of options, from standalone properties to flats and luxury villas."

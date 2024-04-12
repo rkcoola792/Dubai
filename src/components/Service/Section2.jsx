@@ -14,8 +14,8 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           subheading="Service description"
         ></Heading>
       </div>
-      <div className="bottom lg:flex-row lg:justify-between  flex flex-col justify-center my-12 ">
-        <div className="left lg:w-[50%] flex flex-col gap-4 ">
+      <div className="bottom lg:grid lg:grid-cols-2 lg:justify-between  flex flex-col justify-center my-12 ">
+        <div className="left  flex flex-col gap-4 ">
           <div className="left-subheadings flex gap-2 ">
             <div className="mt-2 lg:mt-1 ml-2">
               <img src="/tick-circle.png" className=''></img>

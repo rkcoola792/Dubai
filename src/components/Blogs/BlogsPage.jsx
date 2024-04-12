@@ -2,6 +2,8 @@ import React from 'react'
 import Blog from '../Homepage/Blog';
 import BlogWithImage from '../Homepage/BlogWithImage';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const BlogsPage = () => {
   return (
@@ -11,7 +13,7 @@ const BlogsPage = () => {
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         // transition={{ duration: 0.5, delay: 0.1 }}
-      >
+      >   
         <BlogWithImage
           heading="Social Media"
           subheading="complete web developer guideline 2023"
