@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 
 const ContactUs = () => {
   return (
-    <div className="mt-[120px] lg:mt-[150px] md:px-12 px-4 sm:px-12 2xl:px-0  2xl:mx-[20%] 3xl:mx-[25%] 4xl:mx-[30%] 5xl:mx-[35%]">
+    <div className="mt-[120px] lg:mt-[150px] px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
       <Hero
         heading1="Home"
         heading2="contact us"

@@ -3,8 +3,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="Contact-form rounded-lg sm:h-[650px] overflow-hidden sm:flex shadow-md my-6 px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
-      <div className="left relative sm:w-[40%] bg-mainBlue text-white sm:h-svh flex flex-col sm:p-12 p-8 rounded-lg gap-16 h-[500px]">
+    <div className="Contact-form rounded-lg  overflow-hidden md:flex shadow-md my-6 ">
+      <div className="left relative md:w-[40%] bg-mainBlue text-white  flex flex-col sm:p-12 p-8 rounded-lg gap-16 ">
         <div className="top-heading flex flex-col gap-4">
           <h1 className="text-3xl ">Contact Information</h1>
           <h1 className="opacity-75">Say something to start a live chat!</h1>
