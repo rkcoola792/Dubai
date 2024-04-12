@@ -14,7 +14,12 @@ const MutualFund = () => {
       description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
     ></Hero>
     
-    <Section2></Section2>
+    <Section2
+    para1=""
+      para2=""
+      para3=""
+      para4=""
+    ></Section2>
     <Section3></Section3>
     <Section4></Section4>
   </div>

@@ -82,7 +82,7 @@ const PricingContent = () => {
         <Link to="/service/real-estate" className="block text-sm hover:underline">
           <div className="flex gap-2"><span className="">
           <img src='/Real Estate.webp' className="w-6"></img>
-          </span>Real State</div>
+          </span>Real Estate</div>
         </Link>
         <Link to="/service/renewable-energy" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span ><img src="/Renewable Energy.webp" className="w-6"></img></span>Renewable Energy </div>

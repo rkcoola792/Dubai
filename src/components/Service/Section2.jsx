@@ -4,7 +4,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 
 const Section2 = ({para1,para2,para3,para4,img}) => {
   return (
-    <div className="section2     ">
+    <div className="section2">
       <div className="right-6 absolute w-12">
         <StarIcon></StarIcon>
       </div>
@@ -21,10 +21,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
               <img src="/tick-circle.png" className=''></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl">
-              Subodh Bajpai believes in a personalized approach. He and his team
-              take the time to understand the unique requirements and
-              aspirations of your business before recommending the most suitable
-              loan options. 
+              {para1?para1:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
             </h1>
           </div>
           <div className="left-subheadings flex gap-2">
@@ -32,10 +29,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
               <img src="/tick-circle.png"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl ">
-              Subodh Bajpai believes in a personalized approach. He and his team
-              take the time to understand the unique requirements and
-              aspirations of your business before recommending the most suitable
-              loan options. 
+              {para2?para2:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
             </h1>
           </div>
           <div className="left-subheadings flex gap-2">
@@ -43,10 +37,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
               <img src="/tick-circle.png"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl ">
-              Subodh Bajpai believes in a personalized approach. He and his team
-              take the time to understand the unique requirements and
-              aspirations of your business before recommending the most suitable
-              loan options. 
+            {para3?para3:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
             </h1>
           </div>
           <div className="left-subheadings flex gap-2 items-start ">
@@ -54,10 +45,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
               <img src="/tick-circle.png"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl  ">
-              Subodh Bajpai believes in a personalized approach. He and his team
-              take the time to understand the unique requirements and
-              aspirations of your business before recommending the most suitable
-              loan options. 
+            {para4?para4:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
             </h1>
           </div>
         </div>
