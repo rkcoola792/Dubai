@@ -17,7 +17,7 @@ const TestimonialGradient= () => {
       <div className="grid gap-4 lg:grid-cols-3">
         <Card
           title="Annette Black"
-          subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+          subtitle="As someone who's always been a bit apprehensive about managing money, finding ABC Financial Services was a game-changer. Their personalized approach and dedication to understanding my unique financial situation gave me the confidence I needed to take control of my finances. With their guidance, I've seen significant growth in my savings and investments, and I finally feel secure about my financial future."
           href="#"
           Icon={RiNetflixFill}
           designation="Chief Chairman of "
@@ -25,7 +25,7 @@ const TestimonialGradient= () => {
         />
         <Card
           title="Jeff Bezoz"
-          subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+          subtitle="I can't recommend DEF Financial Services enough! From day one, their team went above and beyond to tailor a financial plan that aligned perfectly with my goals and aspirations. Their transparent communication and proactive approach to managing my portfolio have not only yielded impressive returns but have also given me peace of mind knowing that my finances are in expert hands. Trusting them was best decision. "
           href="#"
           Icon={RiAmazonFill}
           designation="Chief Chairman of "
@@ -33,7 +33,7 @@ const TestimonialGradient= () => {
         />
         <Card
           title="Kalyan "
-          subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+          subtitle="JKL Financial Services has been instrumental in helping me navigate life's financial complexities. Their team's depth of expertise, coupled with their genuine commitment to client success, has made all the difference for me. Whether it's retirement planning, investment strategies, or simply optimizing my budget, JKL has been there every step of the way, offering insightful advice and solutions tailored to my needs. "
           href="#"
           Icon={SiFlipkart}
           designation="Chief Chairman of "

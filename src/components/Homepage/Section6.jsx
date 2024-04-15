@@ -30,7 +30,7 @@ const Section6 = () => {
           <BlogWithImage
             heading="Social Media"
             subheading="complete web developer guideline 2023"
-            description="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.  standard dummy text ever since the 1500s, when "
+            description="Take control of your finances and achieve true financial freedom with our expert tips and advice. From budgeting and saving techniques to debt management and retirement planning, empower yourself with the knowledge and tools to secure your financial future. "
             date="17 Feb, 2023"
             author="Janet Fleming"
           />
@@ -63,10 +63,10 @@ const Section6 = () => {
           <Link to ="/blog/4">
           <BlogWithImage
             heading="Social Media"
-            subheading="complete web developer guideline 2023"
-            description="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.  standard dummy text ever since the 1500s, when "
-            date="17 Feb, 2023"
-            author="Janet Fleming"
+            subheading="Mastering Personal Finance: Essential Tips for Financial Freedom"
+            description=" Dive into the fundamentals of investing with our comprehensive guide tailored for beginners. Learn about different investment options, risk management strategies, and tips for building a diversified portfolio to achieve your financial goals. "
+            date="1 Mar, 2023"
+            author="Ryan Gosling"
           />
           </Link>
         </motion.div>

@@ -36,9 +36,9 @@ const Footer = () => {
               Blog
             </p>
           </Link>
-          <Link to="/insights">
+          <Link to="/terms-condition">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
-              Media & Article
+              Terms & Condition
             </p>
           </Link>
         </div>

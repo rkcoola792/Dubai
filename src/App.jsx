@@ -48,6 +48,7 @@ import TourismAndHospitality from "./components/Service/TourismAndHospitality/To
 import BusinessSetup from "./components/Service/BusinessSetup/BusinessSetup";
 import MobileMenuNew from "./components/MobileMenuNew/MobileMenuNew";
 import AboutMe from "./components/AboutMe/AboutMe";
+import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition";
 // import AboutMe from "./components/AboutMe/AboutMe";
 
 
@@ -119,6 +120,7 @@ function App() {
         { path: "/contact-us", element: <ContactUs></ContactUs> },
         { path: "/insights", element: <Insights></Insights> },
         { path: "/about-me", element: <AboutMe/> },
+        { path: "/terms-condition", element: <TermsAndCondition/> },
       ],
     },
   ]);

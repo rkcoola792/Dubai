@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <div className="middle-insights-blogs my-8">
       <div className="section1 flex flex-col gap-8 justify-between my-6">
-        <div className="top flex flex-col lg:flex-row  justify-center items-center lg:items-start">
+        <div className="top flex flex-col lg:flex-row  justify-center items-center lg:items-start lg:justify-between">
           <div className="left lg:w-[50%]">
             <div className="top">
               <h3 className="uppercase lg:text-4xl text-3xl font-semibold lg:w-[80%] leading-[50px]">
@@ -61,8 +61,8 @@ const Section2 = () => {
             </div>
           </div>
           <div className="right lg:w-[50%] mt-8 lg:mt-0 ">
-            <div className="right-image">
-              <div className="lg:w-full">
+            <div className="right-image w-[100%]">
+              <div className="lg:w-full w-[100%]">
                 <img src="Image.png" alt="" />{" "}
               </div>
             </div>
