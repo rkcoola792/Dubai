@@ -16,7 +16,7 @@ const Section4Component = ({icon,heading}) => {
       
     >
       <div className="icon">
-        <img src="/Vector.png" alt="icon" className=" sm:w-10 md:w-10 xl:w-6   2xl:w-8" />
+        <img src="/Vector.webp" alt="icon" className=" sm:w-10 md:w-10 xl:w-6   2xl:w-8" />
       </div>
       <div className="heading  sm:text-lg md:text-sm lg:text-sm xl:text-xs lg-leading-6 sm:leading-8 2xl:text-base font-gray-600"><p>{heading}</p></div>
     </motion.div>

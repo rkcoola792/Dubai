@@ -9,7 +9,7 @@ const BlogPost = () => {
     <div className=" mt-[120px] lg:mt-[150px] max-w-[1440px]  mx-auto px-4 sm:px-12 2xl:px-0">
       <div className="section1 hero-image my-12 w- ">
         <img
-          src="/Blog Post.png"
+          src="/Blog Post.webp"
           alt=""
           className="h-72 sm:h-auto w-full"
         />

@@ -2,11 +2,11 @@ import React from 'react'
 import Blog from './Blog'
 import { CalendarMonth,Person } from '@mui/icons-material';
 
-const BlogWithImage = ({ heading, subheading, description, date, author }) => {
+const BlogWithImage = ({ heading, subheading, description, date, author ,img}) => {
   return (
     <div className="blog-with-image sm:flex gap-8 bg-white rounded-lg border border-gray-200 p-6   ">
       <div className="image left ">
-        <img src="/blog.png" alt="" className="sm:w-[350px] w-full h-full  object-cover rounded-lg" />
+        <img src={img} alt="" className="sm:w-[350px] w-full lg:h-[250px] h-full  object-cover rounded-lg" />
       </div>
       <div className="right sm:w-[60%] flex flex-col justify-between gap-4">
         <div className="heading font-bold text-mainBlue uppercase text-xl mt-4 sm:mt-0">

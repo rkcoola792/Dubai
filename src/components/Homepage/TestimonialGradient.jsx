@@ -59,7 +59,7 @@ const Card = ({ title, subtitle, Icon, href,designation,company }) => {
       <div className="flex gap-2">
        
         <img
-          src="/Invisible.png"
+          src="/Invisible.webp"
           alt="avatar-image"
           className="w-12 h-12 rounded-[50%] object-cover mb-2 text-2xl text-mainBlue group-hover:text-white transition-colors relative z-10 duration-300 "
         />

@@ -73,7 +73,7 @@ const Hero = () => {
         transition={{ duration: 0.7, delay: 0.7 }}
       >
         <img
-          src="/hero-image.jpg"
+          src="/hero-image.webp"
           alt="hero-image"
           className="object-cover "
         />

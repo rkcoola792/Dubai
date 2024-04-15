@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer bg-mainBlue px-4 sm:px-12 md:py-6 py-12 w-full">
       <div className="lg:flex-row mx-auto max-w-[1440px] flex flex-col lg:justify-between lg:items-center gap-4">
         <div className="left-logo ">
-          <img src="/logo-white.png" alt="logo" className="w-36" />
+          <img src="/logo-white.webp" alt="logo" className="w-36" />
         </div>
         <div className="center-links md:flex-row flex flex-col gap-4  lg:justify-center lg:items-center lg:gap-8 px-2 text-2xl md:text-base   md:mt-0">
           <Link to="/">

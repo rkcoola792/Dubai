@@ -12,21 +12,21 @@ const Section3 = () => {
         <div className="other-insights-col grid lg:grid-cols-3 justify-between items-center gap-8">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
-             img="/insights1.png" 
+             img="/insights1.webp" 
              source="Space and Universe" 
              read="7 mins read">
 
              </Section3Card>
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
-             img="/insights2.png" 
+             img="/insights2.webp" 
              source="Space and Universe" 
              read="7 mins read">
 
              </Section3Card>
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
-             img="/insights3.png" 
+             img="/insights3.webp" 
              source="Space and Universe" 
              read="7 mins read">
 

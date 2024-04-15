@@ -45,7 +45,7 @@ const Section4 = () => {
             </span>
           </h3>
           <img
-            src="/abc.png"
+            src="/abc.webp"
             className="absolute z-10 bottom-1 right-1 opacity-50"
           ></img>
         </motion.div>
@@ -129,9 +129,9 @@ const Section4 = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.9 }}
           >
-            <img className="w-8 md:w-12" src="/amazon.png" alt="amazon" />
-            <img className="w-8 md:w-12" src="/flipkart.png" alt="flipkart" />
-            <img className="w-8 md:w-12" src="/amazon.png" alt="amazon" />
+            <img className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
+            <img className="w-8 md:w-12" src="/flipkart.webp" alt="flipkart" />
+            <img className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
           </motion.div>
         </div>
         <motion.div
@@ -141,7 +141,7 @@ const Section4 = () => {
           transition={{ duration: 1 }}
         >
           <div className="book-image sm:w-[500px]  -ml-10 md:-mt-12 md:-mr-16 flex justify-center  ">
-            <img src="/book.png" alt="rise and thrive" className="object-cover " />
+            <img src="/book.webp" alt="rise and thrive" className="object-cover " />
           </div>
         </motion.div>
       </div>

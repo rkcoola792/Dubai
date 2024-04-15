@@ -10,7 +10,7 @@ const ContactUs = () => {
         heading2="contact us"
         subheading="Get In Touch With Us"
         description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
-        // img="/Rectangle 4406.png"
+        // img="/Rectangle 4406.webp"
       ></Hero>
       <ContactForm></ContactForm>
     </div>

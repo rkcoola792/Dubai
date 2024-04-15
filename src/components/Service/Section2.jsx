@@ -18,7 +18,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
         <div className="left  flex flex-col gap-4 ">
           <div className="left-subheadings flex gap-2 ">
             <div className="mt-2 lg:mt-1 ml-2">
-              <img src="/tick-circle.png" className=''></img>
+              <img src="/tick-circle.webp" className=''></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl">
               {para1?para1:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
@@ -26,7 +26,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           </div>
           <div className="left-subheadings flex gap-2">
             <div className="mt-2 lg:mt-1 ml-2">
-              <img src="/tick-circle.png"></img>
+              <img src="/tick-circle.webp"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl ">
               {para2?para2:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
@@ -34,7 +34,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           </div>
           <div className="left-subheadings flex gap-2">
             <div className="mt-2 lg:mt-1 ml-2">
-              <img src="/tick-circle.png"></img>
+              <img src="/tick-circle.webp"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl ">
             {para3?para3:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
@@ -42,7 +42,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           </div>
           <div className="left-subheadings flex gap-2 items-start ">
             <div className="mt-2 lg:mt-1 ml-2">
-              <img src="/tick-circle.png"></img>
+              <img src="/tick-circle.webp"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl  ">
             {para4?para4:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
@@ -50,7 +50,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           </div>
           <div className="left-subheadings flex gap-2 items-start ">
             <div className="mt-2 lg:mt-1 ml-2">
-              <img src="/tick-circle.png"></img>
+              <img src="/tick-circle.webp"></img>
             </div>
             <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl  ">
             {para4?para4:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
@@ -58,7 +58,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
           </div>
         </div>
         <div className="right mt-6 lg:mt-0 ">
-          <img src="/image 38.png" alt="" className='w-full ' />
+          <img src="/image 38.webp" alt="" className='w-full ' />
         </div>
       </div>
     </div>

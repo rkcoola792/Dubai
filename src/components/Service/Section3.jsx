@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className="section3   ">
       <div className="image relative ">
         <img
-          src="/Call to Action.png
+          src="/Call to Action.webp
         "
           alt=""
           className='h-[380px] sm:h[350px]  w-full rounded-lg xl:h-auto z-10'

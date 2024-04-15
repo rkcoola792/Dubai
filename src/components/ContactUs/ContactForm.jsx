@@ -28,13 +28,13 @@ const ContactForm = () => {
         </div>
         <div className="bottom-links flex gap-6 sm:mt-12">
           <div className="icon">
-            <img src="twitter.png" alt="" />
+            <img src="twitter.webp" alt="" />
           </div>
           <div className="icon">
-            <img src="reddit.png" alt="" />
+            <img src="reddit.webp" alt="" />
           </div>
           <div className="icon">
-            <img src="twitter.png" alt="" />
+            <img src="twitter.webp" alt="" />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export function StarIcon() {
   return (
     
       <motion.img
-        src="/star-icon.png"
+        src="/star-icon.webp"
         alt=""
         animate={{ rotate: 360 }}
         transition={{ ease: "linear", duration: 30, repeat: Infinity }}

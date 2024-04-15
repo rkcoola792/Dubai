@@ -18,7 +18,7 @@ const MobileMenuNew = () => {
       <div
         className="relative min-h-screen"
         style={{
-          backgroundImage: "url(/imgs/random/12.jpg)",
+          backgroundImage: "url(/imgs/random/12.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -64,7 +64,7 @@ const Logo = ({ color = "black" }) => {
     <Link to="/">
     <div className="w-28">
 
-<img src="/Header Logo.png"></img>
+<img src="/Header Logo.webp"></img>
 </div>
     </Link>
   

@@ -34,7 +34,7 @@ const Section2 = () => {
             <div className="left flex justify-between items-center">
               <div className="author-designation flex gap-2">
                 <div className="author-img">
-                  <img src="/Avatar.png"></img>
+                  <img src="/Avatar.webp"></img>
                 </div>
                 <div className="name-designation">
                   <h1 className="font-semibold text-sm">Andrew Meller </h1>
@@ -45,13 +45,13 @@ const Section2 = () => {
             <div className="right flex sm:gap-4 gap-4 ">
               <h1 className="text-gray-600 hidden sm:block">25 Apr,2023</h1>
               <h1 className="w-6">
-                <img src="/facebook.png" alt="" />
+                <img src="/facebook.webp" alt="" />
               </h1>
               <h1 className="w-6">
-                <img src="/google.png" alt="" />
+                <img src="/google.webp" alt="" />
               </h1>
               <h1 className="w-6">
-                <img src="/instagram.png" alt="" />
+                <img src="/instagram.webp" alt="" />
               </h1>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Section2 = () => {
               for collaboration and networking.
             </li>
             <div className="mt-8 ">
-              <img src="/Img container.png" alt="" className='w-full'/>
+              <img src="/Img container.webp" alt="" className='w-full'/>
             </div>
           </ul>
         </div>

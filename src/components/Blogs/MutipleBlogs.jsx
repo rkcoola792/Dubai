@@ -13,7 +13,7 @@ const MutipleBlogs = () => {
         subheading="In today's digital age, managing and organizing an ever-expanding array of digital assets can be a daunting task."
         author="Andrew Miller"
         designation="Senior Response Consultant"
-        authorImg="/Avatar.png"
+        authorImg="/Avatar.webp"
       ></Singleblog>
       </Link>
 
@@ -23,7 +23,7 @@ const MutipleBlogs = () => {
         subheading="In today's digital age, managing and organizing an ever-expanding array of digital assets can be a daunting task."
         author="Andrew Miller"
         designation="Senior Response Consultant"
-        authorImg="/Avatar.png"
+        authorImg="/Avatar.webp"
       ></Singleblog>
       </Link>
       <Link to="/blog/post3">
@@ -32,7 +32,7 @@ const MutipleBlogs = () => {
         subheading="In today's digital age, managing and organizing an ever-expanding array of digital assets can be a daunting task."
         author="Andrew Miller"
         designation="Senior Response Consultant"
-        authorImg="/Avatar.png"
+        authorImg="/Avatar.webp"
       ></Singleblog>
    </Link>
     </div>

@@ -31,7 +31,7 @@ const ShimmerBorderCard = () => {
             <ArrowOutwardIcon />
           </span>
           <img
-            src="/abc.png"
+            src="/abc.webp"
             className="absolute z-10 bottom-1 right-1 opacity-50"
           ></img>
         </h1>

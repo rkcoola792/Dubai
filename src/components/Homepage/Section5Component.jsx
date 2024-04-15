@@ -8,7 +8,7 @@ const Section5Component = ({ heading, subheading ,link}) => {
       {/* <Link to={link}> */}
       
       <div className="left-icon  bg-mainBlue sm:w-12 sm:h-12 w-16 h-16 2xl:w-20 2xl:h-20 rounded-[50%] flex justify-center items-center ">
-        <img src="/Vector-white.png" alt="icon" className="w-6 2xl:w-10 " />
+        <img src="/Vector-white.webp" alt="icon" className="w-6 2xl:w-10 " />
       </div>
       <div className="right-heading lg:w-[80%] w-[100%] flex flex-col gap-4  ">
         <h3 className="text-2xl font-semibold 2xl:text-3xl">{heading}</h3>

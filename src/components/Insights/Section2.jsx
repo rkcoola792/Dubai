@@ -15,7 +15,7 @@ const Section2 = () => {
               <div className="left  w-[45%] flex flex-col gap-4">
                 <div className="flex gap-2">
                   <div className="text-A-image hidden md:block ">
-                    <img src="A.png" alt="" className="lg:w-[400px] h-24  " />
+                    <img src="A.webp" alt="" className="lg:w-[400px] h-24  " />
                   </div>
                   <h3 className="2xl:text-lg">
                   <span className='md:hidden'>A</span>
@@ -63,7 +63,7 @@ const Section2 = () => {
           <div className="right lg:w-[50%] mt-8 lg:mt-0 ">
             <div className="right-image w-[100%]">
               <div className="lg:w-full w-[100%]">
-                <img src="Image.png" alt="" />{" "}
+                <img src="Image.webp" alt="" />{" "}
               </div>
             </div>
           </div>

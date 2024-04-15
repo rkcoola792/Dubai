@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 
-const row1 = ["/DoubleLogos/axis.png", "/DoubleLogos/baroda.png","/DoubleLogos/boi.png","/DoubleLogos/canara.png","/DoubleLogos/corporate.png","/DoubleLogos/federal.png","/DoubleLogos/hdfc.png","/DoubleLogos/idbi.png","/DoubleLogos/kotak.png","/DoubleLogos/laksmi.png","/DoubleLogos/maharastra.png","/DoubleLogos/mufg.png",];
+const row1 = ["/DoubleLogos/axis.webp", "/DoubleLogos/baroda.webp","/DoubleLogos/boi.webp","/DoubleLogos/canara.webp","/DoubleLogos/corporate.webp","/DoubleLogos/federal.webp","/DoubleLogos/hdfc.webp","/DoubleLogos/idbi.webp","/DoubleLogos/kotak.webp","/DoubleLogos/laksmi.webp","/DoubleLogos/maharastra.webp","/DoubleLogos/mufg.webp",];
 
-const row2 = ["/DoubleLogos/yes.png", "/DoubleLogos/vijay.png","/DoubleLogos/south.png","/DoubleLogos/pnb.png","/DoubleLogos/oriental.png","/DoubleLogos/federal.png","/DoubleLogos/union.png","/DoubleLogos/induslnd.png","/DoubleLogos/axis.png","/DoubleLogos/karnataka.png",];
+const row2 = ["/DoubleLogos/yes.webp", "/DoubleLogos/vijay.webp","/DoubleLogos/south.webp","/DoubleLogos/pnb.webp","/DoubleLogos/oriental.webp","/DoubleLogos/federal.webp","/DoubleLogos/union.webp","/DoubleLogos/induslnd.webp","/DoubleLogos/axis.webp","/DoubleLogos/karnataka.webp",];
 
 
 

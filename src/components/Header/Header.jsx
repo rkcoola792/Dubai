@@ -10,7 +10,7 @@ const Header = () => {
     
       <Link to="/">
         <div className="logo cursor-pointer">
-          <img src="/Header Logo.png" alt="logo" className="w-36" />
+          <img src="/Header Logo.webp" alt="logo" className="w-36" />
         </div>
       </Link>
       <CenterHeader />
