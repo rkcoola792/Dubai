@@ -16,8 +16,9 @@ const BlogWithImage = ({ heading, subheading, description, date, author }) => {
         <div className="description text-gray-600 leading-7"><p>{description}</p></div>
         <div className="date-author flex gap-6">
           <p className="gap-2">
+           <CalendarMonth></CalendarMonth>
           <span>
-              <CalendarMonth></CalendarMonth>
+             
             </span>
           {date}
           </p>

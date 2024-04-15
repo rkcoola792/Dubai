@@ -6,7 +6,7 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
   return (
     <div className="section2">
       <div className="right-6 absolute w-12">
-        <StarIcon></StarIcon>
+        {/* <StarIcon></StarIcon> */}
       </div>
       <div className="top-heading">
         <Heading
@@ -48,9 +48,17 @@ const Section2 = ({para1,para2,para3,para4,img}) => {
             {para4?para4:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
             </h1>
           </div>
+          <div className="left-subheadings flex gap-2 items-start ">
+            <div className="mt-2 lg:mt-1 ml-2">
+              <img src="/tick-circle.png"></img>
+            </div>
+            <h1 className="lg:w-[85%] text-[#555555] 2xl:text-xl  ">
+            {para4?para4:"Subodh Bajpai believes in a personalized approach. He and his team take the time to understand the unique requirements and aspirations of your business before recommending the most suitable loan options."} 
+            </h1>
+          </div>
         </div>
-        <div className="right  mt-6   lg:mt-0 w-full md:w-auto  ">
-          <img src="/image 38.png" alt="" className='md:w-full sm:h-[90%]' />
+        <div className="right mt-6 lg:mt-0 ">
+          <img src="/image 38.png" alt="" className='w-full ' />
         </div>
       </div>
     </div>

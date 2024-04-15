@@ -10,9 +10,14 @@ const UnifiedEventsAndHospitalityDubai = () => {
         heading1="Home"
         heading2="Business"
         subheading="Unified Events And Hospitality Dubai "
-        description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
+        description=" Provide transparent and comprehensive performance reports, detailing portfolio performance, asset allocation, and investment decisions, fostering trust and transparency."
       />
-      <Section2></Section2>
+     <Section2 
+      para1="Strategic Asset Allocation: Develop asset allocation strategies tailored to clients' retirement goals, time horizon, and risk tolerance, balancing growth and preservation objectives."
+      para2="Income Planning: Design sustainable retirement income streams, incorporating sources such as pensions, Social Security, annuities, and systematic withdrawals from investment accounts."
+      para3="Healthcare Cost Management: Address healthcare expenses in retirement through strategies such as Medicare planning, long-term care insurance, and health savings accounts (HSAs)."
+      para4="Legacy Planning: Implement estate planning measures to preserve wealth for heirs, minimize estate taxes, and ensure a smooth transfer of assets according to clients' wishes."
+      ></Section2>
       <Section3></Section3>
       <Section4></Section4>
     </div>

@@ -10,9 +10,14 @@ const MediaDynoxPrivateLimitedIndia = () => {
         heading1="Home"
         heading2="Business"
         subheading="Media Dynox Private Limited India"
-        description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
+        description="Provide transparent and comprehensive performance reports, detailing portfolio performance, asset allocation, and investment decisions, fostering trust and transparency."
       />
-      <Section2></Section2>
+      <Section2 
+      para1="Customized Estate Plans: Design comprehensive estate plans tailored to clients' unique family dynamics, wealth distribution goals, and legacy wishes, ensuring efficient wealth transfer and asset protection."
+      para2="Trust Administration: Provide professional trustee services, overseeing the administration and management of trusts to fulfill clients' wishes and safeguard beneficiaries' interests"
+      para3="Probate Avoidance: Implement strategies to minimize the impact of probate proceedings on estate assets, such as living trusts, beneficiary designations, and joint ownership arrangements."
+      para4="Charitable Giving Strategies: Facilitate philanthropic goals through tax-efficient charitable giving strategies, including donor-advised funds, charitable trusts, and private foundations."
+      ></Section2>
       <Section3></Section3>
       <Section4></Section4>
     </div>

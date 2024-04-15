@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../Service/Hero'
 import Section3 from '../Service/Section3';
 import Section2 from './Section2';
+import OtherInsigts from './Section3';
 
 const Insights = () => {
   return (
@@ -17,6 +18,7 @@ const Insights = () => {
       <div className="my-12">
         <Section2></Section2>
         <Section3 />
+        <OtherInsigts></OtherInsigts>
       </div>
     </div>
   );

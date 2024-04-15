@@ -16,12 +16,12 @@ const Footer = () => {
               Home
             </p>
           </Link>
-          <Link to="service">
+          {/* <Link to="service"> */}
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               Services
             </p>
-          </Link>
-          <Link to="/">
+          {/* </Link> */}
+          <Link to="/about-me">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               About
             </p>

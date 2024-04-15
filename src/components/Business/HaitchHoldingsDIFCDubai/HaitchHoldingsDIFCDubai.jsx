@@ -10,9 +10,14 @@ const HaitchHoldingsDIFCDubai = () => {
         heading1="Home"
         heading2="Business"
         subheading="Haitch Holdings DIFC Dubai"
-        description="We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully."
+        description=" Implement tax-efficient investment strategies to minimize tax liabilities and enhance after-tax returns, including strategies such as tax-loss harvesting and asset location."
       />
-      <Section2></Section2>
+      <Section2 
+      para1="Holistic Wealth Management: Offer comprehensive financial planning, investment management, estate planning, tax strategies, and risk management tailored to high-net-worth individuals and families."
+      para2="Family Office Services: Provide personalized concierge services, including bill payment, financial reporting, philanthropic planning, and intergenerational wealth transfer, to ultra-high-net-worth clients."
+      para3="Alternative Investments: Offer access to exclusive investment opportunities such as private equity, hedge funds, real estate, and venture capital, diversifying portfolios and enhancing returns."
+      para4="Succession Planning: Assist business owners in developing succession plans to smoothly transition ownership and management of family businesses, ensuring continuity and preserving wealth for future generations."
+      ></Section2>
       <Section3></Section3>
       <Section4></Section4>
     </div>
